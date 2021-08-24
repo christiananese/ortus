@@ -1,0 +1,11 @@
+.root {
+  @apply bg-primary cursor-pointer py-2 px-4 inline-flex font-semibold text-center justify-center items-center text-primary border-primary rounded transition ease-in-out duration-150;
+}
+
+.root:hover {
+  @apply bg-primary-hover;
+}
+
+.root:focus {
+  @apply outline-none ring-2 ring-blue-500 ring-opacity-50;
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* img {
+  width: 290px;
+  aspect-ratio: auto 290/624;
+  height: 624px;
+}
+ */

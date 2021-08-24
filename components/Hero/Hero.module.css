@@ -1,0 +1,19 @@
+.section {
+  @apply relative;
+}
+
+.container {
+  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+}
+
+.innerContainer {
+  @apply pt-20 pb-10 md:pt-24 md:pb-16;
+}
+
+.gridContainer {
+  @apply grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20;
+}
+
+.center {
+  @apply col-span-10 md:col-start-2 md:col-span-10;
+}

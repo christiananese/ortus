@@ -1,0 +1,35 @@
+:root {
+  --primary: #5e2028;
+  --primary-hover: #852d39; /* #391318; */
+  --secondary: #ffffff;
+  --hover: rgba(255, 255, 255, 0.075);
+
+  --text-default: #1c1c28;
+
+  --text-primary: white;
+  --text-secondary: black;
+
+  --gray: #c4c4c4;
+  --cyan: #22b8cf;
+  --green: #37b679;
+  --red: #da3c3c;
+  --blue: #0070f3;
+
+  --active: var(--blue);
+
+  --font-sans: "Roboto", -apple-system, system-ui, BlinkMacSystemFont,
+    "Helvetica Neue", "Helvetica", sans-serif;
+
+  --rounded-default: 4px;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--text-primary);
+  background: var(--primary-hover);
+}
+
+::selection {
+  color: var(--text-primary);
+  background: var(--primary-hover);
+}

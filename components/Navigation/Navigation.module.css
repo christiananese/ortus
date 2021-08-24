@@ -1,0 +1,42 @@
+.section {
+  @apply relative;
+}
+
+/* ck, gz lp as */
+.container {
+  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+}
+
+/* hg, hh, bb, bg */
+.innerContainer {
+  @apply grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20 pt-16;
+}
+
+/*  */
+.center {
+  @apply col-span-10 md:col-start-2 md:col-span-10 flex justify-between;
+}
+
+.logoContainer {
+  @apply flex items-center justify-center h-16 relative;
+}
+
+.left {
+  @apply flex space-x-8 items-center flex-shrink-0;
+}
+
+.right {
+  @apply flex space-x-8 text-right items-center flex-shrink-0;
+}
+
+.h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 1024px) {
+  .h1 {
+    font-size: 3.5rem;
+    line-height: 1.18;
+  }
+}
