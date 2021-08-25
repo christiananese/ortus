@@ -6,19 +6,22 @@ function Slider() {
   return (
     <section className={s.section}>
       <div className={s.container}>
-        <div className={s.textContainer}>
+        <div className={s.innerContainer}>
+          <SliderComponent />
           <div className={s.innerText}>
             <h1 className={s.title}>
               From rough design files, to powerful products
             </h1>
             <p className={s.p}>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              Auf unserem Hof leben mehrere Generationen. Wir sind der
+              Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen
+              Vergangenheit und Zukunft die Gegenwart bereichert und möchten das
+              Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit
+              unseren 2 Ferienwohnungen ermöglichen, welche den
+              unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.
             </p>
           </div>
         </div>
-        <SliderComponent />
       </div>
     </section>
   );

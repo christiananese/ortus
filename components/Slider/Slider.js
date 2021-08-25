@@ -1,7 +1,10 @@
 import React from "react";
 import s from "./slider.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 import "swiper/swiper-bundle.min.css";
+
 function Slider() {
   return (
     <Swiper
@@ -16,13 +19,14 @@ function Slider() {
       <SwiperSlide className="max-w-lg">
         {({ isActive }) => (
           <>
-            <img
+            <Image
               className={`max-w-full h-auto ${
                 isActive ? "opacity-100" : "opacity-30"
               }`}
               src="https://preview.cruip.com/appy/images/carousel-item-01.jpg"
               width="540"
               height="460"
+              alt="hey ho"
             />
             <div className="absolute inset-0 flex flex-col transform-gpu">
               <div
@@ -43,37 +47,40 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide className="max-w-lg">
         {({ isActive }) => (
-          <img
+          <Image
             className={`max-w-full h-auto ${
               isActive ? "opacity-100" : "opacity-30"
             }`}
             src="https://preview.cruip.com/appy/images/carousel-item-01.jpg"
             width="540"
             height="460"
+            alt="Da fuck"
           />
         )}
       </SwiperSlide>
       <SwiperSlide className="max-w-lg">
         {({ isActive }) => (
-          <img
+          <Image
             className={`max-w-full h-auto ${
               isActive ? "opacity-100" : "opacity-30"
             }`}
             src="https://preview.cruip.com/appy/images/carousel-item-01.jpg"
             width="540"
             height="460"
+            alt="Carousel image"
           />
         )}
       </SwiperSlide>
       <SwiperSlide className="max-w-lg">
         {({ isActive }) => (
-          <img
+          <Image
             className={`max-w-full h-auto ${
               isActive ? "opacity-100" : "opacity-30"
             }`}
             src="https://preview.cruip.com/appy/images/carousel-item-01.jpg"
             width="540"
             height="460"
+            alt="es laeuft"
           />
         )}
       </SwiperSlide>

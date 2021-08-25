@@ -6,6 +6,8 @@ import Slider from "../sections/slider";
 import TopNav from "../components/TopNav";
 import Navigation from "../components/Navigation";
 import Intro from "../components/Intro";
+import Footer from "../components/Footer";
+import BottomNav from "../components/BottomNav";
 
 export default function Home() {
   return (
@@ -21,6 +23,9 @@ export default function Home() {
         <Navigation />
         <Hero />
         <Intro />
+        <Slider />
+        <Footer />
+        <BottomNav />
       </main>
       <footer></footer>
     </div>

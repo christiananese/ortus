@@ -3,7 +3,7 @@
 }
 
 .container {
-  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+  @apply pb-20 md:pb-0 px-4 sm:px-6 max-w-7xl mx-auto bg-primary text-white relative overflow-hidden;
 }
 
 .innerContainer {
@@ -17,15 +17,18 @@
 .center {
   @apply col-span-10 md:col-start-2 md:col-span-10 flex flex-col justify-center items-center text-center;
 }
+.logoContainer {
+  @apply relative flex h-20;
+}
 
 .title {
   @apply text-5xl font-serif text-gray-800;
 }
 
 .p {
-  @apply text-xl text-default max-w-prose py-12 md:max-w-screen-md md:py-8 md:text-gray-600;
+  @apply text-xl text-default max-w-prose py-4 md:max-w-screen-md md:py-8 md:text-gray-600;
 }
 
 .btn {
-  @apply uppercase leading-8 px-8 font-medium tracking-wide;
+  @apply uppercase leading-8 px-12 font-bold tracking-wider border-4 border-white;
 }

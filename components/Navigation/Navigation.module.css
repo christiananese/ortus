@@ -18,15 +18,15 @@
 }
 
 .logoContainer {
-  @apply flex items-center justify-center h-16 relative;
+  @apply hidden sm:flex items-center justify-center h-16 relative;
 }
 
 .left {
-  @apply hidden sm:flex space-x-8 items-center flex-shrink-0;
+  @apply hidden md:flex space-x-8 items-center flex-shrink-0;
 }
 
 .right {
-  @apply hidden sm:flex space-x-8 text-right items-center flex-shrink-0;
+  @apply hidden md:flex space-x-8 text-right items-center flex-shrink-0;
 }
 
 .h1 {
