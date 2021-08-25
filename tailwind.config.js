@@ -8,12 +8,18 @@ module.exports = {
         "primary-hover": "var(--primary-hover)",
         secondary: "var(--secondary)",
         active: "var(--active)",
+        hover: "var(--hover-dark)",
       },
       textColor: {
         default: "var(--text-default)",
+        "default-alt": "var(--text-default-alt)",
         primary: "var(--text-primary)",
         secondary: "var(--text-secondary)",
       },
+    },
+    fontFamily: {
+      sans: "var(--font-sans)",
+      serif: "var(--font-serif)",
     },
   },
   variants: {

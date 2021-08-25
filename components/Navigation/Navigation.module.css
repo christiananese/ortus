@@ -4,17 +4,17 @@
 
 /* ck, gz lp as */
 .container {
-  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+  @apply px-4 sm:px-6 max-w-6xl lg:max-w-7xl mx-auto;
 }
 
 /* hg, hh, bb, bg */
 .innerContainer {
-  @apply grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20 pt-16;
+  @apply items-center md:pt-16 md:grid md:gap-12 md:grid-cols-12 lg:gap-20;
 }
 
 /*  */
 .center {
-  @apply col-span-10 md:col-start-2 md:col-span-10 flex justify-between;
+  @apply flex justify-between col-span-10 md:col-start-2 md:col-span-10 lg:col-start-1 lg:col-span-12;
 }
 
 .logoContainer {
@@ -22,11 +22,11 @@
 }
 
 .left {
-  @apply flex space-x-8 items-center flex-shrink-0;
+  @apply hidden sm:flex space-x-8 items-center flex-shrink-0;
 }
 
 .right {
-  @apply flex space-x-8 text-right items-center flex-shrink-0;
+  @apply hidden sm:flex space-x-8 text-right items-center flex-shrink-0;
 }
 
 .h1 {

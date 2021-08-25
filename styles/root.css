@@ -3,11 +3,13 @@
   --primary-hover: #852d39; /* #391318; */
   --secondary: #ffffff;
   --hover: rgba(255, 255, 255, 0.075);
+  --hover-dark: rgba(0, 0, 0, 0.65);
 
-  --text-default: #1c1c28;
+  --text-default: rgb(54, 48, 48);
+  --text-default-alt: rgb(92, 76, 76);
 
   --text-primary: white;
-  --text-secondary: black;
+  --text-secondary: #735e51;
 
   --gray: #c4c4c4;
   --cyan: #22b8cf;
@@ -17,7 +19,9 @@
 
   --active: var(--blue);
 
-  --font-sans: "Roboto", -apple-system, system-ui, BlinkMacSystemFont,
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+  --font-sans: "Roboto Condensed", -apple-system, system-ui, BlinkMacSystemFont,
     "Helvetica Neue", "Helvetica", sans-serif;
 
   --rounded-default: 4px;

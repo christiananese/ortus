@@ -4,7 +4,7 @@
 
 /* ck, gz lp as */
 .container {
-  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+  @apply px-4 sm:px-6 max-w-6xl lg:max-w-7xl mx-auto;
 }
 
 /* hg, hh, bb, bg */
@@ -14,7 +14,7 @@
 
 /*  */
 .center {
-  @apply col-span-10 md:col-start-2 md:col-span-10 flex justify-between;
+  @apply flex justify-between col-span-10 md:col-start-2 md:col-span-10 lg:col-start-1 lg:col-span-12;
 }
 
 .iconContainer {

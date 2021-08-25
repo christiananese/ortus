@@ -1,0 +1,31 @@
+.section {
+  @apply relative;
+}
+
+.container {
+  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+}
+
+.innerContainer {
+  @apply py-10 md:pb-16;
+}
+
+.gridContainer {
+  @apply grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20;
+}
+
+.center {
+  @apply col-span-10 md:col-start-2 md:col-span-10 flex flex-col justify-center items-center text-center;
+}
+
+.title {
+  @apply text-5xl text-secondary font-serif;
+}
+
+.p {
+  @apply text-xl text-default max-w-prose py-4 md:text-2xl md:py-8 md:text-default-alt;
+}
+
+.btn {
+  @apply uppercase leading-8 px-8 font-medium tracking-wide;
+}

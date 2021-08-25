@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Slider from "../sections/slider";
 import TopNav from "../components/TopNav";
 import Navigation from "../components/Navigation";
+import Intro from "../components/Intro";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <TopNav />
         <Navigation />
         <Hero />
+        <Intro />
       </main>
       <footer></footer>
     </div>

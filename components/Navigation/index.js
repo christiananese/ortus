@@ -14,14 +14,14 @@ function Navigation() {
             <ul className={s.left}>
               <li>
                 <Link href="/">
-                  <a className="text-default hover:text-primary-hover flex-shrink-0">
+                  <a className="text-default hover:text-primary-hover flex-shrink-0 uppercase leading-8 font-medium tracking-wide">
                     Über uns
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/">
-                  <a className="text-default hover:text-primary-hover">
+                  <a className="text-default hover:text-primary-hover uppercase leading-8 font-medium tracking-wide">
                     Wohnungen
                   </a>
                 </Link>
@@ -40,13 +40,15 @@ function Navigation() {
             <ul className={s.left}>
               <li>
                 <Link href="/">
-                  <a className="text-default hover:text-primary-hover">
+                  <a className="text-default hover:text-primary-hover uppercase leading-8 font-medium tracking-wide">
                     Erlebnisse
                   </a>
                 </Link>
               </li>
               <li>
-                <Button>Anfragen</Button>
+                <Button className=" uppercase font-base tracking-wider">
+                  Anfragen
+                </Button>
               </li>
             </ul>
           </div>
