@@ -1,6 +1,6 @@
+import { useEffect } from "react";
+
 import Head from "next/head";
-import Button from "../components/Button";
-import Features from "../sections/features";
 import Hero from "../components/Hero";
 import Slider from "../sections/slider";
 import TopNav from "../components/TopNav";
@@ -10,7 +10,14 @@ import Footer from "../components/Footer";
 import BottomNav from "../components/BottomNav";
 import Enquiry from "../components/Enquiry";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function Home() {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Head>
@@ -26,10 +33,9 @@ export default function Home() {
         <Intro />
         <Slider />
         <Enquiry />
-        <Footer />
-        <BottomNav />
       </main>
-      <footer></footer>
+      <Footer />
+      <BottomNav />
     </div>
   );
 }

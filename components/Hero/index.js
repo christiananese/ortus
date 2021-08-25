@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className={s.section}>
+    <section className={s.section} data-aos="fade-up" data-aos-delay="350">
       <div className={s.container}>
         <div className={s.innerContainer}>
           <div className={s.gridContainer}>

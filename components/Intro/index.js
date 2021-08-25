@@ -10,8 +10,10 @@ function Intro() {
         <div className={s.innerContainer}>
           <div className={s.gridContainer}>
             <div className={s.center}>
-              <h1 className={s.title}>Unser Neuanfang</h1>
-              <p className={s.p}>
+              <h1 className={s.title} data-aos="fade-down">
+                Unser Neuanfang
+              </h1>
+              <p className={s.p} data-aos="fade-down" data-aos-delay="300">
                 Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns
                 so einen langersehnten Traum verwirklicht. Das Haus wurde als
                 KlimaHaus Nature errichtet, ein Haus, das die moderne
@@ -21,7 +23,13 @@ function Intro() {
                 gesundes Raumklima zu schaffen - Voraussetzung für das
                 Wohlbefinden und die Gesundheit seiner Bewohner.{" "}
               </p>
-              <Button className={s.btn}>Mehr dazu</Button>
+              <Button
+                className={s.btn}
+                data-aos="fade-down"
+                data-aos-delay="300"
+              >
+                Mehr dazu
+              </Button>
             </div>
           </div>
         </div>

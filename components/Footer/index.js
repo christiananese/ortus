@@ -6,7 +6,7 @@ import Logo from "../Logo";
 
 function Footer() {
   return (
-    <section className={s.section}>
+    <footer className={s.section}>
       <div className={s.container}>
         <div className={s.innerContainer}>
           <div className={s.gridContainer}>
@@ -49,7 +49,7 @@ function Footer() {
           />
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
 

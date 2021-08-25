@@ -3,7 +3,7 @@ import s from "./hero.module.css";
 
 function Hero() {
   return (
-    <section className={s.section}>
+    <section className={s.section} data-aos="fade-up" data-aos-delay="450">
       <div className={s.container}>
         <div className={s.innerContainer}>
           <div className={s.grid}>
