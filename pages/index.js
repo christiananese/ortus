@@ -8,6 +8,7 @@ import Navigation from "../components/Navigation";
 import Intro from "../components/Intro";
 import Footer from "../components/Footer";
 import BottomNav from "../components/BottomNav";
+import Enquiry from "../components/Enquiry";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Hero />
         <Intro />
         <Slider />
+        <Enquiry />
         <Footer />
         <BottomNav />
       </main>

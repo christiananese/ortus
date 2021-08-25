@@ -1,0 +1,23 @@
+.section {
+  @apply relative;
+}
+
+.container {
+  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+}
+
+.innerContainer {
+  @apply pb-10 md:pb-16;
+}
+
+.center {
+  @apply justify-center items-center text-center;
+}
+
+.title {
+  @apply text-4xl font-serif text-gray-800;
+}
+
+.btn {
+  @apply uppercase leading-8 px-8 font-medium tracking-wide mt-4;
+}

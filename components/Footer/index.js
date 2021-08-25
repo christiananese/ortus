@@ -27,7 +27,14 @@ function Footer() {
               <a href="mail:info@ortus.bz.it" className="pt-2 pb-8 text-xl">
                 info@ortus.bz.it
               </a>
-              <Button className={s.btn} variant="ghost">
+              <Button
+                className={s.btn}
+                variant="ghost"
+                Component="a"
+                href="https://www.google.com/maps/place/Manteleweg,+2,+39010+Nals,+S%C3%BCdtirol/data=!4m2!3m1!1s0x4782977c8a8dd51f:0x5d639575cee3b575?sa=X&ved=2ahUKEwiI7uTi_8vyAhWFzKQKHZmDCDoQ8gF6BAgLEAE"
+                target="_blank"
+                rel="noopener"
+              >
                 Anfahrt
               </Button>
             </div>

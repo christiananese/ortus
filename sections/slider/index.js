@@ -9,9 +9,9 @@ function Slider() {
         <div className={s.innerContainer}>
           <SliderComponent />
           <div className={s.innerText}>
-            <h1 className={s.title}>
+            <h2 className={s.title}>
               From rough design files, to powerful products
-            </h1>
+            </h2>
             <p className={s.p}>
               Auf unserem Hof leben mehrere Generationen. Wir sind der
               Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen
