@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function TopNav() {
   return (
-    <section className={s.section}>
+    <section className={s.section} id="topnav">
       <div className={s.container}>
         <div className={s.innerContainer}>
           <div className={s.center}>

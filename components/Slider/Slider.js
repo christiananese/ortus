@@ -35,7 +35,7 @@ function Slider() {
                 }`}
               >
                 <a
-                  href=""
+                  href="#topnav"
                   className="bg-blue-500 hover:bg-blue-400 py-2 px-4 inline-flex self-center mx-auto text-white outline-none rounded"
                 >
                   Learn more
