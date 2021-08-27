@@ -7,7 +7,7 @@
 }
 
 .innerContainer {
-  @apply mx-auto max-w-6xl px-4 sm:px-6 md:max-w-7xl;
+  @apply mx-auto max-w-6xl px-4 sm:px-6 md:max-w-7xl relative;
 }
 
 .innerText {
