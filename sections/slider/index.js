@@ -7,7 +7,10 @@ function Slider() {
     <section className={s.section}>
       <div className={s.container}>
         <div className={s.innerContainer}>
+          <div className="relative">
+
           <SliderComponent />
+          </div>
           <div className={s.innerText}>
             <h2 className={s.title}>
               From rough design files, to powerful products

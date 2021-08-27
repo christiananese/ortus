@@ -16,6 +16,7 @@ function Slider() {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         centeredSlides={true}
+        grabCursor={true}
         loop={true}
         className="overflow-visible"
         navigation={{
@@ -92,8 +93,8 @@ function Slider() {
           )}
         </SwiperSlide>
       </Swiper>
-      <div className="flex w-full justify-between text-white max-w-[960px] mx-auto absolute left-0 right-0 top-1/3 z-10">
-        <div className="p-4 flex items-center justify-center bg-primary rounded prev-arrow">
+      <div className="flex w-full justify-end sm:justify-between text-white max-w-[960px] mx-auto absolute left-0 right-0 bottom-0 sm:top-1/2 sm:bottom-auto z-10">
+        <div className="mr-4 sm:mr-0 sm:ml-2 md:ml-0 p-3 md:p-4 flex items-center justify-center bg-primary rounded prev-arrow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -109,7 +110,7 @@ function Slider() {
             />
           </svg>
         </div>
-        <div className="p-4 flex items-center justify-center bg-primary rounded next-arrow">
+        <div className="mr-4 sm:mr-2  md:mr-0 p-3 md:p-4 flex items-center justify-center bg-primary rounded next-arrow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
