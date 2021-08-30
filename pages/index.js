@@ -12,6 +12,7 @@ import Enquiry from "../components/Enquiry";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Events from "../components/Events";
 
 export default function Home() {
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function Home() {
         <Hero />
         <Intro />
         <Slider />
+        <Events />
         <Enquiry />
       </main>
       <Footer />

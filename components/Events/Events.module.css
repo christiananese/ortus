@@ -1,0 +1,47 @@
+.section {
+  @apply relative;
+}
+
+.container {
+  @apply px-4 sm:px-6 max-w-6xl mx-auto;
+}
+
+.innerContainer {
+  @apply py-10 md:pb-16;
+}
+
+.gridContainer {
+  @apply grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20;
+}
+
+.center {
+  @apply col-span-12 grid grid-cols-3 gap-4;
+}
+
+.title {
+  @apply text-5xl font-serif text-gray-800;
+}
+
+.p {
+  @apply text-xl text-default max-w-prose py-12 md:max-w-screen-md md:py-8 md:text-gray-600;
+}
+
+.btn {
+  @apply uppercase leading-8 px-8 font-medium tracking-wide;
+}
+
+.cardTitle {
+  @apply text-3xl font-serif text-gray-900;
+}
+
+.cardTitle:hover {
+  @apply text-primary-hover;
+}
+
+.cardLink {
+  @apply uppercase leading-8 pt-8 text-gray-600;
+}
+
+.cardLink:hover {
+  @apply text-primary-hover;
+}
