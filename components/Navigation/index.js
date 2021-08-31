@@ -20,7 +20,7 @@ function Navigation() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/rooms">
                   <a className="text-default hover:text-primary-hover uppercase leading-8 font-medium tracking-wide">
                     Wohnungen
                   </a>

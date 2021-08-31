@@ -7,6 +7,7 @@ import Image from "next/image";
 import "swiper/swiper-bundle.min.css";
 
 SwiperCore.use([Navigation]);
+
 function Slider() {
   return (
     <>
@@ -93,7 +94,7 @@ function Slider() {
           )}
         </SwiperSlide>
       </Swiper>
-      <div className="flex w-full justify-end sm:justify-between text-white max-w-[960px] mx-auto absolute left-0 right-0 bottom-0 sm:top-1/2 sm:bottom-auto z-10">
+      <div className="flex w-full justify-end sm:justify-between text-white max-w-[960px] mx-auto absolute left-0 right-0 bottom-0 sm:top-1/2 sm:bottom-auto sm:-translate-y-1/2 z-10">
         <div className="mr-4 sm:mr-0 sm:ml-2 md:ml-0 p-3 md:p-4 flex items-center justify-center bg-primary rounded prev-arrow">
           <svg
             xmlns="http://www.w3.org/2000/svg"

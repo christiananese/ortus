@@ -11,7 +11,7 @@ function EventCard(props) {
 
   return (
     <div
-      className="flex flex-col bg-gray-200 cursor-pointer"
+      className="flex flex-col bg-gray-200 cursor-pointer col-span-3 md:col-span-1 sm:max-w-sm md:max-w-none"
       onClick={goToRoute}
     >
       <div className="bg-gray-300 relative w-full">
