@@ -9,3 +9,7 @@
 .innerContainer {
   @apply grid grid-cols-3 gap-0.5 bg-primary-hover pt-0.5;
 }
+
+.logoContainer {
+  @apply max-w-[80%] mx-auto pt-12 pb-8;
+}
