@@ -18,7 +18,7 @@
   @apply col-span-10 md:col-start-2 md:col-span-10 flex flex-col justify-center items-center text-center;
 }
 .logoContainer {
-  @apply relative flex h-20;
+  @apply relative w-full max-w-[180px];
 }
 
 .title {

@@ -29,12 +29,11 @@ function Navigation() {
             </ul>
             <div className={s.logoContainer}>
               <Image
-                src="/ortus_logo.svg"
+                src="/tinified/logo.png"
                 alt="hey logo"
-                className="max-h-16"
-                layout="intrinsic"
-                width="210"
-                height="100"
+                layout="responsive"
+                width="461"
+                height="165"
               />
             </div>
             <ul className={s.left}>

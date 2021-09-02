@@ -18,7 +18,7 @@
 }
 
 .logoContainer {
-  @apply hidden sm:flex items-center justify-center h-16 relative;
+  @apply relative w-full max-w-[240px];
 }
 
 .left {

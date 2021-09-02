@@ -13,11 +13,11 @@ function Footer() {
             <div className={s.center}>
               <div className={s.logoContainer}>
                 <Image
-                  src="/logo_white_2.png"
+                  src="/tinified/logo_pencil_white.png"
                   alt="hey logo"
-                  layout="intrinsic"
-                  height="600"
-                  width="190"
+                  layout="responsive"
+                  width="461"
+                  height="165"
                 />
               </div>
               <div className="flex spacing-x-2 pt-8 pb-4">
