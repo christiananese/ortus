@@ -3,7 +3,7 @@
 }
 
 .container {
-  @apply pb-20 md:pb-0 px-4 sm:px-6 max-w-7xl mx-auto bg-primary text-white relative overflow-hidden /* xl:max-w-none */;
+  @apply pb-20 md:pb-0 px-4 sm:px-6  mx-auto bg-primary text-white relative overflow-hidden /* xl:max-w-none */;
 }
 
 .innerContainer {

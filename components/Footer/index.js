@@ -48,6 +48,22 @@ function Footer() {
             alt="background grape decoration"
           />
         </div>
+        <nav className="flex w-full items-center pb-8">
+          <ul className="flex gap-4 mx-auto">
+            <li>Impressum</li>
+            <li>Datenschutz</li>
+            <li>Cookies</li>
+            <li>MwSt. Nr. IT</li>
+          </ul>
+        </nav>
+      </div>
+      <div className="w-full flex items-center justify-center max-w-[80px] mx-auto py-4">
+        <Image
+          src="/s_tirol.png"
+          height="331"
+          width="440"
+          alt="suedtirol dachmarke logo"
+        />
       </div>
     </footer>
   );
