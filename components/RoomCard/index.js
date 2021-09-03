@@ -4,7 +4,8 @@ import Button from "../Button";
 import Slider from "../Slider/Slider";
 
 function RoomCard(props) {
-  const { title, description, amenities } = props;
+  const { title, description, amenities, align } = props;
+
   return (
     <div className={s.section}>
       <div className={s.container}>

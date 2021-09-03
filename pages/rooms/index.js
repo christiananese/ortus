@@ -7,6 +7,11 @@ function Rooms() {
     <Layout title="Ortus">
       <div className="pt-12">
         <RoomCard title="Zimmer 1" description="2-4 People, im 1. Stock" />
+        <RoomCard
+          title="Zimmer 2"
+          description="2-4 People, im 1. Stock"
+          align="right"
+        />
       </div>
     </Layout>
   );

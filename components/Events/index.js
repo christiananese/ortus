@@ -18,10 +18,10 @@ function Events() {
                 link="/trautmannsdorf"
               />
               <EventCard
-                title={"ola"}
+                title={"Umgebung"}
                 img="/slider/tinified/haus.png"
                 description="Bisch du geil und hosch dorweil?"
-                link="/trautmannsdorf"
+                link="/surroundings"
               />
               <EventCard
                 title={"ola"}

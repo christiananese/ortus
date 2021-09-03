@@ -18,7 +18,7 @@
 }
 
 .logoContainer {
-  @apply relative w-full max-w-[240px];
+  @apply relative w-full max-w-[160px] md:max-w-[240px] mx-auto pt-8 md:pt-0;
 }
 
 .left {

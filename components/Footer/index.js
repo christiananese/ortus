@@ -48,8 +48,8 @@ function Footer() {
             alt="background grape decoration"
           />
         </div>
-        <nav className="flex w-full items-center pb-8">
-          <ul className="flex gap-4 mx-auto">
+        <nav className="flex w-full items-center md:pb-8">
+          <ul className="flex gap-4 mx-auto flex-col">
             <li>Impressum</li>
             <li>Datenschutz</li>
             <li>Cookies</li>

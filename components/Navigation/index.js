@@ -27,15 +27,17 @@ function Navigation() {
                 </Link>
               </li>
             </ul>
-            <div className={s.logoContainer}>
-              <Image
-                src="/tinified/logo.png"
-                alt="hey logo"
-                layout="responsive"
-                width="461"
-                height="165"
-              />
-            </div>
+            <Link href="/">
+              <a className={s.logoContainer}>
+                <Image
+                  src="/tinified/logo.png"
+                  alt="hey logo"
+                  layout="responsive"
+                  width="461"
+                  height="165"
+                />
+              </a>
+            </Link>
             <ul className={s.left}>
               <li>
                 <Link href="/">
