@@ -61,15 +61,15 @@ function BottomNav() {
 
         <div className={s.logoContainer}>
           <Image
-            src="/logo_white_2.png"
+            src="/tinified/logo_pencil_white.png"
             alt="hey logo"
             layout="responsive"
-            width="600"
-            height="190"
+            width="461"
+            height="165"
           />
         </div>
         <nav>
-          <ul className="space-y-2 text-center text-white text-xl">
+          <ul className="space-y-4 text-center text-white text-xl">
             <li className="hover:text-gray-300">Zimmer 1</li>
             <li className="hover:text-gray-300">Zimmer 1</li>
             <li className="hover:text-gray-300">Zimmer 1</li>

@@ -11,5 +11,5 @@
 }
 
 .logoContainer {
-  @apply max-w-[80%] mx-auto pt-12 pb-8;
+  @apply relative w-full max-w-[180px] mx-auto py-12;
 }
