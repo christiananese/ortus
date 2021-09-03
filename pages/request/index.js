@@ -68,12 +68,14 @@ function Request({ startDate, endDate, people, children }) {
 export default Request;
 
 export async function getServerSideProps({ query }) {
-  const { startDate = null, endDate = null } = query;
+  const { startDate = null, endDate = null, people = 2, children = 0 } = query;
 
   return {
     props: {
       startDate,
       endDate,
+      people,
+      children,
     }, // will be passed to the page component as props
   };
 }
