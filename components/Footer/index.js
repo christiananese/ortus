@@ -49,7 +49,7 @@ function Footer() {
           />
         </div>
         <nav className="flex w-full items-center md:pb-8">
-          <ul className="flex gap-4 mx-auto flex-col">
+          <ul className="grid grid-cols-2 gap-4 mx-auto sm:grid-cols-4 text-center">
             <li>Impressum</li>
             <li>Datenschutz</li>
             <li>Cookies</li>

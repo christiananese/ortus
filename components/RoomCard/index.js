@@ -23,7 +23,7 @@ function RoomCard(props) {
               <Slider />
             </div>
             <div className={s.roomBody}>
-              <div className="w-full px-6 max-w-5xl mb-12  text-left">
+              <div className="w-full px-6 max-w-5xl mb-6 md:mb-12 text-left">
                 <div className="w-full border-b border-primary flex justify-between">
                   <h4 className="text-xl mb-2">Ausstattung</h4>
                   <span>arrow</span>

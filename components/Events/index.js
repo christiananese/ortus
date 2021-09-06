@@ -13,20 +13,20 @@ function Events() {
             <div className={s.center}>
               <EventCard
                 title={"Trautmannsdorf"}
-                img="/slider/tinified/haus.png"
+                img="/slider/tinified/trauti.jpg"
                 description="Ausblick auf Meran"
                 link="/trautmannsdorf"
               />
               <EventCard
                 title={"Umgebung"}
                 img="/slider/tinified/haus.png"
-                description="Bisch du geil und hosch dorweil?"
+                description="Nals und Umgebung"
                 link="/surroundings"
               />
               <EventCard
                 title={"ola"}
-                img="/slider/tinified/haus.png"
-                description="Bisch du geil und hosch dorweil?"
+                img="/slider/tinified/rose.jpg"
+                description="Naturbadclea"
                 link="/trautmannsdorf"
               />
             </div>
