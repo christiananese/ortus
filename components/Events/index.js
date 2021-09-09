@@ -14,19 +14,19 @@ function Events() {
               <EventCard
                 title={"Trautmannsdorf"}
                 img="/slider/tinified/trauti.jpg"
-                description="Ausblick auf Meran"
-                link="/trautmannsdorf"
+                description="Die weltbekannten Gärten von Schloss Trautmannsdorf"
+                link="/surroundings/trautmannsdorf"
               />
               <EventCard
-                title={"Umgebung"}
+                title={"Nals und Umgebung"}
                 img="/slider/tinified/haus.png"
                 description="Nals und Umgebung"
                 link="/surroundings"
               />
               <EventCard
-                title={"ola"}
+                title={"Naturbad Gargazon"}
                 img="/slider/tinified/rose.jpg"
-                description="Naturbadclea"
+                description="Eintauchen und genießen im Naturbad Gargazon"
                 link="/trautmannsdorf"
               />
             </div>

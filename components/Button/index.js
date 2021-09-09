@@ -34,8 +34,10 @@ function Button({
       type={type}
       {...rest}
     >
-      {!loading && children}
-      {loading && <i className="pl-2 m-0 flex">Loading</i>}
+      <>
+        {!loading && children}
+        {loading && <i className="pl-2 m-0 flex">Loading</i>}
+      </>
     </Component>
   );
 }

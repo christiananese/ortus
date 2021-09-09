@@ -1,0 +1,20 @@
+.root {
+  @apply text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover py-3 text-gray-800;
+}
+
+.root:focus {
+  @apply outline-none;
+}
+
+.label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.disabled,
+.disabled:hover {
+  @apply text-gray-200 border-gray-700 bg-gray-300 cursor-not-allowed;
+  filter: grayscale(1);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Footer.module.css";
 import Image from "next/image";
 import Button from "../Button";
-import Logo from "../Logo";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -50,9 +50,15 @@ function Footer() {
         </div>
         <nav className="flex w-full items-center md:pb-8">
           <ul className="grid grid-cols-2 gap-4 mx-auto sm:grid-cols-4 text-center">
-            <li>Impressum</li>
-            <li>Datenschutz</li>
-            <li>Cookies</li>
+            <li>
+              <Link href="/">Impressum</Link>
+            </li>
+            <li>
+              <Link href="/">Datenschutz</Link>
+            </li>
+            <li>
+              <Link href="/">Cookies</Link>
+            </li>
             <li>MwSt. Nr. IT</li>
           </ul>
         </nav>

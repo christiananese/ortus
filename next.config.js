@@ -1,8 +1,8 @@
 module.exports = {
   reactStrictMode: true,
   i18n: {
-    locales: ["en", "de"],
-    defaultLocale: "en",
+    locales: ["de", "en", "it"],
+    defaultLocale: "de",
   },
   images: {
     domains: ["preview.cruip.com"],

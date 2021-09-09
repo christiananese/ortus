@@ -19,5 +19,9 @@
 }
 
 .btn {
-  @apply uppercase leading-8 px-8 font-medium tracking-wide mt-4;
+  @apply bg-primary cursor-pointer py-4 px-6 inline-flex font-semibold text-center justify-center items-center text-primary border-primary rounded transition ease-in-out duration-150 uppercase tracking-widest;
+}
+
+.btn:hover {
+  @apply bg-primary-hover;
 }

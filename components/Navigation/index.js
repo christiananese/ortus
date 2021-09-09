@@ -47,9 +47,11 @@ function Navigation() {
                 </Link>
               </li>
               <li>
-                <Button className=" uppercase font-base tracking-wider">
-                  Anfragen
-                </Button>
+                <Link href="/request">
+                  <a className="bg-primary cursor-pointer py-2 px-4 inline-flex font-semibold text-center justify-center items-center text-primary border-primary rounded transition ease-in-out duration-150 tracking-wider uppercase">
+                    Anfragen
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
