@@ -1,4 +1,3 @@
-import { useRouter } from "next/dist/client/router";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -9,7 +8,7 @@ function EventCard(props) {
 
   return (
     <Link href={link}>
-      <a className="flex flex-col bg-gray-200 cursor-pointer col-span-3 md:col-span-1 sm:max-w-sm md:max-w-none">
+      <a className="flex flex-col bg-gray-200 cursor-pointer col-span-3 md:col-span-1 sm:max-w-sm sm:mx-auto flex-shrink-0 w-full md:max-w-none">
         <div className="bg-gray-300 relative w-full">
           <Image
             src={img}

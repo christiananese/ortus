@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./Intro.module.css";
-import Image from "next/image";
 import Button from "../Button";
 
 function Intro() {

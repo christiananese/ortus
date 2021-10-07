@@ -51,7 +51,7 @@ function Footer() {
         <nav className="flex w-full items-center md:pb-8">
           <ul className="grid grid-cols-2 gap-4 mx-auto sm:grid-cols-4 text-center">
             <li>
-              <Link href="/">Impressum</Link>
+              <Link href="/imprint">Impressum</Link>
             </li>
             <li>
               <Link href="/">Datenschutz</Link>

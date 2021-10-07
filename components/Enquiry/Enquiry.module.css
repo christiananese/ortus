@@ -11,7 +11,7 @@
 }
 
 .center {
-  @apply justify-center items-center text-center;
+  @apply justify-center items-center text-center md:pt-6 md:pb-10;
 }
 
 .title {

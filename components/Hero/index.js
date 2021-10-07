@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Hero.module.css";
 import Image from "next/image";
 
-function Hero() {
+function Hero({ imgUrl, width, height }) {
   return (
     <section className={s.section} data-aos="fade-up" data-aos-delay="350">
       <div className={s.container}>
@@ -10,9 +10,9 @@ function Hero() {
           <div className={s.gridContainer}>
             <div className={s.center}>
               <Image
-                src="/images/hero.png"
-                width="1440"
-                height="808"
+                src={imgUrl || "/images/hero.png"}
+                width={width || 1440}
+                height={height || 808}
                 layout="intrinsic"
                 alt="Ortus Haus"
               />

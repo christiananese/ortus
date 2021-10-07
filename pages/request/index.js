@@ -249,7 +249,7 @@ function Request({ startDate, endDate, people, children }) {
           <Textarea placeholder="Ihre Nachricht" rows={5} />
         </div>
         <div className="flex items-end col-span-2 sm:col-span-1 py-4 sm:py-0">
-          <CheckIcon height="24px" />
+          <CheckIcon height="24px" /> Datenschutz blablabla
         </div>
         <div className="flex md:justify-end col-span-2 sm:col-span-1">
           <Button className="tracking-widest uppercase text-lg py-4 px-6 w-full md:w-auto">
@@ -257,7 +257,9 @@ function Request({ startDate, endDate, people, children }) {
           </Button>
         </div>
       </div>
-      <Events />
+      <div className="md:py-12">
+        <Events />
+      </div>
     </Layout>
   );
 }

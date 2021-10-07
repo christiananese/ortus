@@ -66,7 +66,7 @@ function Enquiry() {
             <h2 className={s.title}>Einfach anfragen</h2>
 
             <form
-              className="grid grid-cols-2 sm:grid-cols-4 gap-0.5 bg-gray-100 mt-8 mb-4 md:mt-12 md:mb-8"
+              className="grid grid-cols-2 sm:grid-cols-4 gap-0.5 bg-gray-100 mt-8 mb-4 sm:mt-12 sm:mb-10 md:mb-12"
               data-aos-id-stats
             >
               <div

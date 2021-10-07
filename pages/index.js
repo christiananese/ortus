@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 import Hero from "../components/Hero";
 import Slider from "../sections/slider";
 import Intro from "../components/Intro";
