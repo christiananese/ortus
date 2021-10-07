@@ -36,11 +36,7 @@ function Request({ startDate, endDate, people, children }) {
         >
           Einfach genießen
         </h1>
-        <p
-          className="text-xl text-default max-w-prose py-6 md:max-w-screen-md md:py-8 md:text-gray-600 col-span-2 text-center"
-          data-aos="fade-down"
-          data-aos-delay="300"
-        >
+        <p className="text-xl text-default max-w-prose py-6 md:max-w-screen-md md:py-8 md:text-gray-600 col-span-2 text-center mx-auto">
           Wir freuen uns auf dich und erstellen so schnell wie möglich ein
           individuelles Angebot für dich.
         </p>
