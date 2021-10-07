@@ -26,12 +26,12 @@ function TopNav() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/it">
                   <a className="text-default hover:text-primary-hover">Ita</a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/en">
                   <a className="text-default hover:text-primary-hover">Eng</a>
                 </Link>
               </li>

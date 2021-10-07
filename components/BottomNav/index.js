@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import s from "./BottomNav.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 import { MenuAlt2Icon, PhoneIcon, XIcon } from "@heroicons/react/solid";
 import { MailIcon } from "@heroicons/react/outline";
@@ -76,19 +77,7 @@ function BottomNav() {
                 leaveTo="opacity-0"
                 className="hover:text-gray-300"
               >
-                Über uns
-              </Transition.Child>
-              <Transition.Child
-                as="li"
-                enter="transition-all ease-in-out duration-500"
-                enterFrom="opacity-0 translate-x-[20%]"
-                enterTo="opacity-100  translate-x-0"
-                leave="transition-opacity ease-linear duration-300"
-                leaveFrom="opacity-100"
-                leaveTo="opacity-0"
-                className="hover:text-gray-300 delay-150"
-              >
-                Wohnungen
+                <Link href="/">Über uns</Link>
               </Transition.Child>
               <Transition.Child
                 as="li"
@@ -100,7 +89,7 @@ function BottomNav() {
                 leaveTo="opacity-0"
                 className="hover:text-gray-300 delay-300"
               >
-                Erlebnisse
+                <Link href="/">Erlebnisse</Link>
               </Transition.Child>
               <Transition.Child
                 as="li"
@@ -112,7 +101,7 @@ function BottomNav() {
                 leaveTo="opacity-0"
                 className="hover:text-gray-300 delay-500"
               >
-                Anfragen
+                <Link href="/">Anfragen</Link>
               </Transition.Child>
             </ul>
           </nav>
