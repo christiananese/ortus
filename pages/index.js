@@ -6,14 +6,26 @@ import Enquiry from "../components/Enquiry";
 import Events from "../components/Events";
 import Layout from "../components/Layout";
 
-export default function Home() {
+import translations from "../data/home";
+
+export default function Home({ intl }) {
   return (
     <Layout title="Ortus">
-      <Hero />
-      <Intro />
-      <Slider />
-      <Events />
-      <Enquiry />
+      <Hero intl={intl.hero} />
+      <Intro intl={intl.intro} />
+      <Slider intl={intl.slider} />
+      <Events intl={intl.events} />
+      <Enquiry intl={intl.enquiry} />
     </Layout>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  const intl = translations[locale];
+
+  return {
+    props: {
+      intl,
+    }, // will be passed to the page component as props
+  };
 }

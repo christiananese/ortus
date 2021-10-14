@@ -1,6 +1,5 @@
 import dayjs from "dayjs";
 import "dayjs/locale/de";
-import { useRouter } from "next/dist/client/router";
 import React, { Fragment, useState } from "react";
 import Layout from "../../components/Layout";
 import Input from "../../components/Input";
@@ -13,7 +12,9 @@ import Textarea from "../../components/Textarea";
 import Button from "../../components/Button";
 import Events from "../../components/Events";
 
-function Request({ startDate, endDate, people, children }) {
+import translations from "../../data/home";
+
+function Request({ startDate, endDate, people, children, intl }) {
   const today = new Date();
 
   const [selected, setSelected] = useState(peopleOptions[1]);
@@ -34,17 +35,16 @@ function Request({ startDate, endDate, people, children }) {
           className="text-4xl md:text-5xl font-serif text-secondary col-span-2 text-center"
           data-aos="fade-down"
         >
-          Einfach genießen
+          {intl.request.title}
         </h1>
         <p className="text-xl text-default max-w-prose py-6 md:max-w-screen-md md:py-8 md:text-gray-600 col-span-2 text-center mx-auto">
-          Wir freuen uns auf dich und erstellen so schnell wie möglich ein
-          individuelles Angebot für dich.
+          {intl.request.intro}
         </p>
         <h2
           className="text-3xl font-serif text-secondary col-span-2 text-center"
           data-aos="fade-down"
         >
-          Ihre Anfrage
+          {intl.request.yourEnquiry}
         </h2>
 
         <div className="col-span-2 md:col-span-1">
@@ -57,7 +57,7 @@ function Request({ startDate, endDate, people, children }) {
             minDate={today}
             customInput={
               <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
-                {dayjs(arrivalDate).locale("de").format("DD. MMM YYYY")}
+                {dayjs(arrivalDate).locale("de").format("DD. MMMM YYYY")}
                 <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
                   <CalendarIcon
                     className="w-5 h-5 text-gray-400"
@@ -93,7 +93,9 @@ function Request({ startDate, endDate, people, children }) {
           <Listbox value={selected} onChange={setSelected}>
             <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2 w-full text-left">
               <Listbox.Button className="relative w-full text-left">
-                <span className="">{selected.value} Erwachsene</span>
+                <span className="">
+                  {selected.value} {intl.request.adults}
+                </span>
                 <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                   <SelectorIcon
                     className="w-5 h-5 text-gray-400"
@@ -124,7 +126,7 @@ function Request({ startDate, endDate, people, children }) {
                               selected ? "font-medium" : "font-normal"
                             } block truncate text-xl`}
                           >
-                            {person.value} Erwachsene
+                            {person.value} {intl.request.adults}
                           </span>
                           {selected ? (
                             <span
@@ -153,7 +155,9 @@ function Request({ startDate, endDate, people, children }) {
           <Listbox value={selectedC} onChange={setSelectedC}>
             <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2 w-full text-left">
               <Listbox.Button className="relative w-full text-left">
-                <span className="">{selectedC.value} Kinder</span>
+                <span className="">
+                  {selectedC.value} {intl.request.children}
+                </span>
                 <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                   <SelectorIcon
                     className="w-5 h-5 text-gray-400"
@@ -184,7 +188,7 @@ function Request({ startDate, endDate, people, children }) {
                               selected ? "font-medium" : "font-normal"
                             } block truncate text-xl`}
                           >
-                            {child.value} Kinder
+                            {child.value} {intl.request.children}
                           </span>
                           {selected ? (
                             <span
@@ -215,46 +219,46 @@ function Request({ startDate, endDate, people, children }) {
           }
           data-aos="fade-down"
         >
-          Kontaktdaten
+          {intl.request.contactData}
         </h2>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder="Vorname" />
+          <Input placeholder={intl.request.firstName} />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder="Nachname" />
+          <Input placeholder={intl.request.lastName} />
         </div>
         <div className="col-span-2">
-          <Input placeholder="E-Mail" />
+          <Input placeholder={intl.request.email} />
         </div>
         <div className="col-span-2">
-          <Input placeholder="Telefon" />
+          <Input placeholder={intl.request.tel} />
         </div>
         <div className="col-span-2">
-          <Input placeholder="Straße" />
+          <Input placeholder={intl.request.street} />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder="Plz" />
+          <Input placeholder={intl.request.zipCode} />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder="Ort" />
+          <Input placeholder={intl.request.location} />
         </div>
         <div className="col-span-2">
-          <Input placeholder="Land" />
+          <Input placeholder={intl.request.country} />
         </div>
         <div className="col-span-2">
-          <Textarea placeholder="Ihre Nachricht" rows={5} />
+          <Textarea placeholder={intl.request.yourMessage} rows={5} />
         </div>
         <div className="flex items-end col-span-2 sm:col-span-1 py-4 sm:py-0">
-          <CheckIcon height="24px" /> Datenschutz blablabla
+          <CheckIcon height="24px" /> {intl.request.privacy}
         </div>
         <div className="flex md:justify-end col-span-2 sm:col-span-1">
           <Button className="tracking-widest uppercase text-lg py-4 px-6 w-full md:w-auto">
-            Anfrage senden
+            {intl.request.sendRequest}
           </Button>
         </div>
       </div>
       <div className="md:py-12">
-        <Events />
+        <Events intl={intl.events} />
       </div>
     </Layout>
   );
@@ -262,8 +266,10 @@ function Request({ startDate, endDate, people, children }) {
 
 export default Request;
 
-export async function getServerSideProps({ query }) {
+export async function getServerSideProps({ query, locale }) {
   const { startDate = null, endDate = null, people = 2, children = 0 } = query;
+
+  const intl = translations[locale];
 
   return {
     props: {
@@ -271,6 +277,7 @@ export async function getServerSideProps({ query }) {
       endDate,
       people,
       children,
+      intl,
     }, // will be passed to the page component as props
   };
 }

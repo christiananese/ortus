@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Hero.module.css";
 import Image from "next/image";
 
-function Hero({ imgUrl, width, height }) {
+function Hero({ imgUrl, width, height, intl }) {
   return (
     <section className={s.section} data-aos="fade-up" data-aos-delay="350">
       <div className={s.container}>
@@ -14,7 +14,7 @@ function Hero({ imgUrl, width, height }) {
                 width={width || 1440}
                 height={height || 808}
                 layout="intrinsic"
-                alt="Ortus Haus"
+                alt={intl.imageAlt}
               />
             </div>
           </div>

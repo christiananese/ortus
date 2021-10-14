@@ -3,8 +3,11 @@ import s from "./Footer.module.css";
 import Image from "next/image";
 import Button from "../Button";
 import Link from "next/link";
+import { de } from "../../data/home";
 
 function Footer() {
+  const intl = de.footer;
+
   return (
     <footer className={s.section}>
       <div className={s.container}>
@@ -20,11 +23,19 @@ function Footer() {
                   height="165"
                 />
               </div>
-              <div className="flex spacing-x-2 pt-8 pb-4">
-                <div>I - 39010 Nals - Manteleweg 2</div>
-                <div>+39 338 832 8978</div>
+              <div className="pt-8 pb-4">
+                <div>{intl.address}</div>
               </div>
-              <a href="mail:info@ortus.bz.it" className="pt-2 pb-8 text-xl">
+              <a
+                href="tel:+39 338 832 8978"
+                className="pt-2 text-xl hover:underline"
+              >
+                +39 338 832 8978
+              </a>
+              <a
+                href="mail:info@ortus.bz.it"
+                className="pt-4 pb-8 text-xl hover:underline"
+              >
                 info@ortus.bz.it
               </a>
               <Button
@@ -35,7 +46,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener"
               >
-                Anfahrt
+                {intl.route}
               </Button>
             </div>
           </div>
@@ -49,17 +60,17 @@ function Footer() {
           />
         </div>
         <nav className="flex w-full items-center md:pb-8">
-          <ul className="grid grid-cols-2 gap-4 mx-auto sm:grid-cols-4 text-center">
-            <li>
-              <Link href="/imprint">Impressum</Link>
+          <ul className="flex flex-wrap mx-auto text-center justify-center">
+            <li className="px-2">
+              <Link href="/imprint">{intl.imprint}</Link>
             </li>
-            <li>
-              <Link href="/">Datenschutz</Link>
+            <li className="px-2">
+              <Link href="/privacy">{intl.privacy}</Link>
             </li>
-            <li>
-              <Link href="/">Cookies</Link>
+            <li className="px-2">
+              <Link href="/">{intl.cookies}</Link>
             </li>
-            <li>MwSt. Nr. IT</li>
+            <li className="px-2">{intl.vatId}</li>
           </ul>
         </nav>
       </div>
@@ -68,7 +79,7 @@ function Footer() {
           src="/s_tirol.png"
           height="331"
           width="440"
-          alt="suedtirol dachmarke logo"
+          alt="Suedtirol Dachmarke logo"
         />
       </div>
     </footer>
