@@ -41,7 +41,7 @@ function Navigation() {
             <ul className={s.right}>
               <li>
                 <Link href="/request">
-                  <a className="bg-primary cursor-pointer py-2 px-4 inline-flex font-semibold text-center justify-center items-center text-primary border-primary rounded transition ease-in-out duration-150 tracking-wider uppercase">
+                  <a className="bg-primary cursor-pointer py-2 px-4 inline-flex font-semibold text-center justify-center items-center text-primary border-primary transition ease-in-out duration-150 tracking-wider uppercase">
                     Anfragen
                   </a>
                 </Link>

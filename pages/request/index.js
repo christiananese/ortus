@@ -107,7 +107,7 @@ function Request({ startDate, endDate, people, children }) {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <Listbox.Options className="absolute w-full py-1 mt-1 overflow-auto text-base rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none z-10 border border-gray-300 bg-gray-100">
+                <Listbox.Options className="absolute w-full py-1 mt-1 overflow-auto text-base shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none z-10 border border-gray-300 bg-gray-100">
                   {peopleOptions.map((person, personIdx) => (
                     <Listbox.Option
                       key={personIdx}
@@ -167,7 +167,7 @@ function Request({ startDate, endDate, people, children }) {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <Listbox.Options className="absolute w-full py-1 mt-1 overflow-auto text-base rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none z-10 border border-gray-300 bg-gray-100">
+                <Listbox.Options className="absolute w-full py-1 mt-1 overflow-auto text-base shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none z-10 border border-gray-300 bg-gray-100">
                   {childrenOptions.map((child, childIdx) => (
                     <Listbox.Option
                       key={childIdx}

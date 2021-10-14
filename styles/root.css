@@ -23,8 +23,6 @@
     "Times New Roman", Times, serif;
   --font-sans: "Roboto Condensed", -apple-system, system-ui, BlinkMacSystemFont,
     "Helvetica Neue", "Helvetica", sans-serif;
-
-  --rounded-default: 4px;
 }
 
 ::-moz-selection {

@@ -19,7 +19,7 @@
 }
 
 .btn {
-  @apply bg-primary cursor-pointer py-4 px-6 inline-flex font-semibold text-center justify-center items-center text-primary border-primary rounded transition ease-in-out duration-150 uppercase tracking-widest;
+  @apply bg-primary cursor-pointer py-4 px-6 inline-flex font-semibold text-center justify-center items-center text-primary border-primary transition ease-in-out duration-150 uppercase tracking-widest;
 }
 
 .btn:hover {

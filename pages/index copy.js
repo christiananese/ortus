@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Button from "../components/Button";
 import Features from "../sections/features";
-import Hero from "../sections/heros";
 import Slider from "../sections/slider";
 
 export default function Home() {
@@ -63,7 +62,6 @@ export default function Home() {
             </defs>
           </svg>
         </div>
-        <Hero />
         <Features />
         <Slider />
       </main>
