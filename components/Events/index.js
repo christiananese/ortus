@@ -11,7 +11,7 @@ function Events({ exclude, intl }) {
             <div className={s.center}>
               {exclude != "trautmannsdorf" && (
                 <EventCard
-                  title={intl.trautmannsdorf.title}
+                  title={intl.trautmannsdorf.cardTitle}
                   description={intl.trautmannsdorf.excerpt}
                   img="/slider/tinified/trauti.jpg"
                   link="/surroundings/trautmannsdorf"
@@ -19,7 +19,7 @@ function Events({ exclude, intl }) {
               )}
               {exclude != "nals" && (
                 <EventCard
-                  title={intl.nals.title}
+                  title={intl.nals.cardTitle}
                   description={intl.nals.excerpt}
                   img="/slider/tinified/haus.png"
                   link="/surroundings/nals"
@@ -27,7 +27,7 @@ function Events({ exclude, intl }) {
               )}
               {exclude != "naturbad-gargazon" && (
                 <EventCard
-                  title={intl["naturbad-gargazon"].title}
+                  title={intl["naturbad-gargazon"].cardTitle}
                   description={intl["naturbad-gargazon"].excerpt}
                   img="/slider/tinified/rose.jpg"
                   link="/surroundings/naturbad-gargazon"
@@ -35,7 +35,7 @@ function Events({ exclude, intl }) {
               )}
               {!!exclude && exclude != "knottenkino" && (
                 <EventCard
-                  title={intl.knottenkino.title}
+                  title={intl.knottenkino.cardTitle}
                   description={intl.knottenkino.excerpt}
                   img={intl.knottenkino.hero.path}
                   link="/surroundings/knottenkino"

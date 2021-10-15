@@ -3,11 +3,9 @@ import Events from "../../components/Events";
 import Hero from "../../components/Hero";
 import Layout from "../../components/Layout";
 
-import { de } from "../../data/home";
+import translations from "../../data/home";
 
-function Surrounding({ slug }) {
-  const intl = de;
-
+function Surrounding({ slug, intl }) {
   const da = intl.events[slug];
 
   return (
@@ -41,13 +39,15 @@ function Surrounding({ slug }) {
 
 export default Surrounding;
 
-export async function getServerSideProps({ query }) {
+export async function getServerSideProps({ query, locale }) {
   const { slug } = query;
   console.log("SHITTTTE ", slug);
+  const intl = translations[locale];
 
   return {
     props: {
       slug,
+      intl,
     }, // will be passed to the page component as props
   };
 }

@@ -11,10 +11,12 @@ function TopNav() {
         <div className={s.innerContainer}>
           <div className={s.center}>
             <div className={s.iconContainer}>
-              {/* <Button>hey</Button> */}
-              <div className="bg-primary text-white inline-flex p-2 hover:bg-primary-hover transition-colors">
+              <a
+                href="tel:+39 338 832 8978"
+                className="bg-primary text-white inline-flex p-2 hover:bg-primary-hover transition-colors"
+              >
                 <PhoneIcon className="w-6 h-6" />
-              </div>
+              </a>
               <div className="bg-primary text-white inline-flex p-2 hover:bg-primary-hover transition-colors">
                 <MailIcon className="w-6 h-6" />
               </div>
