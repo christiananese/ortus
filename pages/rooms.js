@@ -10,12 +10,12 @@ function Rooms({ slug, intl }) {
 
   return (
     <Layout title="Umgebung">
-      {/* <Hero
-        imgUrl={da.hero.path}
-        width={da.hero.width}
-        height={da.hero.height}
-        intl={da.hero}
-      /> */}
+      <Hero
+        imgUrl={"/room/kitchen.jpg"}
+        width={4608}
+        height={2128}
+        intl={{ imageAlt: "Living room" }}
+      />
       <div className="grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20">
         <div className="col-span-10 md:col-start-2 md:col-span-10 flex flex-col justify-center items-center text-center">
           <h1

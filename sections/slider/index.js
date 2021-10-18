@@ -17,9 +17,8 @@ function Slider({ intl }) {
             <p className={s.p}>{intl.text}</p>
 
             <Link href={"/rooms"}>
-              <a className={s.btn}>Zur Anfrage</a>
+              <a className={s.btn}>{intl.button}</a>
             </Link>
-            <Button className={s.btn}>{intl.button}</Button>
           </div>
         </div>
       </div>

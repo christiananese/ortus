@@ -14,9 +14,13 @@
   @apply mx-auto pt-6 flex flex-col justify-center items-center text-center md:pt-16;
 }
 
-/* .title {
-  @apply text-4xl md:text-6xl font-extrabold mb-4 text-gray-700;
-} */
+.btn {
+  @apply bg-primary cursor-pointer py-4 px-6 inline-flex font-semibold text-center justify-center items-center text-primary border-primary transition ease-in-out duration-150 uppercase tracking-widest;
+}
+
+.btn:hover {
+  @apply bg-primary-hover;
+}
 
 .title {
   @apply text-3xl md:text-5xl font-serif text-gray-800;
