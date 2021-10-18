@@ -18,11 +18,13 @@ function Imprint() {
           <br />
           Südtirol - Italien
           <br />
-          Tel +39 0473 MwSt. Nr. 01754860219
+          Tel <a href="tel:+393488744474">+39 348 8744474</a>
           <br />
-          info@ortus.bz.it
+          MwSt. Nr. 01754860219
           <br />
-          <a href="">www.ortus.bz-it</a>
+          <a href="mailto:ranzi.johann@gmail.com">ranzi.johann@gmail.com</a>
+          <br />
+          <a href="www.ortus.bz-it">www.ortus.bz-it</a>
         </p>
         <h2 className="text-2xl font-serif text-secondary mx-auto">
           &copy; Konzept &bull; Design &bull; Programmierung
@@ -34,23 +36,23 @@ function Imprint() {
           <br />
           Hl. Kreuzgasse 5
           <br />
-          Tel +39 352
+          Tel <a href="tel:+393517338229">+39 351 733 8229</a>
           <br />
           MwSt. Nr.
           <br />
-          info@ortus.bz.it
-          <br />
-          <a href="">www.ortus.bz-it</a>
+          info@anese.me
         </p>
         <h2 className="text-2xl font-serif text-secondary">Fotos</h2>
         <p className="text-xl text-default max-w-prose py-6 md:py-8 md:text-gray-600 mx-auto">
-          Credit 1
+          &copy; IDM Südtirol, Clemens Zahn
           <br />
-          Credit 2
-        </p>
-        <h2 className="text-2xl font-serif text-secondary">Copyright</h2>
-        <p className="text-xl text-default max-w-prose py-6 md:py-8 md:text-gray-600 mx-auto">
-          A,B,C die Katze lieft im Schnee
+          &copy; IDM Südtirol, Angelika Schwarz
+          <br />
+          &copy; IDM Südtirol, Marion Gelmini
+          <br />
+          &copy; Tourismusverein Nals
+          <br />
+          &copy; Hannes Krichler
         </p>
         <h2 className="text-2xl font-serif text-secondary">
           Haftung für Inhalte der Webseite und Hyperlinks
