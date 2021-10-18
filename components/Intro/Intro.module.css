@@ -23,7 +23,11 @@
 }
 
 .p {
-  @apply text-xl text-default max-w-prose py-12 md:max-w-screen-md md:py-8 md:text-gray-600;
+  @apply text-xl text-default max-w-prose py-12 md:max-w-screen-md md:pb-8 md:text-gray-600;
+}
+
+.text {
+  @apply text-xl text-default max-w-prose md:max-w-screen-md md:text-gray-600;
 }
 
 .btn {

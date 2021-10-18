@@ -6,11 +6,13 @@ export const de = {
     title: "Unser Neuanfang",
     description:
       "Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns so einen langersehnten Traum verwirklicht. Das Haus wurde als KlimaHaus Nature errichtet, ein Haus, das die moderne Architektur mit der schlichten Erhabenheit der Natur verbindet. Wichtig waren uns dabei die Energieeffizienz, die Nachhaltigkeit und Natürlichkeit der Baumaterialien, um ein angenehmes und gesundes Raumklima zu schaffen - Voraussetzung für das Wohlbefinden und die Gesundheit seiner Bewohner.",
+    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren 2 Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
     button: "Mehr dazu",
   },
   slider: {
-    title: "Unser Neuanfang",
-    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren 2 Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
+    title: "Unterkunft",
+    text: "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+    button: "Mehr erfahren",
   },
   events: {
     trautmannsdorf: {
@@ -114,11 +116,13 @@ export const it = {
     title: "Un passo verso il futuro",
     description:
       "Con la costruzione del nostro maso, terminata nel 2019, abbiamo realizzato un nostro sogno da lungo atteso. L'edificio é stato realizzato come CasaClima Nature, unendo in tal modo l'architettura moderna con la semplicitá della natura. Fondamentale per questa scelta erano l'efficacia energetica, la sostenibilitá, ma soprattutto i materiali naturali ed il loro impatto sull’ambiente e sulla salute e il benessere delle persone che ci vivono. Il nostro maso biologico si trova a Nalles. In mezzo ai vigneti si affaccia sulla val d'Adige. Le cittá Merano e Bolzano sono ciascuna a 15 chilometri di distanza. Coltiviamo uva rosse e bianche delle varietá Cabernet Franc e Merlot, Chardonnay e Souvignier gris. Nei nostri frutteti e nell'orto troverete mele, vari frutti,ortaggi ed erbe.",
+    text: "Sul nostro maso abitano piú generazioni. Siamo convinti che questa simbiosi tra le generazioni, tra passato e futuro possa arricchire il presente. Con una vacanza intergenerazionale vorremmo trasmettere questa sensazione anche ai nostri ospiti offrendo lo spazio di cui hanno bisogno nei due appartamenti, tenendo conto delle necessitá di ogni generazione.",
     button: "Mehr dazu",
   },
   slider: {
-    title: "",
-    text: "Sul nostro maso abitano piú generazioni. Siamo convinti che questa simbiosi tra le generazioni, tra passato e futuro possa arricchire il presente. Con una vacanza intergenerazionale vorremmo trasmettere questa sensazione anche ai nostri ospiti offrendo lo spazio di cui hanno bisogno nei due appartamenti, tenendo conto delle necessitá di ogni generazione.",
+    title: "Unterkunft",
+    text: "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+    button: "Mehr erfahren",
   },
   events: {
     trautmannsdorf: {
@@ -220,11 +224,13 @@ export const en = {
     title: "Unser Neuanfang",
     description:
       "Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns so einen langersehnten Traum verwirklicht. Das Haus wurde als KlimaHaus Nature errichtet, ein Haus, das die moderne Architektur mit der schlichten Erhabenheit der Natur verbindet. Wichtig waren uns dabei die Energieeffizienz, die Nachhaltigkeit und Natürlichkeit der Baumaterialien, um ein angenehmes und gesundes Raumklima zu schaffen - Voraussetzung für das Wohlbefinden und die Gesundheit seiner Bewohner.",
+    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren 2 Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
     button: "Mehr dazu",
   },
   slider: {
-    title: "Unser Neuanfang",
-    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren 2 Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
+    title: "Unterkunft",
+    text: "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+    button: "Mehr erfahren",
   },
   events: {
     trautmannsdorf: {
@@ -309,6 +315,27 @@ export const en = {
     yourMessage: "Ihre Nachricht",
     privacy: "Datenschutz",
     sendRequest: "Anfrage senden",
+  },
+  rooms: {
+    title: "Unterkunft",
+    intro:
+      "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+    ammenities:
+      "Die Wohnung liegt im Obergeschoss und ist über eine Außentreppe zu erreichen. Sie besteht aus 2 Schlafzimmern, einem Kinderspielzimmer, einem offenen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit vier Keramikkochfeldern, Kühlschrank mit Gefrierfach, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, Flachbildfernseher mit Satellitenanschluss, einem Badezimmer mit Dusche, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
+    terrace:
+      "Vom Wohnraum aus erreicht man die 80 m² große Terrasse, die zum Teil überdacht ist. Sie bietet einen unvergleichlichen Blick über das gesamte Etschtal von Meran bis nach Bozen und ein wunderbares Bergpanorama. Bei einem gemütlichen Frühstück können Sie die ersten Sonnenstrahlen begrüßen, den Abend beim Grillen und bei einem guten Glas ausklingen lassen.",
+    ammenities2:
+      "Dazu kommt noch Fußbodenheizung, kontrollierte Wohnraumlüftung, kostenlosem WLAN, Tischgarnitur im Freien, Grillmöglichkeit, Liegestühle, Bücherregal mit Lesestoff für Groß und Klein.",
+    extras:
+      "Bettwäsche, Handtücher und Geschirrtücher werden zur Verfügung gestellt.",
+    extras2:
+      "Auf Wunsch stellen wir für unsere kleinsten Gäste Babybett, Hochstuhl und Wickelauflage kostenlos zur Verfügung.",
+    price: "Preise *",
+    pricing: "100 - 140 €",
+    pricingInfo:
+      "*Alle Preise verstehen sich bei einer Belegung von 2 Personen und einem Aufenthalt von mindestens 3 Nächten. Für jede weitere Person berechnen wir 10 Euro pro Tag, Kinder bis 5 Jahren wohnen bei uns kostenlos. Endreinigung, Strom und Heizung sind im Preis inbegriffen.",
+    localTax:
+      "Mit 1. Jänner 2014 wurde in Südtirol die Ortstaxe eingeführt. Die Ortstaxe wird pro Gast und Nacht eingehoben und beträgt 0,85 Euro. Kinder unter 14 Jahren sind von der Abgabe befreit. Die Ortstaxe ist im angegebenen Preis nicht enthalten und kann nur vor Ort in bar bezahlt werden.",
   },
   footer: {
     imprint: "Impressum",

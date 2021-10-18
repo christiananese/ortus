@@ -1,7 +1,5 @@
 import React from "react";
 import s from "./Intro.module.css";
-import Button from "../Button";
-
 function Intro({ intl }) {
   return (
     <section className={s.section}>
@@ -12,16 +10,8 @@ function Intro({ intl }) {
               <h1 className={s.title} data-aos="fade-down">
                 {intl.title}
               </h1>
-              <p className={s.p} data-aos="fade-down" data-aos-delay="300">
-                {intl.description}
-              </p>
-              <Button
-                className={s.btn}
-                data-aos="fade-down"
-                data-aos-delay="300"
-              >
-                {intl.button}
-              </Button>
+              <p className={s.p}>{intl.description}</p>
+              <p className={s.text}>{intl.text}</p>
             </div>
           </div>
         </div>
