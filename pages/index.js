@@ -22,7 +22,7 @@ export default function Home({ intl }) {
 
 export async function getStaticProps({ locale }) {
   const intl = translations[locale];
-
+  console.log("LOCALE ", intl);
   return {
     props: {
       intl,

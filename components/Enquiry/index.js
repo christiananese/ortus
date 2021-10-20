@@ -26,7 +26,7 @@ const children = [
   { id: 4, name: "4" },
 ];
 
-function Enquiry() {
+function Enquiry({ intl }) {
   const baseUrl = "/request";
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(
@@ -54,7 +54,6 @@ function Enquiry() {
       })
       .join("&");
 
-    console.log("SHIT ", queryString);
     setRequestLink(`${baseUrl}${queryString ? "?" + queryString : ""}`);
   }, [startDate, endDate, selected, selectedC]);
 
@@ -63,7 +62,7 @@ function Enquiry() {
       <div className={s.container}>
         <div className={s.innerContainer}>
           <div className={s.center}>
-            <h2 className={s.title}>Einfach anfragen</h2>
+            <h2 className={s.title}>{intl.title}</h2>
 
             <form
               className="grid grid-cols-2 sm:grid-cols-4 gap-0.5 bg-gray-100 mt-8 mb-4 sm:mt-12 sm:mb-10 md:mb-12"
@@ -75,7 +74,7 @@ function Enquiry() {
                 data-aos-anchor="[data-aos-id-stats]"
               >
                 <div className="text-xl text-gray-600 mb-2 font-serif">
-                  Anfahrt
+                  {intl.arrival}
                 </div>
                 <div className="text-2xl text-gray-800">
                   <DatePicker
@@ -99,7 +98,7 @@ function Enquiry() {
                 data-aos-delay="100"
               >
                 <div className="text-xl text-gray-500 mb-2 font-serif">
-                  Abreise
+                  {intl.departure}
                 </div>
                 <div className="text-2xl text-gray-800">
                   <DatePicker
@@ -124,7 +123,7 @@ function Enquiry() {
                 data-aos-delay="200"
               >
                 <div className="text-xl text-gray-500 mb-2 font-serif">
-                  Erwachsene
+                  {intl.adults}
                 </div>
                 <div className="text-2xl text-gray-800">
                   <Listbox value={selected} onChange={setSelected}>
@@ -191,7 +190,7 @@ function Enquiry() {
                 data-aos-delay="300"
               >
                 <div className="text-xl text-gray-500 mb-2 font-serif">
-                  Kinder
+                  {intl.children}
                 </div>
                 <div className="text-2xl text-gray-800">
                   <Listbox value={selectedC} onChange={setSelectedC}>
@@ -253,7 +252,7 @@ function Enquiry() {
               </div>
             </form>
             <Link href={requestLink}>
-              <a className={s.btn}>Zur Anfrage</a>
+              <a className={s.btn}>{intl.cta}</a>
             </Link>
           </div>
         </div>
