@@ -23,6 +23,9 @@ function Button({
     },
     className
   );
+
+  console.log("BUTTON ", type);
+
   return (
     <Component
       aria-pressed={active}

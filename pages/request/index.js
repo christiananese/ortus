@@ -28,9 +28,17 @@ function Request({ startDate, endDate, people, children, intl }) {
     endDate ? new Date(endDate) : new Date()
   );
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+    console.log("SHITTTE ", e.target.country.value);
+  };
+
   return (
     <Layout title="Ortus">
-      <div className="grid grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto px-4 py-16 md:pt-24">
+      <form
+        onSubmit={onSubmit}
+        className="grid grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto px-4 py-16 md:pt-24"
+      >
         <h1
           className="text-4xl md:text-5xl font-serif text-secondary col-span-2 text-center"
           data-aos="fade-down"
@@ -243,7 +251,7 @@ function Request({ startDate, endDate, people, children, intl }) {
           <Input placeholder={intl.request.location} />
         </div>
         <div className="col-span-2">
-          <Input placeholder={intl.request.country} />
+          <Input placeholder={intl.request.country} name="country" />
         </div>
         <div className="col-span-2">
           <Textarea placeholder={intl.request.yourMessage} rows={5} />
@@ -252,11 +260,14 @@ function Request({ startDate, endDate, people, children, intl }) {
           <CheckIcon height="24px" /> {intl.request.privacy}
         </div>
         <div className="flex md:justify-end col-span-2 sm:col-span-1">
-          <Button className="tracking-widest uppercase text-lg py-4 px-6 w-full md:w-auto">
+          <Button
+            className="tracking-widest uppercase text-lg py-4 px-6 w-full md:w-auto"
+            type={"submit"}
+          >
             {intl.request.sendRequest}
           </Button>
         </div>
-      </div>
+      </form>
       <div className="md:py-12">
         <Events intl={intl.events} />
       </div>
