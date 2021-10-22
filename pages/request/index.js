@@ -1,6 +1,10 @@
 import dayjs from "dayjs";
 import Link from "next/link";
+
 import "dayjs/locale/de";
+import "dayjs/locale/it";
+import "dayjs/locale/en";
+
 import React, { Fragment, useState } from "react";
 import Layout from "../../components/Layout";
 import Input from "../../components/Input";
@@ -16,13 +20,15 @@ import Events from "../../components/Events";
 import translations from "../../data/home";
 import { Controller, useForm } from "react-hook-form";
 
-function Request({ startDate, endDate, people, children, intl }) {
+function Request({ startDate, endDate, people, children, intl, loc }) {
   const {
     register,
     handleSubmit,
     control,
     formState: { errors },
   } = useForm();
+
+  dayjs.locale(loc);
 
   const today = new Date();
 
@@ -81,7 +87,9 @@ function Request({ startDate, endDate, people, children, intl }) {
                 minDate={today}
                 customInput={
                   <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
-                    {dayjs(field.value).locale("de").format("DD. MMMM YYYY")}
+                    {dayjs(field.value)
+                      .locale(loc || "de")
+                      .format("DD. MMMM YYYY")}
                     <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
                       <CalendarIcon
                         className="w-5 h-5 text-gray-400"
@@ -107,7 +115,9 @@ function Request({ startDate, endDate, people, children, intl }) {
                 minDate={arrivalDate}
                 customInput={
                   <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
-                    {dayjs(field.value).locale("de").format("DD. MMMM YYYY")}
+                    {dayjs(field.value)
+                      .locale(loc || "de")
+                      .format("DD. MMMM YYYY")}
                     <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
                       <CalendarIcon
                         className="w-5 h-5 text-gray-400"
@@ -358,6 +368,7 @@ export async function getServerSideProps({ query, locale }) {
       people,
       children,
       intl,
+      loc: locale,
     }, // will be passed to the page component as props
   };
 }

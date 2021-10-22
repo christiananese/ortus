@@ -8,14 +8,15 @@ import Layout from "../components/Layout";
 
 import translations from "../data/home";
 
-export default function Home({ intl }) {
+export default function Home({ intl, loc }) {
+  console.log("INTL ", loc);
   return (
     <Layout title="Ortus" intl={intl}>
       <Hero intl={intl.hero} />
       <Intro intl={intl.intro} />
       <Slider intl={intl.slider} />
       <Events intl={intl.events} />
-      <Enquiry intl={intl.enquiry} />
+      <Enquiry intl={intl.enquiry} loc={loc} />
     </Layout>
   );
 }
@@ -26,6 +27,7 @@ export async function getStaticProps({ locale }) {
   return {
     props: {
       intl,
+      loc: locale,
     }, // will be passed to the page component as props
   };
 }

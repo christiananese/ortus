@@ -5,7 +5,10 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 import dayjs from "dayjs";
+
 import "dayjs/locale/de";
+import "dayjs/locale/it";
+import "dayjs/locale/en";
 
 import Link from "next/link";
 import { Listbox, Transition } from "@headlessui/react";
@@ -26,8 +29,11 @@ const children = [
   { id: 4, name: "4" },
 ];
 
-function Enquiry({ intl }) {
+function Enquiry({ intl, loc }) {
   const baseUrl = "/request";
+
+  dayjs.locale(loc);
+
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(
     new Date().setDate(startDate.getDate() + 6)
@@ -85,7 +91,9 @@ function Enquiry({ intl }) {
                     endDate={endDate}
                     customInput={
                       <div className="text-2xl text-gray-800">
-                        {dayjs(startDate).locale("de").format("DD. MMMM")}
+                        {dayjs(startDate)
+                          .locale(loc || "de")
+                          .format("DD. MMMM")}
                       </div>
                     }
                   />
@@ -110,7 +118,9 @@ function Enquiry({ intl }) {
                     minDate={startDate}
                     customInput={
                       <div className="text-2xl text-gray-800">
-                        {dayjs(endDate).locale("de").format("DD. MMMM")}
+                        {dayjs(endDate)
+                          .locale(loc || "de")
+                          .format("DD. MMMM")}
                       </div>
                     }
                   />

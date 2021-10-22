@@ -157,7 +157,7 @@ export const it = {
     button: "Voglio saperne di più",
   },
   enquiry: {
-    title: "Einfach Anfragen",
+    title: "Inviaci una richiesta",
     arrival: "Arrivo",
     departure: "Partenza",
     adults: "Adulti",
@@ -294,7 +294,7 @@ export const en = {
     button: "Show more",
   },
   enquiry: {
-    title: "Enquiry",
+    title: "Send us an enquiry",
     arrival: "Arrival",
     departure: "Departure",
     adults: "Adults",
