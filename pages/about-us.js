@@ -1,8 +1,9 @@
 import Layout from "../components/Layout";
+import translations from "../data/home";
 
-function AboutUs() {
+function AboutUs({ intl }) {
   return (
-    <Layout title="Ortus">
+    <Layout title="Ortus" intl={intl}>
       <div className="flex flex-col justify-center items-center max-w-4xl mx-auto px-4 py-16 md:pt-24 text-center">
         <h1 className="text-4xl md:text-5xl font-serif text-secondary">
           Über uns
@@ -30,3 +31,13 @@ function AboutUs() {
 }
 
 export default AboutUs;
+
+export async function getServerSideProps({ query, locale }) {
+  const intl = translations[locale];
+
+  return {
+    props: {
+      intl,
+    }, // will be passed to the page component as props
+  };
+}

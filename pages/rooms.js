@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import Events from "../components/Events";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout";
@@ -9,7 +9,7 @@ function Rooms({ slug, intl }) {
   const da = intl.rooms;
 
   return (
-    <Layout title="Umgebung">
+    <Layout title="Umgebung" intl={intl}>
       <Hero
         imgUrl={"/room/kitchen.jpg"}
         width={4608}
@@ -65,13 +65,19 @@ function Rooms({ slug, intl }) {
           </h2>
           <p
             className={
-              "text-4xl text-default max-w-prose pt-12 md:max-w-screen-md md:pt-8 md:text-gray-600"
+              "text-4xl text-default max-w-prose py-12 md:max-w-screen-md md:py-8 md:text-gray-600"
             }
           >
             {da.pricing}
           </p>
+          <Link href="/request">
+            <a className="bg-primary cursor-pointer py-4 px-6 inline-flex font-semibold text-center justify-center items-center text-primary border-primary transition ease-in-out duration-150 uppercase tracking-widest">
+              {da.cta}
+            </a>
+          </Link>
         </div>
       </div>
+
       <Events exclude={slug} intl={intl.events} />
 
       <div className="grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20 pb-12">
@@ -98,8 +104,6 @@ export default Rooms;
 
 export async function getServerSideProps({ query, locale }) {
   const intl = translations[locale];
-
-  console.log("DA ", query);
 
   return {
     props: {

@@ -5,9 +5,7 @@ import Button from "../Button";
 import Link from "next/link";
 import { de } from "../../data/home";
 
-function Footer() {
-  const intl = de.footer;
-
+function Footer({ intl }) {
   return (
     <footer className={s.section}>
       <div className={s.container}>

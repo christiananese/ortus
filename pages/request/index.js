@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import Link from "next/link";
 import "dayjs/locale/de";
 import React, { Fragment, useState } from "react";
 import Layout from "../../components/Layout";
@@ -13,8 +14,16 @@ import Button from "../../components/Button";
 import Events from "../../components/Events";
 
 import translations from "../../data/home";
+import { Controller, useForm } from "react-hook-form";
 
 function Request({ startDate, endDate, people, children, intl }) {
+  const {
+    register,
+    handleSubmit,
+    control,
+    formState: { errors },
+  } = useForm();
+
   const today = new Date();
 
   const [selected, setSelected] = useState(peopleOptions[1]);
@@ -28,15 +37,20 @@ function Request({ startDate, endDate, people, children, intl }) {
     endDate ? new Date(endDate) : new Date()
   );
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    console.log("SHITTTE ", e.target.country.value);
+  const onSubmit = async (data) => {
+    const res = await fetch("/api/request", {
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    });
   };
 
   return (
-    <Layout title="Ortus">
+    <Layout title="Ortus" intl={intl}>
       <form
-        onSubmit={onSubmit}
+        onSubmit={handleSubmit(onSubmit)}
         className="grid grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto px-4 py-16 md:pt-24"
       >
         <h1
@@ -54,47 +68,56 @@ function Request({ startDate, endDate, people, children, intl }) {
         >
           {intl.request.yourEnquiry}
         </h2>
-
         <div className="col-span-2 md:col-span-1">
-          <DatePicker
-            selected={arrivalDate}
-            onChange={(date) => setStartDate(date)}
-            selectsStart
-            startDate={arrivalDate}
-            endDate={departureDate}
-            minDate={today}
-            customInput={
-              <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
-                {dayjs(arrivalDate).locale("de").format("DD. MMMM YYYY")}
-                <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
-                  <CalendarIcon
-                    className="w-5 h-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                </span>
-              </div>
-            }
+          <Controller
+            name="arrivalDate"
+            control={control}
+            render={({ field }) => (
+              <DatePicker
+                selected={field.value}
+                {...field}
+                startDate={field.value}
+                endDate={departureDate}
+                minDate={today}
+                customInput={
+                  <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
+                    {dayjs(field.value).locale("de").format("DD. MMMM YYYY")}
+                    <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                      <CalendarIcon
+                        className="w-5 h-5 text-gray-400"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </div>
+                }
+              />
+            )}
           />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <DatePicker
-            selected={departureDate}
-            onChange={(date) => setEndDate(date)}
-            selectsEnd
-            startDate={arrivalDate}
-            endDate={departureDate}
-            minDate={arrivalDate}
-            customInput={
-              <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
-                {dayjs(departureDate).locale("de").format("DD. MMMM YYYY")}
-                <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
-                  <CalendarIcon
-                    className="w-5 h-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                </span>
-              </div>
-            }
+          <Controller
+            name="departureDate"
+            control={control}
+            render={({ field }) => (
+              <DatePicker
+                selected={field.value}
+                {...field}
+                startDate={arrivalDate}
+                endDate={field.value}
+                minDate={arrivalDate}
+                customInput={
+                  <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2">
+                    {dayjs(field.value).locale("de").format("DD. MMMM YYYY")}
+                    <span className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                      <CalendarIcon
+                        className="w-5 h-5 text-gray-400"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </div>
+                }
+              />
+            )}
           />
         </div>
         <div className="col-span-2 md:col-span-1">
@@ -158,7 +181,6 @@ function Request({ startDate, endDate, people, children, intl }) {
             </div>
           </Listbox>
         </div>
-
         <div className="col-span-2 md:col-span-1">
           <Listbox value={selectedC} onChange={setSelectedC}>
             <div className="relative text-2xl text-gray-800 bg-gray-100 border border-gray-300 py-3 px-2 w-full text-left">
@@ -220,7 +242,6 @@ function Request({ startDate, endDate, people, children, intl }) {
             </div>
           </Listbox>
         </div>
-
         <h2
           className={
             "text-3xl font-serif text-secondary col-span-2 text-center mt-8"
@@ -230,34 +251,82 @@ function Request({ startDate, endDate, people, children, intl }) {
           {intl.request.contactData}
         </h2>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder={intl.request.firstName} />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.firstName}
+            {...register("firstName", { required: false })}
+          />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder={intl.request.lastName} />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.lastName}
+            {...register("lastName", { required: true })}
+          />
         </div>
         <div className="col-span-2">
-          <Input placeholder={intl.request.email} />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.email}
+            {...register("email", { required: false, pattern: /^\S+@\S+$/i })}
+          />
         </div>
         <div className="col-span-2">
-          <Input placeholder={intl.request.tel} />
+          <Controller
+            name="tel"
+            control={control}
+            defaultValue=""
+            rules={{ required: true, minLength: 6, maxLength: 12 }}
+            render={({ field }) => (
+              <Input placeholder={intl.request.tel} {...field} />
+            )}
+          />
         </div>
         <div className="col-span-2">
-          <Input placeholder={intl.request.street} />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.street}
+            {...register("street")}
+          />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder={intl.request.zipCode} />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.zipCode}
+            {...register("zipCode")}
+          />
         </div>
         <div className="col-span-2 md:col-span-1">
-          <Input placeholder={intl.request.location} />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.location}
+            {...register("location")}
+          />
         </div>
         <div className="col-span-2">
-          <Input placeholder={intl.request.country} name="country" />
+          <input
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.country}
+            {...register("country")}
+          />
         </div>
         <div className="col-span-2">
-          <Textarea placeholder={intl.request.yourMessage} rows={5} />
+          <textarea
+            className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
+            placeholder={intl.request.yourMessage}
+            rows={5}
+          />
         </div>
-        <div className="flex items-end col-span-2 sm:col-span-1 py-4 sm:py-0">
-          <CheckIcon height="24px" /> {intl.request.privacy}
+        <div className="flex col-span-2 sm:col-span-1 py-4 sm:py-0 items-center">
+          <input type="checkbox" {...register("privacy", { required: true })} />
+          <span className="pl-2">
+            {intl.request.privacy}
+            <Link href="/privacy">
+              <a className="underline hover:text-secondary" target="_blank">
+                {intl.request.privacyLink}
+              </a>
+            </Link>
+          </span>
         </div>
         <div className="flex md:justify-end col-span-2 sm:col-span-1">
           <Button

@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import translations from "../data/home";
 
 function Imprint() {
   return (
@@ -73,3 +74,13 @@ function Imprint() {
 }
 
 export default Imprint;
+
+export async function getServerSideProps({ query, locale }) {
+  const intl = translations[locale];
+
+  return {
+    props: {
+      intl,
+    }, // will be passed to the page component as props
+  };
+}

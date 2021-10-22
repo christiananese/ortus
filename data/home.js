@@ -92,7 +92,7 @@ export const de = {
       "Wir freuen uns auf dich und erstellen so schnell wie möglich ein individuelles Angebot für dich.",
     yourEnquiry: "Ihre Anfrage",
     adults: "Erwachsene",
-    children: "Erwachsene",
+    children: "Kinder",
     contactData: "Kontaktdaten",
     firstName: "Vorname",
     lastName: "Nachname",
@@ -103,7 +103,8 @@ export const de = {
     location: "Ort",
     country: "Land",
     yourMessage: "Ihre Nachricht",
-    privacy: "Datenschutz",
+    privacy: "Ich akzeptiere die ",
+    privacyLink: "Datenschutzbestimmungen",
     sendRequest: "Anfrage senden",
   },
   rooms: {
@@ -122,6 +123,7 @@ export const de = {
       "Auf Wunsch stellen wir für unsere kleinsten Gäste Babybett, Hochstuhl und Wickelauflage kostenlos zur Verfügung.",
     price: "Preise *",
     pricing: "100 - 140 €",
+    cta: "Jetzt anfragen",
     pricingInfo:
       "*Alle Preise verstehen sich bei einer Belegung von 2 Personen und einem Aufenthalt von mindestens 3 Nächten. Für jede weitere Person berechnen wir 10 Euro pro Tag, Kinder bis 5 Jahren wohnen bei uns kostenlos. Endreinigung, Strom und Heizung sind im Preis inbegriffen.",
     localTax:
@@ -225,29 +227,29 @@ export const it = {
     },
   },
   request: {
-    title: "Einfach genießen",
-    intro:
-      "Wir freuen uns auf dich und erstellen so schnell wie möglich ein individuelles Angebot für dich.",
-    yourEnquiry: "Ihre Anfrage",
-    adults: "Erwachsene",
-    children: "Erwachsene",
-    contactData: "Kontaktdaten",
-    firstName: "Vorname",
-    lastName: "Nachname",
-    email: "E-Mail",
-    tel: "Telefon",
-    street: "Straße",
-    zipCode: "Plz",
-    location: "Ort",
-    country: "Land",
-    yourMessage: "Ihre Nachricht",
-    privacy: "Datenschutz",
-    sendRequest: "Anfrage senden",
+    title: "Goditi una pausa",
+    intro: "",
+    yourEnquiry: "La tua richiesta",
+    adults: "Adulti",
+    children: "Bambini",
+    contactData: "Dati",
+    firstName: "Nome",
+    lastName: "Cognome",
+    email: "Email",
+    tel: "Telefono",
+    street: "Via",
+    zipCode: "CAP",
+    location: "Località",
+    country: "Paese",
+    yourMessage: "Messaggio",
+    privacy: "Accetto la normativa sulla ",
+    privacyLink: "privacy",
+    sendRequest: "Invia Richiesta",
   },
   rooms: {
-    title: "Unterkunft",
+    title: "Appartamento",
     intro:
-      "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+      "Il nostro appartamento offre con una superficie di 75m² posto fino a 6 persone. É ideale per famiglie con bambini, ma anche per coppie che apprezzano ampio spazio e luce.",
     ammenities:
       "L'appartamento è situato al primo piano ed è raggiungibile attraverso una scala esterna. È composto da due stanze da letto, una stanza per bambini, un soggiorno open-space con divano-letto, TV a schermo piatto con collegamento satellitare, cucina completamente attrezzata con piano cottura in vetroceramica, forno, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, wc, bidet e lavatrice.",
     terrace:
@@ -259,6 +261,7 @@ export const it = {
       "Si prega gentilmente di comunicare la necessità di lettino da bambino, seggiolone e fasciatoio al momento della prenotazione.",
     price: "Prezzi *",
     pricing: "100 - 140 €",
+    cta: "Richiedi ora",
     pricingInfo:
       "* I prezzi si intendono per 2 persone e per una permanenza minima di 3 notti. Per ogni persona aggiuntiva applichiamo un supplemento di 10,00 Euro, per bambini sotto i 5 anni non viene calcolato niente.",
     localTax:
@@ -379,7 +382,8 @@ export const en = {
     location: "City",
     country: "Country",
     yourMessage: "Your Message",
-    privacy: "Privacy",
+    privacy: "I accept the ",
+    privacyLink: "privacy policy",
     sendRequest: "Send",
   },
   rooms: {
@@ -393,11 +397,12 @@ export const en = {
     ammenities2:
       "In addition you can enjoy floor heating, controlled living space ventilation, freely accessible WI-FI, garden furniture, a barbecue grill, deck chairs and a bookcase offering entertainment for young and old.",
     extras:
-      "Upon your arrival you will be given bedclothes, towels and washcloths",
+      "Upon your arrival you will be given bedclothes, towels and washcloths.",
     extras2:
-      ". For our baby guests we gladly provide a baby crib, a high chair and a changing pad.",
+      "For our baby guests we gladly provide a baby crib, a high chair and a changing pad.",
     price: "Prices *",
     pricing: "100 - 140 €",
+    cta: "Send enquiry",
     pricingInfo:
       "*The prices indicated are valid for two people for a stay of at least three nights. For every person more we kindly ask an additional rate of 10 €. Children up to the age of one year will not be counted.",
     localTax:

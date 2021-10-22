@@ -3,8 +3,11 @@ import Button from "../Button";
 import s from "./TopNav.module.css";
 import Link from "next/link";
 import { PhoneIcon, MailIcon } from "@heroicons/react/outline";
+import { useRouter } from "next/dist/client/router";
 
 function TopNav() {
+  const { route } = useRouter();
+
   return (
     <section className={s.section} id="topnav">
       <div className={s.container}>
@@ -23,17 +26,17 @@ function TopNav() {
             </div>
             <ul className={s.langContainer}>
               <li>
-                <Link href="/">
+                <Link href={route} locale="de">
                   <a className="text-default hover:text-primary-hover">Deu</a>
                 </Link>
               </li>
               <li>
-                <Link href="/it">
+                <Link href={route} locale="it">
                   <a className="text-default hover:text-primary-hover">Ita</a>
                 </Link>
               </li>
               <li>
-                <Link href="/en">
+                <Link href={route} locale="en">
                   <a className="text-default hover:text-primary-hover">Eng</a>
                 </Link>
               </li>

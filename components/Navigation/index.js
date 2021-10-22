@@ -5,7 +5,7 @@ import s from "./Navigation.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-function Navigation() {
+function Navigation({ intl }) {
   return (
     <section className={s.section}>
       <div className={s.container}>
@@ -13,14 +13,14 @@ function Navigation() {
           <div className={s.center}>
             <ul className={s.left}>
               <li>
-                <Link href="/">
+                <Link href="/surroundings">
                   <a className="text-default hover:text-primary-hover uppercase leading-8 font-medium tracking-wide">
                     Erlebnisse
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/about-us">
                   <a className="text-default hover:text-primary-hover flex-shrink-0 uppercase leading-8 font-medium tracking-wide">
                     Über uns
                   </a>

@@ -10,7 +10,7 @@ import translations from "../data/home";
 
 export default function Home({ intl }) {
   return (
-    <Layout title="Ortus">
+    <Layout title="Ortus" intl={intl}>
       <Hero intl={intl.hero} />
       <Intro intl={intl.intro} />
       <Slider intl={intl.slider} />
@@ -22,7 +22,7 @@ export default function Home({ intl }) {
 
 export async function getStaticProps({ locale }) {
   const intl = translations[locale];
-  console.log("LOCALE ", intl);
+
   return {
     props: {
       intl,

@@ -14,8 +14,6 @@ function Slider() {
       <Swiper
         spaceBetween={24}
         slidesPerView={"auto"}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         centeredSlides={true}
         grabCursor={true}
         loop={true}

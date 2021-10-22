@@ -9,7 +9,7 @@ function Surrounding({ slug, intl }) {
   const da = intl.events[slug];
 
   return (
-    <Layout title="Umgebung">
+    <Layout title="Umgebung" intl={intl}>
       <Hero
         imgUrl={da.hero.path}
         width={da.hero.width}
@@ -41,7 +41,6 @@ export default Surrounding;
 
 export async function getServerSideProps({ query, locale }) {
   const { slug } = query;
-  console.log("SHITTTTE ", slug);
   const intl = translations[locale];
 
   return {
