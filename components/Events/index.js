@@ -2,14 +2,14 @@ import React from "react";
 import s from "./Events.module.css";
 import EventCard from "./EventCard";
 
-function Events({ exclude, intl }) {
+function Events({ exclude, intl, showAll }) {
   return (
     <section className={s.section}>
       <div className={s.container}>
         <div className={s.innerContainer}>
           <div className={s.gridContainer}>
             <div className={s.center}>
-              {exclude != "trautmannsdorf" && (
+              {(showAll || exclude != "trautmannsdorf") && (
                 <EventCard
                   title={intl.trautmannsdorf.cardTitle}
                   description={intl.trautmannsdorf.excerpt}
@@ -17,7 +17,7 @@ function Events({ exclude, intl }) {
                   link="/surroundings/trautmannsdorf"
                 />
               )}
-              {exclude != "nals" && (
+              {(showAll || exclude != "nals") && (
                 <EventCard
                   title={intl.nals.cardTitle}
                   description={intl.nals.excerpt}
@@ -25,7 +25,7 @@ function Events({ exclude, intl }) {
                   link="/surroundings/nals"
                 />
               )}
-              {exclude != "naturbad-gargazon" && (
+              {(showAll || exclude != "naturbad-gargazon") && (
                 <EventCard
                   title={intl["naturbad-gargazon"].cardTitle}
                   description={intl["naturbad-gargazon"].excerpt}
@@ -33,12 +33,20 @@ function Events({ exclude, intl }) {
                   link="/surroundings/naturbad-gargazon"
                 />
               )}
-              {!!exclude && exclude != "knottenkino" && (
+              {(showAll || (!!exclude && exclude != "knottenkino")) && (
                 <EventCard
                   title={intl.knottenkino.cardTitle}
                   description={intl.knottenkino.excerpt}
                   img={intl.knottenkino.hero.path}
                   link="/surroundings/knottenkino"
+                />
+              )}
+              {showAll && (
+                <EventCard
+                  title={intl["schloss-tirol"].cardTitle}
+                  description={intl["schloss-tirol"].excerpt}
+                  img={intl["schloss-tirol"].hero.path}
+                  link="/surroundings/schloss-tirol"
                 />
               )}
             </div>

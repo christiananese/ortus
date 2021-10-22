@@ -1,6 +1,4 @@
 import React from "react";
-import Button from "../Button";
-import Logo from "../Logo";
 import s from "./Navigation.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -15,14 +13,14 @@ function Navigation({ intl }) {
               <li>
                 <Link href="/surroundings">
                   <a className="text-default hover:text-primary-hover uppercase leading-8 font-medium tracking-wide">
-                    Erlebnisse
+                    {intl.surroundings}
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/about-us">
                   <a className="text-default hover:text-primary-hover flex-shrink-0 uppercase leading-8 font-medium tracking-wide">
-                    Über uns
+                    {intl.aboutUs}
                   </a>
                 </Link>
               </li>
@@ -42,7 +40,7 @@ function Navigation({ intl }) {
               <li>
                 <Link href="/request">
                   <a className="bg-primary cursor-pointer py-2 px-4 inline-flex font-semibold text-center justify-center items-center text-primary border-primary transition ease-in-out duration-150 tracking-wider uppercase">
-                    Anfragen
+                    {intl.cta}
                   </a>
                 </Link>
               </li>

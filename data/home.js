@@ -2,6 +2,11 @@ export const de = {
   hero: {
     imageAlt: "Foto des Hofes",
   },
+  navigation: {
+    surroundings: "Erlebnisse",
+    aboutUs: "Über uns",
+    cta: "Anfragen",
+  },
   intro: {
     title: "Unser Neuanfang",
     description:
@@ -21,6 +26,11 @@ export const de = {
     adults: "Erwachsene",
     children: "Kinder",
     cta: "Zur Anfrage",
+  },
+  surroundings: {
+    title: "Erlebnisse",
+    intro: "",
+    slug: "erlebnisse",
   },
   events: {
     trautmannsdorf: {
@@ -144,6 +154,11 @@ export const it = {
   hero: {
     imageAlt: "Foto del maso Hofes",
   },
+  navigation: {
+    surroundings: "Emozioni",
+    aboutUs: "Chi siamo",
+    cta: "Richiesta",
+  },
   intro: {
     title: "Un passo verso il futuro",
     description:
@@ -163,6 +178,11 @@ export const it = {
     adults: "Adulti",
     children: "Bambini",
     cta: "Richiedi",
+  },
+  surroundings: {
+    title: "Emozioni",
+    intro: "",
+    slug: "emozioni",
   },
   events: {
     trautmannsdorf: {
@@ -281,6 +301,11 @@ export const en = {
   hero: {
     imageAlt: "Photo des Hofes",
   },
+  navigation: {
+    surroundings: "Experience",
+    aboutUs: "About us",
+    cta: "Request",
+  },
   intro: {
     title: "Ortus – our restart",
     description:
@@ -300,6 +325,11 @@ export const en = {
     adults: "Adults",
     children: "Children",
     cta: "Send an enquiry",
+  },
+  surroundings: {
+    title: "Experiences",
+    intro: "",
+    slug: "experiences",
   },
   events: {
     trautmannsdorf: {

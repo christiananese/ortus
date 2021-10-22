@@ -65,9 +65,9 @@ function Footer({ intl }) {
             <li className="px-2">
               <Link href="/privacy">{intl.privacy}</Link>
             </li>
-            <li className="px-2">
+            {/* <li className="px-2">
               <Link href="/">{intl.cookies}</Link>
-            </li>
+            </li> */}
             <li className="px-2">{intl.vatId}</li>
           </ul>
         </nav>

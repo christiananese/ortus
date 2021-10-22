@@ -39,7 +39,7 @@
 }
 
 .cardLink {
-  @apply uppercase leading-8 pt-8 text-gray-600;
+  @apply uppercase leading-8 pt-8 text-gray-600 px-2;
 }
 
 .cardLink:hover {

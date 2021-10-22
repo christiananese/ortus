@@ -15,7 +15,7 @@ function Layout({ children, title, intl }) {
       </Head>
       <TopNav />
       <main className="flex-grow">
-        <Navigation intl={intl} />
+        <Navigation intl={intl.navigation} />
         {children}
       </main>
       <Footer intl={intl?.footer} />
