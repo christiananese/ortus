@@ -19,7 +19,7 @@ function Layout({ children, title, intl }) {
         {children}
       </main>
       <Footer intl={intl?.footer} />
-      <BottomNav intl={intl} />
+      <BottomNav intl={intl.navigation} />
     </div>
   );
 }

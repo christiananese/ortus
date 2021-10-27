@@ -25,10 +25,10 @@ function Footer({ intl }) {
                 <div>{intl.address}</div>
               </div>
               <a
-                href="tel:+39 338 832 8978"
+                href="tel:+393488744474"
                 className="pt-2 text-xl hover:underline"
               >
-                +39 338 832 8978
+                +39 348 8744474
               </a>
               <a
                 href="mail:info@ortus.bz.it"
