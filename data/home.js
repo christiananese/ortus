@@ -139,7 +139,16 @@ export const de = {
     localTax:
       "Mit 1. Jänner 2014 wurde in Südtirol die Ortstaxe eingeführt. Die Ortstaxe wird pro Gast und Nacht eingehoben und beträgt 0,85 Euro. Kinder unter 14 Jahren sind von der Abgabe befreit. Die Ortstaxe ist im angegebenen Preis nicht enthalten und kann nur vor Ort in bar bezahlt werden.",
   },
-
+  aboutUs: {
+    title: "Über uns",
+    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Schneeschuhwanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
+    carFree:
+      "Autofrei unterwegs? Hier für Sie die Fahrpläne für Bus und Bahn, aktuelle Meldungen sowie alle Infos zum öffentlichen Nahverkehr:<br/><br/><a href='https://suedtirolmobil.info/' class='underline hover:text-secondary'www.suedtirolmobil.info</a>",
+    extras: {
+      title: "Zusatzleistung",
+      text: "Abholdienst von der nächstgelegenen Bahn- oder Busstation",
+    },
+  },
   footer: {
     imprint: "Impressum",
     privacy: "Datenschutz",
@@ -286,6 +295,16 @@ export const it = {
       "* I prezzi si intendono per 2 persone e per una permanenza minima di 3 notti. Per ogni persona aggiuntiva applichiamo un supplemento di 10,00 Euro, per bambini sotto i 5 anni non viene calcolato niente.",
     localTax:
       "In base alle disposizioni di legge verrà applicata l’imposta di soggiorno obbligatoria pari a 0,85 Euro/cent per persona a notte. I bambini sotto i 14 anni sono esenti da suddetta imposta. L’imposta non è inclusa nel prezzo ed è pagabile solo in loco.",
+  },
+  aboutUs: {
+    title: "Su di noi",
+    text: "Il nostro maso biologico si trova a Nalles. In mezzo ai vigneti si affaccia sulla val d&#39;Adige. Le cittá Merano e Bolzano sono ciascuna a 15 chilometri di distanza. Coltiviamo uva rosse e bianche delle varietá Cabernet Franc e Merlot, Chardonnay e Souvignier gris. Nei nostri frutteti e nell&#39;orto troverete mele, vari frutti,ortaggi ed erbe.<br/><br/>Per conoscere meglio il nostro mondo sudtirolese Vi invitiamo a visite guidate nei nostri vigneti, alle festività di solstizi sia d&#39;estate che d&#39;inverno, a castagnate, a fare ciaspolate, a fare insieme i canederli e pane della zona, a fare e mangiare insieme la pizza.",
+    carFree:
+      "Arrivate con il trasporto pubblico? Qui trovate tutti gli orari di autobus e treno in Alto Aldige nonché altre informazioni utili sui nostri mezzi pubblici.<br/><br/><a href='https://suedtirolmobil.info/it/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
+    extras: {
+      title: "Servizio aggiuntivo",
+      text: "Servizio di shuttle dalla stazione di treno o bus piú vicina",
+    },
   },
   footer: {
     imprint: "Credits",
@@ -437,6 +456,16 @@ export const en = {
       "*The prices indicated are valid for two people for a stay of at least three nights. For every person more we kindly ask an additional rate of 10 €. Children up to the age of one year will not be counted.",
     localTax:
       "Since 2014 we have a local rate, which is to be paid for every guest and every night and amounts to € 0,85 per night. This local rate is not included in our prices and has to be paid cash on the spot.",
+  },
+  aboutUs: {
+    title: "About us",
+    text: "Our organic farm is surrounded by vineyards and apple orchards in the middle of the Etsch valley distancing approximately 15 kilometres from the cities Meran and Bozen. We produce red and white grapes of the varieties Cabernet Franc, Merlot, Chardonnay and Souvignier gris. In addition you find us growing apples and many other, often also rare, types of fruits, vegetables and herbs.",
+    carFree:
+      "Coming without car? Here you can find timetables for train and bus as well as any other useful information regarding our public transport.<br/><br/><a href='https://suedtirolmobil.info/en/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
+    extras: {
+      title: "Additional service",
+      text: "Shuttle service from the closest railway or bus station",
+    },
   },
   footer: {
     imprint: "Imprint",
