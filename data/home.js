@@ -190,8 +190,21 @@ export const de = {
     },
   },
   imprint: {
-    title: "Haftung für Inhalte der Webseite und Hyperlinks",
-    text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+    title: "Impressum",
+    owner: {
+      title: "Eigentümer & verantwortlich für den Inhalt",
+      name: "Ortus - Einzelunternehmen Johann Ranzi",
+    },
+    concept: {
+      title: "&copy; Konzept &bull; Design &bull; Programmierung",
+    },
+    photo: {
+      title: "Fotos",
+    },
+    liability: {
+      title: "Haftung für Inhalte der Webseite und Hyperlinks",
+      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+    },
   },
   footer: {
     imprint: "Impressum",
@@ -391,8 +404,21 @@ export const it = {
     },
   },
   imprint: {
-    title: "Responsibilita per contenuti e link verso altri siti",
-    text: "Le informazioni messe a disposizione sul nostro sito sono state controllate accuratamente e vengono attualizzate regolarmente. Nonostante ció non possiamo assumerci alcuna responsabilità che questi contenuti siano completi, corretti ed attuali, questo vale anche per tutti i contenuti collegati (“links”), Il rispettivo fornitore o gestore delle pagine è sempre ed esclusivamente responsabile dei contenuti delle pagine collegate.",
+    title: "Credits",
+    owner: {
+      title: "Proprietario e responsabile dei contenuti",
+      name: "Ortus - impresa individuale - Johann Ranzi",
+    },
+    concept: {
+      title: "&copy; Concezione &bull; Design &bull; Programmazione",
+    },
+    photo: {
+      title: "Foto",
+    },
+    liability: {
+      title: "Responsibilita per contenuti e link verso altri siti",
+      text: "Le informazioni messe a disposizione sul nostro sito sono state controllate accuratamente e vengono attualizzate regolarmente. Nonostante ció non possiamo assumerci alcuna responsabilità che questi contenuti siano completi, corretti ed attuali, questo vale anche per tutti i contenuti collegati (“links”), Il rispettivo fornitore o gestore delle pagine è sempre ed esclusivamente responsabile dei contenuti delle pagine collegate.",
+    },
   },
   footer: {
     imprint: "Credits",
@@ -596,8 +622,21 @@ export const en = {
     },
   },
   imprint: {
-    title: "Haftung für Inhalte der Webseite und Hyperlinks",
-    text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+    title: "Imprint",
+    owner: {
+      title: "Owner & responsible for the content",
+      name: "Ortus - Johann Ranzi",
+    },
+    concept: {
+      title: "&copy; Concept &bull; Design &bull; Development",
+    },
+    photo: {
+      title: "Photo",
+    },
+    liability: {
+      title: "Liability for the content of the website and hyperlinks",
+      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+    },
   },
   footer: {
     imprint: "Imprint",
