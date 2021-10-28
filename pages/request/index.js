@@ -44,8 +44,12 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
   );
 
   const onSubmit = async (data) => {
+    const payload = Object.assign({}, data, {
+      adults: selected?.value,
+      children: selectedC?.value,
+    });
     const res = await fetch("/api/request", {
-      body: JSON.stringify(data),
+      body: JSON.stringify(payload),
       headers: {
         "Content-Type": "application/json",
       },
@@ -78,6 +82,7 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
           <Controller
             name="arrivalDate"
             control={control}
+            defaultValue={arrivalDate}
             render={({ field }) => (
               <DatePicker
                 selected={field.value}
@@ -106,6 +111,7 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
           <Controller
             name="departureDate"
             control={control}
+            defaultValue={departureDate}
             render={({ field }) => (
               <DatePicker
                 selected={field.value}
@@ -324,19 +330,25 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
           <textarea
             className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
             placeholder={intl.request.yourMessage}
+            {...register("yourMessage")}
             rows={5}
           />
         </div>
         <div className="flex col-span-2 sm:col-span-1 py-4 sm:py-0 items-center">
-          <input type="checkbox" {...register("privacy", { required: true })} />
-          <span className="pl-2">
-            {intl.request.privacy}
-            <Link href="/privacy">
-              <a className="underline hover:text-secondary" target="_blank">
-                {intl.request.privacyLink}
-              </a>
-            </Link>
-          </span>
+          <label>
+            <input
+              type="checkbox"
+              {...register("privacy", { required: true })}
+            />
+            <span className="pl-2">
+              {intl.request.privacy}
+              <Link href="/privacy">
+                <a className="underline hover:text-secondary" target="_blank">
+                  {intl.request.privacyLink}
+                </a>
+              </Link>
+            </span>
+          </label>
         </div>
         <div className="flex md:justify-end col-span-2 sm:col-span-1">
           <Button

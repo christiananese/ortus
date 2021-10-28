@@ -1,22 +1,53 @@
 import sendgrid from "@sendgrid/mail";
+import dayjs from "dayjs";
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 const req = async (req, res) => {
-  const { email } = req.body;
+  const {
+    arrivalDate,
+    departureDate,
+    email,
+    adults,
+    children,
+    firstName,
+    lastName,
+    tel,
+    street,
+    zipCode,
+    location,
+    country,
+    yourMessage,
+  } = req.body;
 
   if (!email) {
     return res.status(400).json({ error: "Email is required" });
   }
 
   const message = `
-    plan: ${email}\r\n
+    Hallo Barbara,\r\n
+    ${firstName} ${lastName} hat dir eine neue Anfrage gestellt:\r\n
+
+    Zeitraum: ${dayjs(arrivalDate).format("MM.DD.YYYY")}  - ${dayjs(
+    departureDate
+  ).format("MM.DD.YYYY")}\r\n
+
+    Erwachsene: ${adults}\r\n
+    Kinder: ${children}\r\n
+
+    E-Mail: ${email}\r\n
+    Tel: ${tel}\r\n
+    Adresse: ${street}, ${zipCode} ${location} ${country}\r\n
+
+    ${yourMessage}\r\n
   `;
+
+  console.log("HE ", message);
 
   sendgrid.send({
     to: "christian.anese@gmail.com",
     from: "info@ortus.bz.it",
-    subject: "WHAAAAT New Message!",
+    subject: "Neue Anfrage",
     text: message,
     html: message.replace(/\r\n/g, "<br>"),
   });
