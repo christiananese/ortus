@@ -149,6 +149,50 @@ export const de = {
       text: "Abholdienst von der nächstgelegenen Bahn- oder Busstation",
     },
   },
+  privacy: {
+    title: "Datenschutzbestimmungen",
+    privacyKodex: {
+      title:
+        "Aufklärungsschreiben im Sinne des gesetzesvertretenden Dekretes vom 30.06.2003 Nr. 196 „Datenschutzkodex“",
+      text: "In Sinne des Art. 13 des gesetzesvertretenden Dekrets Nr. 196 vom 30. Juni 2003 INFORMIEREN wir darüber, dass das Unternehmen Ranzi Johann persönliche Daten von Kunden und Lieferanten sowie Daten von Personen verarbeitet, die unserer Firma ihre Personalien willentlich (persönlich, telefonisch, per Fax oder per E-Mail) sowie durch Registrierung auf unserer Webseite mitteilen, sowie von Personen, deren Daten durch Dritte, zum Beispiel bei der Erfassung von externen Daten für geschäftliche Informationen, öffentlichen Verzeichnissen usw. übernommen wurden, wobei es sich im letzteren Fall ausschließlich um persönliche Daten gemeiner/gewöhnlicher Art und Natur handelt<br/>Unser Betrieb garantiert im Rahmen der gesetzlichen Vorgaben, dass die Verarbeitung der persönlichen Daten unter Berücksichtigung der grundlegenden Rechte und Freiheiten sowie der Würde des Betroffenen, mit besonderem Bezug auf die Geheimhaltung, die persönliche Identität und das Recht auf Schutz der persönlichen Daten, erfolgt.",
+    },
+    goals: {
+      title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
+      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+      1: "Erfüllung von gesetzlichen Pflichten, Pflichten aus Verordnunge, Gemeinschaftsnormen sowie zivil- und steuerrechtlichen Gesetzen",
+      2: "Erfüllung eventueller vertraglicher Verpflichtungen gegenüber dem Betroffenen",
+      3: "Erfüllung von Tätigkeiten in Verbindung mit der Geschäftstätigkeit unserer Firma, wie das Ausfüllen von internen Statistiken, zur Rechnungslegung sowie zur Führung der Kunden-/Lieferantenbuchhaltung",
+      4: "Zielstellungen geschäftlicher Art wie die Zusendung von Geschäftsinformationen und Werbematerial (per Post, Fax und E-Mail), Marketing und Marktuntersuchungen",
+      5: "Schutz der Forderungen und Verwaltung der Verbindlichkeiten",
+      6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
+    },
+    distribution: {
+      title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
+      text: "",
+      pre: "In Bezug auf die oben angegebenen Zielstellungen werden Ihre persönlichen Daten bei Bedarf weitergeleitet",
+      1: "an die öffentlichen Verwaltungen und Behörden, wenn dies gesetzlich vorgesehen ist",
+      2: "an Kreditinstitute, mit denen unsere Firma Geschäftsbeziehungen zur Verwaltung von Forderungen/Verbindlichkeiten und zur Finanzierungsvermittlung unterhält",
+      3: "an alle jenen natürlichen und/oder juristischen, öffentlichen und/oder privaten Personen (Rechts-, Verwaltungs- und Steuerberatungsbüros, Gerichte, Handelskammern usw.), wenn sich die Weiterleitung als notwendig oder zur Ausübung unserer Tätigkeit zweckdienlich erweist.",
+      4: "an Lieferanten/Hersteller, wenn dies für die Registrierung der Produkte erforderlich ist.",
+      post: "Die von unserem Betrieb verarbeiteten, persönlichen Daten unterliegen nicht der Verbreitung.",
+    },
+    type: {
+      title: "Art der Datenverarbeitung:",
+      text: "Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von uns verwendeten Cookies sind so genannte &quot;Session-Cookies&quot;. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.",
+    },
+    cookies: {
+      title: "Cookie",
+      text: "Die Datenverarbeitung kann mit oder ohne Hilfe elektronischer, auf jeden Fall automatischer Mittel erfolgen und umfasst alle im Art. 4, Absatz 1, Buchstabe a des gesetzesvertretenden Dekretes Nr. 196 vom 30. Juni 2003 vorgesehenen und für die betreffende Datenverarbeitung erforderlichen Vorgänge. In jedem Fall wird die Datenverarbeitung unter Einhaltung aller Sicherheitsmaßnahmen durchgeführt, die deren Sicherheit und Geheimhaltung gewährleisten.",
+    },
+    rights: {
+      title: "Rechte des Betroffenen",
+      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an ranzi.johann@gmail.com geltend gemacht werden.",
+    },
+  },
+  imprint: {
+    title: "Haftung für Inhalte der Webseite und Hyperlinks",
+    text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+  },
   footer: {
     imprint: "Impressum",
     privacy: "Datenschutz",
@@ -305,6 +349,50 @@ export const it = {
       title: "Servizio aggiuntivo",
       text: "Servizio di shuttle dalla stazione di treno o bus piú vicina",
     },
+  },
+  privacy: {
+    title: "Datenschutzbestimmungen",
+    privacyKodex: {
+      title:
+        "Aufklärungsschreiben im Sinne des gesetzesvertretenden Dekretes vom 30.06.2003 Nr. 196 „Datenschutzkodex“",
+      text: "In Sinne des Art. 13 des gesetzesvertretenden Dekrets Nr. 196 vom 30. Juni 2003 INFORMIEREN wir darüber, dass das Unternehmen Ranzi Johann persönliche Daten von Kunden und Lieferanten sowie Daten von Personen verarbeitet, die unserer Firma ihre Personalien willentlich (persönlich, telefonisch, per Fax oder per E-Mail) sowie durch Registrierung auf unserer Webseite mitteilen, sowie von Personen, deren Daten durch Dritte, zum Beispiel bei der Erfassung von externen Daten für geschäftliche Informationen, öffentlichen Verzeichnissen usw. übernommen wurden, wobei es sich im letzteren Fall ausschließlich um persönliche Daten gemeiner/gewöhnlicher Art und Natur handelt<br/>Unser Betrieb garantiert im Rahmen der gesetzlichen Vorgaben, dass die Verarbeitung der persönlichen Daten unter Berücksichtigung der grundlegenden Rechte und Freiheiten sowie der Würde des Betroffenen, mit besonderem Bezug auf die Geheimhaltung, die persönliche Identität und das Recht auf Schutz der persönlichen Daten, erfolgt.",
+    },
+    goals: {
+      title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
+      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+      1: "Erfüllung von gesetzlichen Pflichten, Pflichten aus Verordnunge, Gemeinschaftsnormen sowie zivil- und steuerrechtlichen Gesetzen",
+      2: "Erfüllung eventueller vertraglicher Verpflichtungen gegenüber dem Betroffenen",
+      3: "Erfüllung von Tätigkeiten in Verbindung mit der Geschäftstätigkeit unserer Firma, wie das Ausfüllen von internen Statistiken, zur Rechnungslegung sowie zur Führung der Kunden-/Lieferantenbuchhaltung",
+      4: "Zielstellungen geschäftlicher Art wie die Zusendung von Geschäftsinformationen und Werbematerial (per Post, Fax und E-Mail), Marketing und Marktuntersuchungen",
+      5: "Schutz der Forderungen und Verwaltung der Verbindlichkeiten",
+      6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
+    },
+    distribution: {
+      title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
+      text: "",
+      pre: "In Bezug auf die oben angegebenen Zielstellungen werden Ihre persönlichen Daten bei Bedarf weitergeleitet",
+      1: "an die öffentlichen Verwaltungen und Behörden, wenn dies gesetzlich vorgesehen ist",
+      2: "an Kreditinstitute, mit denen unsere Firma Geschäftsbeziehungen zur Verwaltung von Forderungen/Verbindlichkeiten und zur Finanzierungsvermittlung unterhält",
+      3: "an alle jenen natürlichen und/oder juristischen, öffentlichen und/oder privaten Personen (Rechts-, Verwaltungs- und Steuerberatungsbüros, Gerichte, Handelskammern usw.), wenn sich die Weiterleitung als notwendig oder zur Ausübung unserer Tätigkeit zweckdienlich erweist.",
+      4: "an Lieferanten/Hersteller, wenn dies für die Registrierung der Produkte erforderlich ist.",
+      post: "Die von unserem Betrieb verarbeiteten, persönlichen Daten unterliegen nicht der Verbreitung.",
+    },
+    type: {
+      title: "Art der Datenverarbeitung:",
+      text: "Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von uns verwendeten Cookies sind so genannte &quot;Session-Cookies&quot;. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.",
+    },
+    cookies: {
+      title: "Cookie",
+      text: "Die Datenverarbeitung kann mit oder ohne Hilfe elektronischer, auf jeden Fall automatischer Mittel erfolgen und umfasst alle im Art. 4, Absatz 1, Buchstabe a des gesetzesvertretenden Dekretes Nr. 196 vom 30. Juni 2003 vorgesehenen und für die betreffende Datenverarbeitung erforderlichen Vorgänge. In jedem Fall wird die Datenverarbeitung unter Einhaltung aller Sicherheitsmaßnahmen durchgeführt, die deren Sicherheit und Geheimhaltung gewährleisten.",
+    },
+    rights: {
+      title: "Rechte des Betroffenen",
+      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an ranzi.johann@gmail.com geltend gemacht werden.",
+    },
+  },
+  imprint: {
+    title: "Responsibilita per contenuti e link verso altri siti",
+    text: "Le informazioni messe a disposizione sul nostro sito sono state controllate accuratamente e vengono attualizzate regolarmente. Nonostante ció non possiamo assumerci alcuna responsabilità che questi contenuti siano completi, corretti ed attuali, questo vale anche per tutti i contenuti collegati (“links”), Il rispettivo fornitore o gestore delle pagine è sempre ed esclusivamente responsabile dei contenuti delle pagine collegate.",
   },
   footer: {
     imprint: "Credits",
@@ -466,6 +554,50 @@ export const en = {
       title: "Additional service",
       text: "Shuttle service from the closest railway or bus station",
     },
+  },
+  privacy: {
+    title: "Datenschutzbestimmungen",
+    privacyKodex: {
+      title:
+        "Aufklärungsschreiben im Sinne des gesetzesvertretenden Dekretes vom 30.06.2003 Nr. 196 „Datenschutzkodex“",
+      text: "In Sinne des Art. 13 des gesetzesvertretenden Dekrets Nr. 196 vom 30. Juni 2003 INFORMIEREN wir darüber, dass das Unternehmen Ranzi Johann persönliche Daten von Kunden und Lieferanten sowie Daten von Personen verarbeitet, die unserer Firma ihre Personalien willentlich (persönlich, telefonisch, per Fax oder per E-Mail) sowie durch Registrierung auf unserer Webseite mitteilen, sowie von Personen, deren Daten durch Dritte, zum Beispiel bei der Erfassung von externen Daten für geschäftliche Informationen, öffentlichen Verzeichnissen usw. übernommen wurden, wobei es sich im letzteren Fall ausschließlich um persönliche Daten gemeiner/gewöhnlicher Art und Natur handelt<br/>Unser Betrieb garantiert im Rahmen der gesetzlichen Vorgaben, dass die Verarbeitung der persönlichen Daten unter Berücksichtigung der grundlegenden Rechte und Freiheiten sowie der Würde des Betroffenen, mit besonderem Bezug auf die Geheimhaltung, die persönliche Identität und das Recht auf Schutz der persönlichen Daten, erfolgt.",
+    },
+    goals: {
+      title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
+      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+      1: "Erfüllung von gesetzlichen Pflichten, Pflichten aus Verordnunge, Gemeinschaftsnormen sowie zivil- und steuerrechtlichen Gesetzen",
+      2: "Erfüllung eventueller vertraglicher Verpflichtungen gegenüber dem Betroffenen",
+      3: "Erfüllung von Tätigkeiten in Verbindung mit der Geschäftstätigkeit unserer Firma, wie das Ausfüllen von internen Statistiken, zur Rechnungslegung sowie zur Führung der Kunden-/Lieferantenbuchhaltung",
+      4: "Zielstellungen geschäftlicher Art wie die Zusendung von Geschäftsinformationen und Werbematerial (per Post, Fax und E-Mail), Marketing und Marktuntersuchungen",
+      5: "Schutz der Forderungen und Verwaltung der Verbindlichkeiten",
+      6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
+    },
+    distribution: {
+      title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
+      text: "",
+      pre: "In Bezug auf die oben angegebenen Zielstellungen werden Ihre persönlichen Daten bei Bedarf weitergeleitet",
+      1: "an die öffentlichen Verwaltungen und Behörden, wenn dies gesetzlich vorgesehen ist",
+      2: "an Kreditinstitute, mit denen unsere Firma Geschäftsbeziehungen zur Verwaltung von Forderungen/Verbindlichkeiten und zur Finanzierungsvermittlung unterhält",
+      3: "an alle jenen natürlichen und/oder juristischen, öffentlichen und/oder privaten Personen (Rechts-, Verwaltungs- und Steuerberatungsbüros, Gerichte, Handelskammern usw.), wenn sich die Weiterleitung als notwendig oder zur Ausübung unserer Tätigkeit zweckdienlich erweist.",
+      4: "an Lieferanten/Hersteller, wenn dies für die Registrierung der Produkte erforderlich ist.",
+      post: "Die von unserem Betrieb verarbeiteten, persönlichen Daten unterliegen nicht der Verbreitung.",
+    },
+    type: {
+      title: "Art der Datenverarbeitung:",
+      text: "Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von uns verwendeten Cookies sind so genannte &quot;Session-Cookies&quot;. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.",
+    },
+    cookies: {
+      title: "Cookie",
+      text: "Die Datenverarbeitung kann mit oder ohne Hilfe elektronischer, auf jeden Fall automatischer Mittel erfolgen und umfasst alle im Art. 4, Absatz 1, Buchstabe a des gesetzesvertretenden Dekretes Nr. 196 vom 30. Juni 2003 vorgesehenen und für die betreffende Datenverarbeitung erforderlichen Vorgänge. In jedem Fall wird die Datenverarbeitung unter Einhaltung aller Sicherheitsmaßnahmen durchgeführt, die deren Sicherheit und Geheimhaltung gewährleisten.",
+    },
+    rights: {
+      title: "Rechte des Betroffenen",
+      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an ranzi.johann@gmail.com geltend gemacht werden.",
+    },
+  },
+  imprint: {
+    title: "Haftung für Inhalte der Webseite und Hyperlinks",
+    text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
   },
   footer: {
     imprint: "Imprint",
