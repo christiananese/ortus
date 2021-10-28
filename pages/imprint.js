@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
 import translations from "../data/home";
 
-function Imprint() {
+function Imprint({ intl }) {
   return (
-    <Layout title="Ortus">
+    <Layout title="Ortus" intl={intl}>
       <div className="flex flex-col justify-center items-center max-w-4xl mx-auto px-4 py-16 md:pt-24 text-center">
         <h1 className="text-4xl md:text-5xl font-serif text-secondary">
           Impressum
