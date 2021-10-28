@@ -63,7 +63,7 @@ export const de = {
       cardTitle: "Naturbad Gargazon",
       title: "Naturbad Gargazon",
       excerpt: "Eintauchen und genießen im Naturbad Gargazon",
-      text: "",
+      text: "Das Naturschwimmbad ist in einen Badebereich und in einen grünen Regenerationsbereich unterteilt. Dieser besteht aus einem wunderbaren Areal aus Pflanzen, welche für die natürliche Wasserreinigung sorgen und somit wird vollständig auf eine chemische Wasserreinigung verzichtet.<br/>Das Naturbad ist von Nals aus leicht über den Fahrradweg entlang der Etsch zu erreichen.",
       hero: {
         path: "/slider/tinified/rose.jpg",
         width: 1800,
@@ -77,7 +77,7 @@ export const de = {
       excerpt: "Das historisch bedeutendste Schloss Südtirols",
       text: "Schloss Tirol ist das historisch bedeutendste Schloss Südtirols. Seine Entstehungsgeschichte reicht bis ins 11. Jahrhundert zurück und war die einstige Stammburg der Grafen Tirols. Heute beherbergt Schloss Tirol das Südtiroler Landesmuseum für Kultur- und Landesgeschichte sowie das Pflegezentrum für Vogelfauna mit seiner beeindruckenden Greifvogel-Flugschau.",
       hero: {
-        path: "/slider/tinified/knotten.png",
+        path: "/slider/tinified/tirol.jpg",
         width: 5456,
         height: 3637,
         imageAlt: "Foto des Hofes",
