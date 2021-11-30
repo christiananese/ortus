@@ -143,7 +143,19 @@ export const de = {
     title: "Über uns",
     text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Schneeschuhwanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
     carFree:
-      "Autofrei unterwegs? Hier für Sie die Fahrpläne für Bus und Bahn, aktuelle Meldungen sowie alle Infos zum öffentlichen Nahverkehr:<br/><br/><a href='https://suedtirolmobil.info/' class='underline hover:text-secondary'www.suedtirolmobil.info</a>",
+      "Autofrei unterwegs? Hier für Sie die Fahrpläne für Bus und Bahn, aktuelle Meldungen sowie alle Infos zum öffentlichen Nahverkehr:<br/><br/><a href='https://suedtirolmobil.info/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
+    route: {
+      title: "Anfahrt",
+      maps: "Zu Google Maps",
+      resia: {
+        title: "Anfahrt über den Reschen",
+        text: "Bei Meran auf die MeBo Richtung Bozen auffahren, Ausfahrt Nals /Vilpian, rechts Richtung Nals, den Kreisverkehr an der 2. Ausfahrt verlassen, nach 1,2 km links auf Schwanburgerstraße abbiegen, nach 300 m links auf Andreas-Hofer-Straße, nach 200 m (bei Wegkreuz) links abbiegen auf Manteleweg, nach 100 m rechts 🡪 Ortus.",
+      },
+      brennero: {
+        title: "Anfahrt über die Brennerautobahn",
+        text: "Die Brennerautobahn bei Ausfahrt Bozen Süd verlassen, auf MeBo Richtung Meran auffahren, Ausfahrt Nals/Vilpian, links Richtung Nals, den Kreisverkehr an der 2. Ausfahrt verlassen, nach 1,2 km links auf Schwanburgerstraße abbiegen, nach 300 m links auf Andreas-Hofer-Straße, nach 200 m (bei Wegkreuz) links abbiegen auf Manteleweg, nach 100 m rechts 🡪 Ortus.",
+      },
+    },
     extras: {
       title: "Zusatzleistung",
       text: "Abholdienst von der nächstgelegenen Bahn- oder Busstation",
@@ -213,6 +225,9 @@ export const de = {
     address: "I - 39010 Nals - Manteleweg 2",
     route: "Anfahrt",
     vatId: "MwSt. Nr. IT 01754860219",
+  },
+  links: {
+    aboutUs: "/ueber-uns",
   },
 };
 
@@ -358,6 +373,19 @@ export const it = {
     text: "Il nostro maso biologico si trova a Nalles. In mezzo ai vigneti si affaccia sulla val d&#39;Adige. Le cittá Merano e Bolzano sono ciascuna a 15 chilometri di distanza. Coltiviamo uva rosse e bianche delle varietá Cabernet Franc e Merlot, Chardonnay e Souvignier gris. Nei nostri frutteti e nell&#39;orto troverete mele, vari frutti,ortaggi ed erbe.<br/><br/>Per conoscere meglio il nostro mondo sudtirolese Vi invitiamo a visite guidate nei nostri vigneti, alle festività di solstizi sia d&#39;estate che d&#39;inverno, a castagnate, a fare ciaspolate, a fare insieme i canederli e pane della zona, a fare e mangiare insieme la pizza.",
     carFree:
       "Arrivate con il trasporto pubblico? Qui trovate tutti gli orari di autobus e treno in Alto Aldige nonché altre informazioni utili sui nostri mezzi pubblici.<br/><br/><a href='https://suedtirolmobil.info/it/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
+    route: {
+      title: "Come trovarci",
+      text: "Servizio di shuttle dalla stazione di treno o bus piú vicina",
+      maps: "Vedi su Google Maps",
+      resia: {
+        title: "Dal Passo Resia:",
+        text: "A Merano prendete la MeBo in direzione Bolzano, uscita Nalles/Vilpiano, girate a destra verso Nalles, prendete la seconda uscita della rotatoria, dopo 1,2 km girate a sinistra sulla via Schwanburger, dopo 300 m girate a sinistra sulla via Andreas Hofer, poi dopo 200 m girate a sinistra sul vicolo Mantele, dopo 100 m sulla destra: Ortus.",
+      },
+      brennero: {
+        title: "Dall’autostrada del Brennero:",
+        text: "Lasciate l’autostrada del Brennero prendendo l’uscita di Bolzano Sud, prendete la MeBo in direzione Merano, uscita Nalles/Vilpiano, girate a destra verso Nalles, prendete la seconda uscita della rotatoria, dopo 1,2 km girate a sinistra sulla via Schwanburger, dopo 300 m girate a sinistra sulla via Andreas Hofer, poi dopo 200 m girate a sinistra sul vicolo Mantele, dopo 100 m sulla destra 🡪 Ortus.",
+      },
+    },
     extras: {
       title: "Servizio aggiuntivo",
       text: "Servizio di shuttle dalla stazione di treno o bus piú vicina",
@@ -427,6 +455,9 @@ export const it = {
     address: "I - 39010 Nalles - vicolo Mantele 2",
     route: "Come trovarci",
     vatId: "P.IVA IT 01754860219",
+  },
+  links: {
+    aboutUs: "/it/su-di-noi",
   },
 };
 
@@ -576,6 +607,19 @@ export const en = {
     text: "Our organic farm is surrounded by vineyards and apple orchards in the middle of the Etsch valley distancing approximately 15 kilometres from the cities Meran and Bozen. We produce red and white grapes of the varieties Cabernet Franc, Merlot, Chardonnay and Souvignier gris. In addition you find us growing apples and many other, often also rare, types of fruits, vegetables and herbs.",
     carFree:
       "Coming without car? Here you can find timetables for train and bus as well as any other useful information regarding our public transport.<br/><br/><a href='https://suedtirolmobil.info/en/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
+    route: {
+      title: "Anfahrt",
+      text: "Servizio di shuttle dalla stazione di treno o bus piú vicina",
+      maps: "Show me on Google Maps",
+      resia: {
+        title: "From Reschen:",
+        text: "When arrived in Merano you head south on the MeBo until the exit Nalles/Vilpiano, where you take the right turn into Nalles. In the roundabout you take the second exit, after 1,2km you turn left on the via Schwanburger, after 300m you take another left turn on the via Andreas Hofer, then after 200m you turn left in the vicolo Mantele and ultimately after 100m you can find Ortus on the right side.",
+      },
+      brennero: {
+        title: "From autostrada del Brennero:",
+        text: "Take the exit Bolzano Sud and head north on the MeBo untile the exit Nalles/Vilpiano, where you take the right turn into Nalles. In the roundabout you take the second exit, after 1,2km you turn left on the via Schwanburger, after 300m you take another left turn on the via Andreas Hofer, then after 200m you turn left in the vicolo Mantele and ultimately after 100m you can find Ortus on the right side.",
+      },
+    },
     extras: {
       title: "Additional service",
       text: "Shuttle service from the closest railway or bus station",
@@ -645,6 +689,9 @@ export const en = {
     address: "I - 39010 Nalles - vicolo Mantele 2",
     route: "How to find us",
     vatId: "VAT id IT 01754860219",
+  },
+  links: {
+    aboutUs: "/about-us",
   },
 };
 

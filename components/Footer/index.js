@@ -1,11 +1,12 @@
 import React from "react";
 import s from "./Footer.module.css";
 import Image from "next/image";
-import Button from "../Button";
 import Link from "next/link";
-import { de } from "../../data/home";
 
 function Footer({ intl }) {
+  const linkText = intl.links.aboutUs;
+  const da = intl?.footer;
+  console.log("DASDASDASD ", linkText);
   return (
     <footer className={s.section}>
       <div className={s.container}>
@@ -22,7 +23,7 @@ function Footer({ intl }) {
                 />
               </div>
               <div className="pt-8 pb-4">
-                <div>{intl.address}</div>
+                <div>{da.address}</div>
               </div>
               <a
                 href="tel:+393388328978"
@@ -36,16 +37,9 @@ function Footer({ intl }) {
               >
                 info@ortus.bz.it
               </a>
-              <Button
-                className={s.btn}
-                variant="ghost"
-                Component="a"
-                href="https://www.google.com/maps/place/Manteleweg,+2,+39010+Nals,+S%C3%BCdtirol/data=!4m2!3m1!1s0x4782977c8a8dd51f:0x5d639575cee3b575?sa=X&ved=2ahUKEwiI7uTi_8vyAhWFzKQKHZmDCDoQ8gF6BAgLEAE"
-                target="_blank"
-                rel="noopener"
-              >
-                {intl.route}
-              </Button>
+              <Link href={linkText} target="_blank" rel="noopener">
+                <a className={s.btn}>{da.route}</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -60,15 +54,15 @@ function Footer({ intl }) {
         <nav className="flex w-full items-center md:pb-8">
           <ul className="flex flex-wrap mx-auto text-center justify-center">
             <li className="px-2">
-              <Link href="/imprint">{intl.imprint}</Link>
+              <Link href="/imprint">{da.imprint}</Link>
             </li>
             <li className="px-2">
-              <Link href="/privacy">{intl.privacy}</Link>
+              <Link href="/privacy">{da.privacy}</Link>
             </li>
             {/* <li className="px-2">
               <Link href="/">{intl.cookies}</Link>
             </li> */}
-            <li className="px-2">{intl.vatId}</li>
+            <li className="px-2">{da.vatId}</li>
           </ul>
         </nav>
       </div>

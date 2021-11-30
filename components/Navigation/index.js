@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 function Navigation({ intl }) {
+  const da = intl.navigation;
+  const about = intl.links.aboutUs;
+
   return (
     <section className={s.section}>
       <div className={s.container}>
@@ -11,16 +14,16 @@ function Navigation({ intl }) {
           <div className={s.center}>
             <ul className={s.left}>
               <li>
-                <Link href="/surroundings">
+                <Link href={"/surroundings"}>
                   <a className="text-default hover:text-primary-hover uppercase leading-8 font-medium tracking-wide">
-                    {intl.surroundings}
+                    {da.surroundings}
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/about-us">
+                <Link href={about}>
                   <a className="text-default hover:text-primary-hover flex-shrink-0 uppercase leading-8 font-medium tracking-wide">
-                    {intl.aboutUs}
+                    {da.aboutUs}
                   </a>
                 </Link>
               </li>
@@ -40,7 +43,7 @@ function Navigation({ intl }) {
               <li>
                 <Link href="/request">
                   <a className="bg-primary cursor-pointer py-2 px-4 inline-flex font-semibold text-center justify-center items-center text-primary border-primary transition ease-in-out duration-150 tracking-wider uppercase">
-                    {intl.cta}
+                    {da.cta}
                   </a>
                 </Link>
               </li>

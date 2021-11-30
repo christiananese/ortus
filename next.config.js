@@ -15,9 +15,14 @@ module.exports = {
         source: "/emozioni/:slug",
         destination: "/it/surroundings/:slug",
       },
+      {
+        source: "/ueber-uns",
+        destination: "/de/about-us",
+      },
+      {
+        source: "/su-di-noi",
+        destination: "/it/about-us",
+      },
     ];
-  },
-  images: {
-    domains: ["preview.cruip.com"],
   },
 };
