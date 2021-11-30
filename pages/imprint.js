@@ -20,7 +20,7 @@ function Imprint({ intl }) {
           <br />
           Südtirol - Italien
           <br />
-          Tel <a href="tel:+393488744474">+39 348 8744474</a>
+          Tel <a href="tel:+393388328978">+39 338 8328978</a>
           <br />
           MwSt. Nr. 01754860219
           <br />

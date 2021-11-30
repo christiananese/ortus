@@ -14,7 +14,7 @@ function TopNav() {
           <div className={s.center}>
             <div className={s.iconContainer}>
               <a
-                href="tel:+393488744474"
+                href="tel:+393388328978"
                 className="bg-primary text-white inline-flex p-2 hover:bg-primary-hover transition-colors"
               >
                 <PhoneIcon className="w-6 h-6" />

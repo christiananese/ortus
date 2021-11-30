@@ -26,7 +26,7 @@ function BottomNav({ intl }) {
             <li className="bg-primary text-white inline-flex justify-center hover:rounded hover:bg-primary-hover">
               <a
                 className="py-6 px-4 w-full inline-flex justify-center"
-                href="tel:+393488744474"
+                href="tel:+393388328978"
               >
                 <PhoneIcon className="w-6 h-6" />
               </a>

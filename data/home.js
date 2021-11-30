@@ -16,7 +16,7 @@ export const de = {
   },
   slider: {
     title: "Unterkunft",
-    text: "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+    text: "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 2 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
     button: "Mehr erfahren",
   },
   enquiry: {
@@ -448,7 +448,7 @@ export const en = {
   },
   slider: {
     title: "Apartment",
-    text: "This flat is for 3 to 6 persons, so ideal for families of various sizes. Of course as a couple or single you could just enjoy the additional space and light.",
+    text: "This flat is for 2 to 6 persons, so ideal for families of various sizes. Of course as a couple or single you could just enjoy the additional space and light.",
     button: "Show more",
   },
   enquiry: {
