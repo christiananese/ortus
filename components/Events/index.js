@@ -21,7 +21,7 @@ function Events({ exclude, intl, showAll }) {
                 <EventCard
                   title={intl.nals.cardTitle}
                   description={intl.nals.excerpt}
-                  img="/slider/tinified/haus.png"
+                  img="/slider/tinified/nals.jpg"
                   link="/surroundings/nals"
                 />
               )}

@@ -1,5 +1,4 @@
 import React from "react";
-import s from "./slider.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 import Image from "next/image";
@@ -32,7 +31,7 @@ function Slider() {
               src="/slider/tinified/haus.png"
               width="1200"
               height="800"
-              alt="hey ho"
+              alt="Haus Frontansicht"
             />
           )}
         </SwiperSlide>
@@ -45,7 +44,7 @@ function Slider() {
               src="/slider/tinified/traktor.png"
               width="1200"
               height="800"
-              alt="Da fuck"
+              alt="Traktor"
             />
           )}
         </SwiperSlide>
@@ -55,10 +54,10 @@ function Slider() {
               className={`max-w-full h-auto ${
                 isActive ? "opacity-100" : "opacity-30"
               }`}
-              src="/slider/tinified/knotten.png"
+              src="/slider/tinified/haus2.png"
               width="1200"
               height="800"
-              alt="Carousel image"
+              alt="Haus Seitenansicht mit Blick aufs Schloss"
             />
           )}
         </SwiperSlide>
@@ -71,7 +70,7 @@ function Slider() {
               src="/slider/tinified/katze.png"
               width="1200"
               height="800"
-              alt="es laeuft"
+              alt="Unsere Hauskatze"
             />
           )}
         </SwiperSlide>

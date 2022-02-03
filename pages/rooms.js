@@ -1,21 +1,135 @@
 import Link from "next/link";
 import Events from "../components/Events";
-import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 
 import translations from "../data/home";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper";
+import Image from "next/image";
+
+import "swiper/swiper-bundle.min.css";
+
+SwiperCore.use([Navigation]);
 
 function Rooms({ slug, intl }) {
   const da = intl.rooms;
 
   return (
     <Layout title="Umgebung" intl={intl}>
-      <Hero
-        imgUrl={"/room/kitchen.jpg"}
-        width={4608}
-        height={2128}
-        intl={{ imageAlt: "Living room" }}
-      />
+      <div className="relative pt-12 pb-10 md:pt-24 md:pb-16 mb-8 sm:mb-0">
+        <Swiper
+          spaceBetween={24}
+          slidesPerView={"auto"}
+          centeredSlides={true}
+          grabCursor={true}
+          loop={true}
+          className="overflow-visible"
+          navigation={{
+            prevEl: ".prev-arrow",
+            nextEl: ".next-arrow",
+          }}
+        >
+          <SwiperSlide className="max-w-4xl">
+            {({ isActive }) => (
+              <Image
+                className={`max-w-full h-auto ${
+                  isActive ? "opacity-100" : "opacity-30"
+                }`}
+                src="/room/slider/kitchen.png"
+                alt="Küche mit Blick auf die Terasse"
+                width="1200"
+                height="800"
+              />
+            )}
+          </SwiperSlide>
+          <SwiperSlide className="max-w-4xl">
+            {({ isActive }) => (
+              <Image
+                className={`max-w-full h-auto ${
+                  isActive ? "opacity-100" : "opacity-30"
+                }`}
+                src="/room/slider/living.png"
+                alt="Küche mit Blick auf die Terasse"
+                width="1200"
+                height="800"
+              />
+            )}
+          </SwiperSlide>
+          <SwiperSlide className="max-w-4xl">
+            {({ isActive }) => (
+              <Image
+                className={`max-w-full h-auto ${
+                  isActive ? "opacity-100" : "opacity-30"
+                }`}
+                src="/room/slider/roomA.png"
+                alt="Erstes Schlafzimmer"
+                width="1200"
+                height="800"
+              />
+            )}
+          </SwiperSlide>
+          <SwiperSlide className="max-w-4xl">
+            {({ isActive }) => (
+              <Image
+                className={`max-w-full h-auto ${
+                  isActive ? "opacity-100" : "opacity-30"
+                }`}
+                src="/room/slider/roomB.png"
+                alt="Zweites Schlafzimmer"
+                width="1200"
+                height="800"
+              />
+            )}
+          </SwiperSlide>
+          <SwiperSlide className="max-w-4xl">
+            {({ isActive }) => (
+              <Image
+                className={`max-w-full h-auto ${
+                  isActive ? "opacity-100" : "opacity-30"
+                }`}
+                src="/room/slider/bath.png"
+                alt="Badezimmer"
+                width="1200"
+                height="800"
+              />
+            )}
+          </SwiperSlide>
+        </Swiper>
+        <div className="flex w-full justify-end sm:justify-between text-white max-w-[960px] mx-auto absolute left-0 right-0 bottom-0 sm:top-1/2 sm:bottom-auto sm:-translate-y-1/2 z-10">
+          <div className="mr-4 sm:mr-0 sm:ml-2 md:ml-0 p-3 md:p-4 flex items-center justify-center bg-primary prev-arrow cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </div>
+          <div className="mr-4 sm:mr-2  md:mr-0 p-3 md:p-4 flex items-center justify-center bg-primary next-arrow cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
       <div className="grid items-center md:grid md:gap-12 md:grid-cols-12 lg:gap-20">
         <div className="col-span-10 md:col-start-2 md:col-span-10 flex flex-col justify-center items-center text-center">
           <h1
