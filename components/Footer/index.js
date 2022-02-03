@@ -3,10 +3,17 @@ import s from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function Footer({ intl }) {
+const ROTER_HAHN = {
+  de: "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof-in-suedtirol/ferienwohnungen-und-zimmer/bauernhof-urlaub/ortus-nals+5850.html",
+  it: "https://www.gallorosso.it/it/agriturismo-in-alto-adige/appartamenti-e-camere-in-alto-adige/maso/ortus-nalles+5850.html",
+  en: "https://www.redrooster.it/en/farm-holidays-in-south-tyrol/holiday-flats-in-south-tyrol/detail/ortus-nals+5850.html",
+};
+
+function Footer({ intl, locale }) {
   const linkText = intl.links.aboutUs;
   const da = intl?.footer;
-  console.log("DASDASDASD ", linkText);
+  const hahn_link = ROTER_HAHN[locale] || ROTER_HAHN["de"];
+
   return (
     <footer className={s.section}>
       <div className={s.container}>
@@ -66,13 +73,23 @@ function Footer({ intl }) {
           </ul>
         </nav>
       </div>
-      <div className="w-full flex items-center justify-center max-w-[80px] mx-auto py-4">
+      <div className="w-full grid grid-cols-2 gap-4 items-center justify-between max-w-[180px] mx-auto py-4 pb-24 md:pb-0">
         <Image
           src="/s_tirol.png"
           height="331"
           width="440"
           alt="Suedtirol Dachmarke logo"
         />
+        <Link href={hahn_link} rel="noopener">
+          <a target="_blank">
+            <Image
+              src="https://www.roterhahn.it/img/logo_roter_hahn.gif"
+              height="90"
+              width="90"
+              alt="Suedtirol Dachmarke logo"
+            />
+          </a>
+        </Link>
       </div>
     </footer>
   );

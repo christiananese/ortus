@@ -42,16 +42,13 @@ const req = async (req, res) => {
     ${yourMessage}\r\n
   `;
 
-  console.log("HE ", message);
-
   sendgrid.send({
-    to: "christian.anese@gmail.com",
+    to: "info@ortus.bz.it",
     from: "info@ortus.bz.it",
     subject: "Neue Anfrage",
     text: message,
     html: message.replace(/\r\n/g, "<br>"),
   });
-  /* templateId: "d-e9ca43eb4724468faa9e6bc4172b971f", */
 
   try {
     return res.status(201).json({ error: "" });

@@ -4,6 +4,9 @@ module.exports = {
     locales: ["de", "en", "it"],
     defaultLocale: "de",
   },
+  images: {
+    domains: ["www.roterhahn.it"],
+  },
   async rewrites() {
     return [
       {

@@ -5,7 +5,7 @@ import BottomNav from "../BottomNav";
 import Footer from "../Footer";
 import TopNav from "../TopNav";
 
-function Layout({ children, title, intl }) {
+function Layout({ children, title, intl, locale }) {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Head>
@@ -18,7 +18,7 @@ function Layout({ children, title, intl }) {
         <Navigation intl={intl} />
         {children}
       </main>
-      <Footer intl={intl} />
+      <Footer intl={intl} locale={locale} />
       <BottomNav intl={intl.navigation} />
     </div>
   );

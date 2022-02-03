@@ -9,9 +9,8 @@ import Layout from "../components/Layout";
 import translations from "../data/home";
 
 export default function Home({ intl, loc }) {
-  console.log("INTL ", loc);
   return (
-    <Layout title="Ortus" intl={intl}>
+    <Layout title="Ortus" intl={intl} locale={loc}>
       <Hero intl={intl.hero} />
       <Intro intl={intl.intro} />
       <Slider intl={intl.slider} />
