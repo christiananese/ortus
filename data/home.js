@@ -10,7 +10,7 @@ export const de = {
   intro: {
     title: "Unser Neuanfang",
     description:
-      "Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns so einen langersehnten Traum verwirklicht. Das Haus wurde als KlimaHaus Nature errichtet, ein Haus, das die moderne Architektur mit der schlichten Erhabenheit der Natur verbindet. Wichtig waren uns dabei die Energieeffizienz, die Nachhaltigkeit und Natürlichkeit der Baumaterialien, um ein angenehmes und gesundes Raumklima zu schaffen - Voraussetzung für das Wohlbefinden und die Gesundheit seiner Bewohner.",
+      "Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns so einen langersehnten Traum verwirklicht. Das Haus wurde als KlimaHaus Nature errichtet, ein Haus, das die moderne Architektur mit der schlichten Erhabenheit der Natur verbindet. Wichtig waren uns dabei die Energieeffizienz, die Nachhaltigkeit und die Natürlichkeit der Baumaterialien, um ein angenehmes und gesundes Raumklima zu schaffen - Voraussetzung für das Wohlbefinden und die Gesundheit seiner Bewohner.",
     text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unserer Ferienwohnung ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht wird.",
     button: "Mehr dazu",
   },
@@ -120,13 +120,13 @@ export const de = {
   rooms: {
     title: "Unterkunft",
     intro:
-      "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 3 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
+      "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 2 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
     ammenities:
       "Die Wohnung liegt im Obergeschoss und ist über eine Außentreppe zu erreichen. Sie besteht aus 2 Schlafzimmern, einem Kinderspielzimmer, einem offenen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit vier Keramikkochfeldern, Kühlschrank mit Gefrierfach, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, Flachbildfernseher mit Satellitenanschluss, einem Badezimmer mit Dusche, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
     terrace:
       "Vom Wohnraum aus erreicht man die 80 m² große Terrasse, die zum Teil überdacht ist. Sie bietet einen unvergleichlichen Blick über das gesamte Etschtal von Meran bis nach Bozen und ein wunderbares Bergpanorama. Bei einem gemütlichen Frühstück können Sie die ersten Sonnenstrahlen begrüßen, den Abend beim Grillen und bei einem guten Glas ausklingen lassen.",
     ammenities2:
-      "Dazu kommt noch Fußbodenheizung, kontrollierte Wohnraumlüftung, kostenlosem WLAN, Tischgarnitur im Freien, Grillmöglichkeit, Liegestühle, Bücherregal mit Lesestoff für Groß und Klein.",
+      "Dazu kommen noch Fußbodenheizung, kontrollierte Wohnraumlüftung, kostenloses WLAN, Tischgarnitur im Freien, Grillmöglichkeit, Liegestühle, Bücherregal mit Lesestoff für Groß und Klein.",
     extras:
       "Bettwäsche, Handtücher und Geschirrtücher werden zur Verfügung gestellt.",
     extras2:
@@ -135,13 +135,13 @@ export const de = {
     pricing: "100 - 140 €",
     cta: "Jetzt anfragen",
     pricingInfo:
-      "*Alle Preise verstehen sich bei einer Belegung von 2 Personen und einem Aufenthalt von mindestens 3 Nächten. Für jede weitere Person berechnen wir 10 Euro pro Tag, Kinder bis 5 Jahren wohnen bei uns kostenlos. Endreinigung, Strom und Heizung sind im Preis inbegriffen.",
+      "*Alle Preise verstehen sich bei einer Belegung von 2 Personen und einem Aufenthalt von mindestens 3 Nächten. Für jede weitere Person berechnen wir 10 Euro pro Tag, Kinder bis 10 Jahre wohnen bei uns kostenlos. Endreinigung, Strom und Heizung sind im Preis inbegriffen. Benötigen Sie einen kostenlosen Stornoschutz? Diesen finden Sie <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=DE&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn&productCode=USS'>hier.</a>",
     localTax:
       "Mit 1. Jänner 2014 wurde in Südtirol die Ortstaxe eingeführt. Die Ortstaxe wird pro Gast und Nacht eingehoben und beträgt 0,85 Euro. Kinder unter 14 Jahren sind von der Abgabe befreit. Die Ortstaxe ist im angegebenen Preis nicht enthalten und kann nur vor Ort in bar bezahlt werden.",
   },
   aboutUs: {
     title: "Über uns",
-    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Schneeschuhwanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
+    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Schneeschuhwanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
     carFree:
       "Autofrei unterwegs? Hier für Sie die Fahrpläne für Bus und Bahn, aktuelle Meldungen sowie alle Infos zum öffentlichen Nahverkehr:<br/><br/><a href='https://suedtirolmobil.info/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
     route: {
@@ -169,23 +169,23 @@ export const de = {
       text: "In Sinne des Art. 13 des gesetzesvertretenden Dekrets Nr. 196 vom 30. Juni 2003 INFORMIEREN wir darüber, dass das Unternehmen Ranzi Johann persönliche Daten von Kunden und Lieferanten sowie Daten von Personen verarbeitet, die unserer Firma ihre Personalien willentlich (persönlich, telefonisch, per Fax oder per E-Mail) sowie durch Registrierung auf unserer Webseite mitteilen, sowie von Personen, deren Daten durch Dritte, zum Beispiel bei der Erfassung von externen Daten für geschäftliche Informationen, öffentlichen Verzeichnissen usw. übernommen wurden, wobei es sich im letzteren Fall ausschließlich um persönliche Daten gemeiner/gewöhnlicher Art und Natur handelt<br/>Unser Betrieb garantiert im Rahmen der gesetzlichen Vorgaben, dass die Verarbeitung der persönlichen Daten unter Berücksichtigung der grundlegenden Rechte und Freiheiten sowie der Würde des Betroffenen, mit besonderem Bezug auf die Geheimhaltung, die persönliche Identität und das Recht auf Schutz der persönlichen Daten, erfolgt.",
     },
     goals: {
-      title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
-      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
-      1: "Erfüllung von gesetzlichen Pflichten, Pflichten aus Verordnunge, Gemeinschaftsnormen sowie zivil- und steuerrechtlichen Gesetzen",
+      1: "Erfüllung von gesetzlichen Pflichten, Pflichten aus Verordnungen, Gemeinschaftsnormen sowie zivil- und steuerrechtlichen Gesetzen",
       2: "Erfüllung eventueller vertraglicher Verpflichtungen gegenüber dem Betroffenen",
       3: "Erfüllung von Tätigkeiten in Verbindung mit der Geschäftstätigkeit unserer Firma, wie das Ausfüllen von internen Statistiken, zur Rechnungslegung sowie zur Führung der Kunden-/Lieferantenbuchhaltung",
       4: "Zielstellungen geschäftlicher Art wie die Zusendung von Geschäftsinformationen und Werbematerial (per Post, Fax und E-Mail), Marketing und Marktuntersuchungen",
       5: "Schutz der Forderungen und Verwaltung der Verbindlichkeiten",
       6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
+      title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
+      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
     },
     distribution: {
-      title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
-      text: "",
-      pre: "In Bezug auf die oben angegebenen Zielstellungen werden Ihre persönlichen Daten bei Bedarf weitergeleitet",
       1: "an die öffentlichen Verwaltungen und Behörden, wenn dies gesetzlich vorgesehen ist",
       2: "an Kreditinstitute, mit denen unsere Firma Geschäftsbeziehungen zur Verwaltung von Forderungen/Verbindlichkeiten und zur Finanzierungsvermittlung unterhält",
       3: "an alle jenen natürlichen und/oder juristischen, öffentlichen und/oder privaten Personen (Rechts-, Verwaltungs- und Steuerberatungsbüros, Gerichte, Handelskammern usw.), wenn sich die Weiterleitung als notwendig oder zur Ausübung unserer Tätigkeit zweckdienlich erweist.",
       4: "an Lieferanten/Hersteller, wenn dies für die Registrierung der Produkte erforderlich ist.",
+      title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
+      text: "",
+      pre: "In Bezug auf die oben angegebenen Zielstellungen werden Ihre persönlichen Daten bei Bedarf weitergeleitet",
       post: "Die von unserem Betrieb verarbeiteten, persönlichen Daten unterliegen nicht der Verbreitung.",
     },
     type: {
@@ -198,7 +198,7 @@ export const de = {
     },
     rights: {
       title: "Rechte des Betroffenen",
-      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an ranzi.johann@gmail.com geltend gemacht werden.",
+      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an info@ortus.bz.it geltend gemacht werden.",
     },
   },
   imprint: {
@@ -244,7 +244,7 @@ export const it = {
     title: "Un passo verso il futuro",
     description:
       "Con la costruzione del nostro maso, terminata nel 2019, abbiamo realizzato un nostro sogno da lungo atteso. L'edificio é stato realizzato come CasaClima Nature, unendo in tal modo l'architettura moderna con la semplicitá della natura. Fondamentali per questa scelta erano l'efficacia energetica, la sostenibilitá, ma soprattutto i materiali naturali ed il loro impatto sull’ambiente e sulla salute e il benessere delle persone che ci vivono.",
-    text: "Sul nostro maso abitano piú generazioni. Siamo convinti che questa simbiosi tra le generazioni, tra passato e futuro possa arricchire il presente. Con una vacanza intergenerazionale vorremmo trasmettere questa sensazione anche ai nostri ospiti offrendo lo spazio di cui hanno bisogno nei due appartamenti, tenendo conto delle necessità di ogni generazione.",
+    text: "Sul nostro maso abitano piú generazioni. Siamo convinti che questa simbiosi tra le generazioni, tra passato e futuro possa arricchire il presente. Con una vacanza intergenerazionale vorremmo trasmettere questa sensazione anche ai nostri ospiti offrendo lo spazio di cui hanno bisogno, tenendo conto delle necessità di ogni generazione.",
     button: "Mehr dazu",
   },
   slider: {
@@ -356,7 +356,7 @@ export const it = {
     terrace:
       "L'ampia terrazza di 80 m² é in parte coperta. Si affaccia sulla val d'Adige ed offre un' indimenticabile vista sulle città di Merano e Bolzano e le montagne circostanti. Iniziate la giornata godendovi una colazione a tutto relax e chiudete la serata con un barbeque gustando un bicchiere di vino.",
     ammenities2:
-      "A questo si aggiunge riscaldamento a pavimento, ventilazione controllata ed automatica del ricambio d'aria, impianto aspirapolvere, WiFi gratuito, tavoli e panche all'aperto, sedie da sdraio, barbeque, parco giochi, piccola biblioteca per grandi e piccoli.",
+      "A questo si aggiungono riscaldamento a pavimento, ventilazione controllata ed automatica del ricambio d'aria, impianto aspirapolvere, WiFi gratuito, tavoli e panche all'aperto, sedie da sdraio, barbeque, parco giochi, piccola biblioteca per grandi e piccoli.",
     extras: "Lenzuola, asciugamani e strofinacci vengono messi a disposizione.",
     extras2:
       "Si prega gentilmente di comunicare la necessità di lettino da bambino, seggiolone e fasciatoio al momento della prenotazione.",
@@ -364,7 +364,7 @@ export const it = {
     pricing: "100 - 140 €",
     cta: "Richiedi ora",
     pricingInfo:
-      "* I prezzi si intendono per 2 persone e per una permanenza minima di 3 notti. Per ogni persona aggiuntiva applichiamo un supplemento di 10,00 Euro, per bambini sotto i 5 anni non viene calcolato niente.",
+      "* I prezzi si intendono per 2 persone e per una permanenza minima di 3 notti. Per ogni persona aggiuntiva applichiamo un supplemento di 10,00 Euro, per bambini sotto i 10 anni non viene calcolato niente. Ha bisogno di una copertura assicurativa per la cancellazione vacanze senza costi aggiuntivi? <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=IT&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-it&productCode=USS'>Eccoci!</a>",
     localTax:
       "In base alle disposizioni di legge verrà applicata l’imposta di soggiorno obbligatoria pari a 0,85 Euro/cent per persona a notte. I bambini sotto i 14 anni sono esenti da suddetta imposta. L’imposta non è inclusa nel prezzo ed è pagabile solo in loco.",
   },
@@ -428,7 +428,7 @@ export const it = {
     },
     rights: {
       title: "Rechte des Betroffenen",
-      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an ranzi.johann@gmail.com geltend gemacht werden.",
+      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an info@ortus.bz.it geltend gemacht werden.",
     },
   },
   imprint: {
@@ -583,7 +583,7 @@ export const en = {
   rooms: {
     title: "Apartment",
     intro:
-      "This flat is for 3 to 6 persons, so ideal for families of various sizes. Of course as a couple or single you could just enjoy the additional space and light.",
+      "This flat is for 2 to 6 persons, so ideal for families of various sizes. Of course as a couple or single you could just enjoy the additional space and light.",
     ammenities:
       "The apartment is situated on the upper floor and can be accessed by an external staircase. It is composed of two bed rooms, a playroom, an open space living room with a pull-out couch. The kitchen is equipped with four ceramic hobs, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals.<br/>In the living room you can find a TV and in the bathroom not only a shower and a toilet, but also a bidet and a washing machine.",
     terrace:
@@ -598,7 +598,7 @@ export const en = {
     pricing: "100 - 140 €",
     cta: "Send enquiry",
     pricingInfo:
-      "*The prices indicated are valid for two people for a stay of at least three nights. For every person more we kindly ask an additional rate of 10 €. Children up to the age of one year will not be counted.",
+      "*The prices indicated are valid for two people for a stay of at least three nights. For every person more we kindly ask an additional rate of 10 €. Children up to the age of 10 years will not be counted. Do you need a holiday-cancellation cover? Click <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=EN&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-en&productCode=USS'>here!</a>",
     localTax:
       "Since 2014 we have a local rate, which is to be paid for every guest and every night and amounts to € 0,85 per night. This local rate is not included in our prices and has to be paid cash on the spot.",
   },
@@ -662,7 +662,7 @@ export const en = {
     },
     rights: {
       title: "Rechte des Betroffenen",
-      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an ranzi.johann@gmail.com geltend gemacht werden.",
+      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an info@ortus.bz.it geltend gemacht werden.",
     },
   },
   imprint: {
