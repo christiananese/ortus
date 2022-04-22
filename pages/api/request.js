@@ -42,13 +42,18 @@ const req = async (req, res) => {
     ${yourMessage}\r\n
   `;
 
-  sendgrid.send({
-    to: "christian.anese@gmail.com",
-    from: "info@ortus.bz.it",
-    subject: "Neue Anfrage",
-    text: message,
-    html: message.replace(/\r\n/g, "<br>"),
-  });
+  try {
+
+    sendgrid.send({
+      to: "christian.anese@gmail.com",
+      from: "info@ortus.bz.it",
+      subject: "Neue Anfrage",
+      text: message,
+      html: message.replace(/\r\n/g, "<br>"),
+    });
+  } catch (error) {
+   console.log("ERR SENDING EMAIL ",error)
+  }
 
   try {
     return res.status(201).json({ error: "" });
