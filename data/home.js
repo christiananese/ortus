@@ -116,6 +116,7 @@ export const de = {
     privacy: "Ich akzeptiere die ",
     privacyLink: "Datenschutzbestimmungen",
     sendRequest: "Anfrage senden",
+    success: "Anfrage wurde versendet"
   },
   rooms: {
     title: "Unterkunft",
@@ -349,6 +350,7 @@ export const it = {
     privacy: "Accetto la normativa sulla ",
     privacyLink: "privacy",
     sendRequest: "Invia Richiesta",
+    success: "Abbiamo ricevuto la tua richiesta"
   },
   rooms: {
     title: "Appartamento",
@@ -585,6 +587,7 @@ export const en = {
     privacy: "I accept the ",
     privacyLink: "privacy policy",
     sendRequest: "Send",
+    success: "We received your enquiry"
   },
   rooms: {
     title: "Apartment",

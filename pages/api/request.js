@@ -44,8 +44,8 @@ const req = async (req, res) => {
 
   try {
 
-    sendgrid.send({
-      to: "christian.anese@gmail.com",
+    await sendgrid.send({
+      to: "kirchlerbarbara@gmail.com",
       from: "info@ortus.bz.it",
       subject: "Neue Anfrage",
       text: message,

@@ -21,11 +21,13 @@ import translations from "../../data/home";
 import { Controller, useForm } from "react-hook-form";
 
 function Request({ startDate, endDate, people, children, intl, loc }) {
+
   const {
     register,
     handleSubmit,
     control,
-    formState: { errors },
+    reset,
+    formState: { errors, isSubmitSuccessful },
   } = useForm();
 
   dayjs.locale(loc);
@@ -55,6 +57,7 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
       },
       method: "POST",
     });
+    setTimeout(() => reset(), 2000);
   };
 
   console.log("Form Errors ", errors)
@@ -356,12 +359,16 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
           </label>
         </div>
         <div className="flex md:justify-end col-span-2 sm:col-span-1">
-          <Button
-            className="tracking-widest uppercase text-lg py-4 px-6 w-full md:w-auto"
-            type={"submit"}
-          >
-            {intl.request.sendRequest}
-          </Button>
+          {isSubmitSuccessful ?
+            intl.request.success
+          : (
+            <Button
+              className="tracking-widest uppercase text-lg py-4 px-6 w-full md:w-auto"
+              type={"submit"}
+            >
+              {intl.request.sendRequest}
+            </Button>
+          )}
         </div>
       </form>
       <div className="md:py-12">
