@@ -43,7 +43,7 @@ const req = async (req, res) => {
   `;
 
   sendgrid.send({
-    to: "info@ortus.bz.it",
+    to: "christian.anese@gmail.com",
     from: "info@ortus.bz.it",
     subject: "Neue Anfrage",
     text: message,
