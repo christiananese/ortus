@@ -57,6 +57,8 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
     });
   };
 
+  console.log("Form Errors ", errors)
+
   return (
     <Layout title="Ortus" intl={intl}>
       <form
