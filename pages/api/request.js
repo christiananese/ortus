@@ -20,7 +20,7 @@ const req = async (req, res) => {
     yourMessage,
   } = req.body;
 
-  if (!email) {
+  if (!email && !tel) {
     return res.status(400).json({ error: "Email is required" });
   }
 
@@ -28,9 +28,9 @@ const req = async (req, res) => {
     Hallo Barbara,\r\n
     ${firstName} ${lastName} hat dir eine neue Anfrage gestellt:\r\n
 
-    Zeitraum: ${dayjs(arrivalDate).format("MM.DD.YYYY")}  - ${dayjs(
+    Zeitraum: ${dayjs(arrivalDate).format("DD.MM.YYYY")}  - ${dayjs(
     departureDate
-  ).format("MM.DD.YYYY")}\r\n
+  ).format("DD.MM.YYYY")}\r\n
 
     Erwachsene: ${adults}\r\n
     Kinder: ${children}\r\n

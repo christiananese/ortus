@@ -294,7 +294,7 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
             name="tel"
             control={control}
             defaultValue=""
-            rules={{ required: true, minLength: 6, maxLength: 12 }}
+            rules={{ required: false, minLength: 6, maxLength: 12 }}
             render={({ field }) => (
               <Input placeholder={intl.request.tel} {...field} />
             )}
