@@ -280,14 +280,16 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
             className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
             placeholder={intl.request.lastName}
             {...register("lastName", { required: true })}
-          />
+            />
+            {errors.lastName && <span className="text-red-500">{intl.errors.invalid}</span>}
         </div>
         <div className="col-span-2">
           <input
             className="text-2xl mt-1 block w-full bg-gray-100 border-gray-300 focus:ring-primary-hover focus:border-primary-hover p-3 text-gray-800"
             placeholder={intl.request.email}
-            {...register("email", { required: false, pattern: /^\S+@\S+$/i })}
+            {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
           />
+          {errors.email && <span className="text-red-500">{intl.errors.invalid}</span>}
         </div>
         <div className="col-span-2">
           <Controller
@@ -299,6 +301,7 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
               <Input placeholder={intl.request.tel} {...field} />
             )}
           />
+          {errors.tel && <span className="text-red-500">{intl.errors.invalid}</span>}
         </div>
         <div className="col-span-2">
           <input
@@ -342,7 +345,7 @@ function Request({ startDate, endDate, people, children, intl, loc }) {
               type="checkbox"
               {...register("privacy", { required: true })}
             />
-            <span className="pl-2">
+            <span className={`pl-2 ${errors.privacy && "text-red-500 underline"}`}>
               {intl.request.privacy}
               <Link href="/privacy">
                 <a className="underline hover:text-secondary" target="_blank">

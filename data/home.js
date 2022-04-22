@@ -229,6 +229,9 @@ export const de = {
   links: {
     aboutUs: "/ueber-uns",
   },
+  errors: {
+    invalid: "Unqültige Eingabe",
+  },
 };
 
 export const it = {
@@ -458,6 +461,9 @@ export const it = {
   },
   links: {
     aboutUs: "/it/su-di-noi",
+  },
+  errors: {
+    invalid: "Non valido",
   },
 };
 
@@ -692,6 +698,9 @@ export const en = {
   },
   links: {
     aboutUs: "/about-us",
+  },
+  errors: {
+    invalid: "Invalid input",
   },
 };
 
