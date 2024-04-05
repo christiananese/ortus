@@ -11,7 +11,7 @@ export const de = {
     title: "Unser Neuanfang",
     description:
       "Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns so einen langersehnten Traum verwirklicht. Das Haus wurde als KlimaHaus Nature errichtet, ein Haus, das die moderne Architektur mit der schlichten Erhabenheit der Natur verbindet. Wichtig waren uns dabei die Energieeffizienz, die Nachhaltigkeit und die Natürlichkeit der Baumaterialien, um ein angenehmes und gesundes Raumklima zu schaffen - Voraussetzung für das Wohlbefinden und die Gesundheit seiner Bewohner.",
-    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.mit unseren Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
+    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
     button: "Mehr dazu",
   },
   slider: {
