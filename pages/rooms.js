@@ -450,7 +450,7 @@ function Rooms({ slug, intl }) {
           >
             {da.stornoLink}
             <Link href="/storno">
-              <span class='underline'>
+              <span className='underline'>
               {da.hereLink}
               </span>
               </Link>
