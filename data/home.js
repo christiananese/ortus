@@ -11,7 +11,7 @@ export const de = {
     title: "Unser Neuanfang",
     description:
       "Im Jahr 2019 haben wir unseren Hof Ortus fertiggestellt und uns so einen langersehnten Traum verwirklicht. Das Haus wurde als KlimaHaus Nature errichtet, ein Haus, das die moderne Architektur mit der schlichten Erhabenheit der Natur verbindet. Wichtig waren uns dabei die Energieeffizienz, die Nachhaltigkeit und die Natürlichkeit der Baumaterialien, um ein angenehmes und gesundes Raumklima zu schaffen - Voraussetzung für das Wohlbefinden und die Gesundheit seiner Bewohner.",
-    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unserer Ferienwohnung ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht wird.",
+    text: "Auf unserem Hof leben mehrere Generationen. Wir sind der Überzeugung, dass diese Symbiose zwischen Jung und Alt, zwischen Vergangenheit und Zukunft die Gegenwart bereichert und möchten das Gefühl eines Mehrgenerationenurlaubes auch unseren Gästen mit unseren Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.mit unseren Ferienwohnungen ermöglichen, welche den unterschiedlichen Bedürfnissen ihrer Bewohner gerecht werden.",
     button: "Mehr dazu",
   },
   slider: {
@@ -119,11 +119,11 @@ export const de = {
     success: "Anfrage wurde versendet"
   },
   rooms: {
-    title: "Unterkunft",
+    title: "Wohnung Terasse",
     intro:
       "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 2 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
     ammenities:
-      "Die Wohnung liegt im Obergeschoss und ist über eine Außentreppe zu erreichen. Sie besteht aus 2 Schlafzimmern, einem Kinderspielzimmer, einem offenen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit vier Keramikkochfeldern, Kühlschrank mit Gefrierfach, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, Flachbildfernseher mit Satellitenanschluss, einem Badezimmer mit Dusche, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
+      "Die Wohnung liegt im Obergeschoss und ist über eine Außentreppe zu erreichen. Sie besteht aus 2 Schlafzimmern, einem offenen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit vier Keramikkochfeldern, Kühlschrank mit Gefrierfach, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, Flachbildfernseher mit Satellitenanschluss, einem Badezimmer mit Dusche, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
     terrace:
       "Vom Wohnraum aus erreicht man die 80 m² große Terrasse, die zum Teil überdacht ist. Sie bietet einen unvergleichlichen Blick über das gesamte Etschtal von Meran bis nach Bozen und ein wunderbares Bergpanorama. Bei einem gemütlichen Frühstück können Sie die ersten Sonnenstrahlen begrüßen, den Abend beim Grillen und bei einem guten Glas ausklingen lassen.",
     ammenities2:
@@ -133,12 +133,22 @@ export const de = {
     extras2:
       "Auf Wunsch stellen wir für unsere kleinsten Gäste Babybett, Hochstuhl und Wickelauflage kostenlos zur Verfügung.",
     price: "Preise *",
-    pricing: "100 - 140 €",
+    pricing: "110 - 140 €",
     cta: "Jetzt anfragen",
     pricingInfo:
-      "*Alle Preise verstehen sich bei einer Belegung von 2 Personen und einem Aufenthalt von mindestens 3 Nächten. Für jede weitere Person berechnen wir 10 Euro pro Tag, Kinder bis 10 Jahre wohnen bei uns kostenlos. Endreinigung, Strom und Heizung sind im Preis inbegriffen. Benötigen Sie einen kostenlosen Stornoschutz? Diesen finden Sie <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=DE&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn&productCode=USS'>hier.</a>",
+      "*Alle Preise verstehen sich bei einer Belegung von 2 Personen und einem Aufenthalt von mindestens 3 Nächten. Für jede weitere Person berechnen wir 10 Euro pro Tag, Kinder bis 10 Jahre wohnen bei uns kostenlos. Endreinigung, Strom und Heizung sind im Preis inbegriffen.",
     localTax:
-      "Mit 1. Jänner 2014 wurde in Südtirol die Ortstaxe eingeführt. Die Ortstaxe wird pro Gast und Nacht eingehoben und beträgt 0,85 Euro. Kinder unter 14 Jahren sind von der Abgabe befreit. Die Ortstaxe ist im angegebenen Preis nicht enthalten und kann nur vor Ort in bar bezahlt werden.",
+      "Mit 1. Jänner 2014 wurde in Südtirol die Ortstaxe eingeführt. Die Ortstaxe wird pro Gast und Nacht eingehoben und beträgt 1,50 Euro. Kinder unter 14 Jahren sind von der Abgabe befreit. Die Ortstaxe ist im angegebenen Preis nicht enthalten und kann nur vor Ort in bar bezahlt werden.",
+    stornoLink:
+      "Unsere Stornobedingungen finden Sie ",
+    hereLink:"hier.",
+    storno:"Benötigen Sie einen kostenlosen Stornoschutz? Diesen finden Sie <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=DE&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn&productCode=USS'>hier.</a>",
+    garden: {
+      title:"Wohnung Garten",
+      ammenities:"Die Wohnung liegt im Erdgeschoss und ist barrierefrei. Sie ist 60 m² groß und kann 2 – 4 Personen beherbergen. Sie besteht aus einem Schlafzimmer, einem hellen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit 4 Induktionskochfeldern, Kühlschrank mit Gefrierfach, Einbaubackofen mit Mikrowelle, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, einer gemütlichen Sitzecke, einem Badezimmer mit Dusche, Badewanne, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
+      ammenities2:"Vom Wohnraum gelangt man direkt auf eine überdachte Terrasse und in den Garten. Dort finden Sie einen Tisch mit Stühlen sowie Liegestühle. Lassen Sie den Blick über die Weingärten schweifen und genießen Sie das Panorama: Im Norden liegen Meran, Dorf Tirol und die Texelgruppe, im Süden sehen Sie das kleine Dorf Andrian und die Stadt Bozen bis zum Weiß- und Schwarzhorn.",
+      pricing: "90 - 110 €",
+    }
   },
   aboutUs: {
     title: "Über uns",
@@ -178,6 +188,7 @@ export const de = {
       6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
       title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
       text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
+      outro:""
     },
     distribution: {
       1: "an die öffentlichen Verwaltungen und Behörden, wenn dies gesetzlich vorgesehen ist",
@@ -218,6 +229,15 @@ export const de = {
       title: "Haftung für Inhalte der Webseite und Hyperlinks",
       text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
     },
+  },
+  storno: {
+    title:"Storno",
+    intro: "Storno... klingt unangenehm, ist es auch – für Sie wie für uns. Schade, wenn Ferienwohnungen frei bleiben, obwohl andere gern gekommen wären. Andererseits: jedem kann etwas dazwischenkommen. Unsere Bitte: Informieren Sie uns rechtzeitig.",
+    subtitle:"Sollte dennoch Unvorhergesehenes inzwischen kommen, gelten folgende Stornobedingungen gemäß Art. 1382 ZGB:",
+    sub1:"Bei Stornierung wird das Angeld einbehalten.",
+    sub2:"Bei einer Stornierung von weniger als 30 Tagen vor Urlaubsbeginn wird 50% des Buchungspreises in Rechnung gestellt.",
+    sub3:"Bei einer Stornierung von weniger als 10 Tagen vor Urlaubsbeginn wird 80% des Buchungspreises in Rechnung gestellt.",
+    sub4:"Bei Nichtankunft, verspäteter Anreise oder verfrühter Abreise wird der volle Buchungspreis in Rechnung gestellt.",
   },
   footer: {
     imprint: "Impressum",
@@ -312,7 +332,7 @@ export const it = {
       excerpt: "Il castello storicamente più importante dell’Alto Adige",
       text: "Storicamente parlando è il castello più importante dell’Alto Adige. È stato costruito nel undicesimo secolo ed era la residenza dei conti di Tirolo. Al giorno d’oggi il castello sta ospitando il museo storico-culturale della Provincia di Bolzano Castel Tirolo e il centro recupero avifauna con le sue dimostrazioni spettacolari.",
       hero: {
-        path: "/slider/tinified/knotten.png",
+        path: "/slider/tinified/tirol.jpg",
         width: 5456,
         height: 3637,
         imageAlt: "Foto di castel Tirolo",
@@ -357,7 +377,7 @@ export const it = {
     intro:
       "Il nostro appartamento offre con una superficie di 75m² posto fino a 6 persone. É ideale per famiglie con bambini, ma anche per coppie che apprezzano ampio spazio e luce.",
     ammenities:
-      "L'appartamento è situato al primo piano ed è raggiungibile attraverso una scala esterna. È composto da due stanze da letto, una stanza per bambini, un soggiorno open-space con divano-letto, TV a schermo piatto con collegamento satellitare, cucina completamente attrezzata con piano cottura in vetroceramica, forno, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, wc, bidet e lavatrice.",
+      "L'appartamento è situato al primo piano ed è raggiungibile attraverso una scala esterna. È composto da due stanze da letto, un soggiorno open-space con divano-letto, TV a schermo piatto con collegamento satellitare, cucina completamente attrezzata con piano cottura in vetroceramica, forno, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, wc, bidet e lavatrice.",
     terrace:
       "L'ampia terrazza di 80 m² é in parte coperta. Si affaccia sulla val d'Adige ed offre un' indimenticabile vista sulle città di Merano e Bolzano e le montagne circostanti. Iniziate la giornata godendovi una colazione a tutto relax e chiudete la serata con un barbeque gustando un bicchiere di vino.",
     ammenities2:
@@ -366,12 +386,21 @@ export const it = {
     extras2:
       "Si prega gentilmente di comunicare la necessità di lettino da bambino, seggiolone e fasciatoio al momento della prenotazione.",
     price: "Prezzi *",
-    pricing: "100 - 140 €",
+    pricing: "110 - 140 €",
     cta: "Richiedi ora",
     pricingInfo:
-      "* I prezzi si intendono per 2 persone e per una permanenza minima di 3 notti. Per ogni persona aggiuntiva applichiamo un supplemento di 10,00 Euro, per bambini sotto i 10 anni non viene calcolato niente. Ha bisogno di una copertura assicurativa per la cancellazione vacanze senza costi aggiuntivi? <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=IT&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-it&productCode=USS'>Eccoci!</a>",
+      "* I prezzi si intendono per 2 persone e per una permanenza minima di 3 notti. Per ogni persona aggiuntiva applichiamo un supplemento di 10,00 Euro, per bambini sotto i 10 anni non viene calcolato niente.",
     localTax:
-      "In base alle disposizioni di legge verrà applicata l’imposta di soggiorno obbligatoria pari a 0,85 Euro/cent per persona a notte. I bambini sotto i 14 anni sono esenti da suddetta imposta. L’imposta non è inclusa nel prezzo ed è pagabile solo in loco.",
+      "In base alle disposizioni di legge verrà applicata l’imposta di soggiorno obbligatoria pari a 1,50 Euro per persona a notte. I bambini sotto i 14 anni sono esenti da suddetta imposta. L’imposta non è inclusa nel prezzo ed è pagabile solo in loco.",
+    stornoLink: "Le nostre condizioni di recesso le trovate ",
+    hereLink:"qui.",
+    storno:"Ha bisogno di una copertura assicurativa per la cancellazione vacanze senza costi aggiuntivi? <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=IT&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-it&productCode=USS'>Eccoci!</a>",
+    garden: {
+      title:"Appartamento Giardino",
+      ammenities:"L'appartamento ha una superficie di 60 m² ed è accessibile dal piano terra. Puó ospitare fino a 4 persone. Avrete a disposizione una stanza da letto, un soggiorno ampio e luminoso con divano-letto, cucina completamente attrezzata con piano cottura in vetroceramica, forno a microonde, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, vasca da bagno, wc, bidet e lavatrice.",
+      ammenities2:"Dal soggiorno si accede direttamente alla terrazza coperta ed al giardino che si affaccia su vigneti. Godetevi il panorama: a Nord Merano, a sud  il vicino paese di Andriano, la cittá di Bolzano, infine all'orizzonte le cime del Corno bianco e del Corno Nero.",
+      pricing: "90 - 110 €",
+    }
   },
   aboutUs: {
     title: "Su di noi",
@@ -397,43 +426,43 @@ export const it = {
     },
   },
   privacy: {
-    title: "Datenschutzbestimmungen",
+    title: "Regolamento Generale sulla Protezione dei Dati (RGPD)",
     privacyKodex: {
       title:
-        "Aufklärungsschreiben im Sinne des gesetzesvertretenden Dekretes vom 30.06.2003 Nr. 196 „Datenschutzkodex“",
-      text: "In Sinne des Art. 13 des gesetzesvertretenden Dekrets Nr. 196 vom 30. Juni 2003 INFORMIEREN wir darüber, dass das Unternehmen Ranzi Johann persönliche Daten von Kunden und Lieferanten sowie Daten von Personen verarbeitet, die unserer Firma ihre Personalien willentlich (persönlich, telefonisch, per Fax oder per E-Mail) sowie durch Registrierung auf unserer Webseite mitteilen, sowie von Personen, deren Daten durch Dritte, zum Beispiel bei der Erfassung von externen Daten für geschäftliche Informationen, öffentlichen Verzeichnissen usw. übernommen wurden, wobei es sich im letzteren Fall ausschließlich um persönliche Daten gemeiner/gewöhnlicher Art und Natur handelt<br/>Unser Betrieb garantiert im Rahmen der gesetzlichen Vorgaben, dass die Verarbeitung der persönlichen Daten unter Berücksichtigung der grundlegenden Rechte und Freiheiten sowie der Würde des Betroffenen, mit besonderem Bezug auf die Geheimhaltung, die persönliche Identität und das Recht auf Schutz der persönlichen Daten, erfolgt.",
+        "Regolamento Generale sulla Protezione dei Dati (RGPD)",
+      text: "Il presente regolamento è valido per tutti i nostri ospiti. Con la presente Le diamo conto della natura, della portata e dello scopo della raccolta e dell’uso dei Suoi dati personali. Responsabile del trattamento dei dati è: Ortus – Johann Ranzi, contattabile ai seguenti recapiti: Tel. +39 338 82 28 978 + E-Mail: info@ortus.bz.it. Ai sensi dell’articolo 13 del Regolamento Generale sulla Protezione dei Dati, tratteremo le seguenti informazioni:",
     },
     goals: {
-      title: "Ziel- und Zweckstellungen bei der Datenverarbeitung:",
-      text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
-      1: "Erfüllung von gesetzlichen Pflichten, Pflichten aus Verordnunge, Gemeinschaftsnormen sowie zivil- und steuerrechtlichen Gesetzen",
-      2: "Erfüllung eventueller vertraglicher Verpflichtungen gegenüber dem Betroffenen",
-      3: "Erfüllung von Tätigkeiten in Verbindung mit der Geschäftstätigkeit unserer Firma, wie das Ausfüllen von internen Statistiken, zur Rechnungslegung sowie zur Führung der Kunden-/Lieferantenbuchhaltung",
-      4: "Zielstellungen geschäftlicher Art wie die Zusendung von Geschäftsinformationen und Werbematerial (per Post, Fax und E-Mail), Marketing und Marktuntersuchungen",
-      5: "Schutz der Forderungen und Verwaltung der Verbindlichkeiten",
-      6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
+      title: "",
+      1: "Dati anagrafici (nome, cognome, indirizzo, telefono, e-mail, data di nascita, luogo di nascita, lingua ecc.)",
+      2: "Dati presenti nei documenti di viaggio e d’identità",
+      3: "Dati relativi a pagamenti, carte di debito, carte di credito e carte bancarie",
+      4: "La durata del soggiorno e le preferenze personali associate al soggiorno richiesto",
+      5: "",
+      6: "",
+      outro:"I dati saranno archiviati, elaborati e, ove richiesto dalla legge, trasmessi a terzi (quali autorità pubbliche, associazioni turistiche) nell’ottica della fornitura dei nostri servizi. I Suoi dati non saranno trasmessi a paesi terzi. In caso di Suo rifiuto a conferirci i Suoi dati anagrafici, dei documenti di viaggio e relativi alle coordinate bancarie non saremo in grado di adempiere agli obblighi contrattuali e di accoglierLa presso la nostra struttura. I Suoi dati non verranno impiegati in processi decisionali automatizzati, compresa la profilazione."
     },
     distribution: {
-      title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
+      title: "Le basi legali per questi processi di elaborazione dei dati sono:",
       text: "",
-      pre: "In Bezug auf die oben angegebenen Zielstellungen werden Ihre persönlichen Daten bei Bedarf weitergeleitet",
-      1: "an die öffentlichen Verwaltungen und Behörden, wenn dies gesetzlich vorgesehen ist",
-      2: "an Kreditinstitute, mit denen unsere Firma Geschäftsbeziehungen zur Verwaltung von Forderungen/Verbindlichkeiten und zur Finanzierungsvermittlung unterhält",
-      3: "an alle jenen natürlichen und/oder juristischen, öffentlichen und/oder privaten Personen (Rechts-, Verwaltungs- und Steuerberatungsbüros, Gerichte, Handelskammern usw.), wenn sich die Weiterleitung als notwendig oder zur Ausübung unserer Tätigkeit zweckdienlich erweist.",
-      4: "an Lieferanten/Hersteller, wenn dies für die Registrierung der Produkte erforderlich ist.",
-      post: "Die von unserem Betrieb verarbeiteten, persönlichen Daten unterliegen nicht der Verbreitung.",
+      pre: "",
+      1: "l’adempimento dei nostri obblighi precontrattuali e contrattuali nei Suoi confronti",
+      2: "il consenso da Lei ottenuto",
+      3: "gli obblighi legali, contrattuali o altri obblighi legali a cui siamo tenuti (come ad esempio gli obblighi in materia di contabilità, diritto fiscale e doganale, derivanti da contratti, informativa o contenziosi)",
+      4: "i nostri interessi legittimi (come ad esempio migliorare il nostro servizio ai clienti, l’attività di pubblicità diretta o l’esercizio dei nostri interessi legali).",
+      post: "La durata della conservazione dipende dalla durata del rapporto commerciale, dal consenso da parte Sua, dagli obblighi legali di conservazione e dagli obblighi legali a cui siamo sottoposti.",
     },
     type: {
-      title: "Art der Datenverarbeitung:",
-      text: "Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von uns verwendeten Cookies sind so genannte &quot;Session-Cookies&quot;. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.",
+      title: "",
+      text: "Può richiedere informazioni sui Suoi dati personali da noi custoditi gratuitamente in qualsiasi momento. Come interessato ha anche il diritto di revoca, consultazione, modificazione, cancellazione e distruzione dei dati, nella misura in cui non ci sia alcun obbligo legale di conservazione da parte nostra. Esercitando il Suo diritto di revoca, tutti i Suoi dati saranno irrimediabilmente cancellati, a meno che non vengano violate disposizioni normative di rango superiore.",
     },
     cookies: {
-      title: "Cookie",
-      text: "Die Datenverarbeitung kann mit oder ohne Hilfe elektronischer, auf jeden Fall automatischer Mittel erfolgen und umfasst alle im Art. 4, Absatz 1, Buchstabe a des gesetzesvertretenden Dekretes Nr. 196 vom 30. Juni 2003 vorgesehenen und für die betreffende Datenverarbeitung erforderlichen Vorgänge. In jedem Fall wird die Datenverarbeitung unter Einhaltung aller Sicherheitsmaßnahmen durchgeführt, die deren Sicherheit und Geheimhaltung gewährleisten.",
+      title: "",
+      text: "",
     },
     rights: {
-      title: "Rechte des Betroffenen",
-      text: "Das Datenschutzgesetz verleiht dem Betroffenen die Möglichkeit zur Ausübung bestimmter Rechte gemäß Art. 7. Im Einzelnen hat er das Recht, darüber Auskunft zu erhalten, ob und welche Daten über ihn vorhanden sind und in verständlicher Form nähere Angaben über diese Daten, deren Herkunft und den Grund und Zweck ihrer Verarbeitung zu erfahren, sowie Angaben über Inhaber und Verantwortliche der Verarbeitung und Personen und Kategorien von Personen, denen diese Daten möglicherweise übermittelt werden.<br/>Der Betroffene hat das Recht, seine Daten zu aktualisieren, zu berichtigen und zu ergänzen sowie zu beantragen, dass die Daten gelöscht, gesperrt und in anonyme Daten umgewandelt werden, falls die Verarbeitung gegen die gesetzlichen Bestimmungen verstößt. Er hat das Recht, sich aus gerechtfertigtem Grund gänzlich oder zum Teil der Verarbeitung seiner Daten zu widersetzen, und ohne gerechtfertigten Grund, wenn Daten zum Zwecke der Handelsinformation, des Versands von Werbematerial, des Direktverkaufs, zu Markt und Meinungsforschung verwendet werden.<br/>Die Rechte gemäß Art. 7 können seitens des Betroffenen oder einer von ihm beauftragten Person, mittels Anfrage an den Verantwortlichen der Datenverarbeitung – Herrn Ranzi Johann, Manteleweg, 2 - 39010 Nals - mit Einschreiben oder E-Mail an info@ortus.bz.it geltend gemacht werden.",
+      title: "Diritti",
+      text: "Per ulteriori informazioni sui Suoi diritti La preghiamo di contattarci a info@grieserhof-nals.com, saremo felici di aiutarLa. Per eventuali reclami, rivolgersi al “Garante per la protezione dei dati personali” Piazza di Monte Citorio, 115/121, 00186 Roma Fax: (+39) 06.69677.3785, Telefon: (+39) 06.696771, E-mail: garante@gpdp.it. Consenso alla ricezione di informazioni via e-mail o posta Accetta che le informazioni da Lei fornite possano essere utilizzate allo scopo di inviare informazioni sui prodotti, offerte e di contattarla personalmente. Il trasferimento a terzi è escluso. Può revocare il Suo consenso in qualsiasi momento scrivendo a info@ortus.bz.it. Sono salvi tutti gli altri diritti spettanti. Ho letto l’informativa sulla privacy e acconsento al trattamento dei miei dati personali.",
     },
   },
   imprint: {
@@ -452,6 +481,15 @@ export const it = {
       title: "Responsibilita per contenuti e link verso altri siti",
       text: "Le informazioni messe a disposizione sul nostro sito sono state controllate accuratamente e vengono attualizzate regolarmente. Nonostante ció non possiamo assumerci alcuna responsabilità che questi contenuti siano completi, corretti ed attuali, questo vale anche per tutti i contenuti collegati (“links”), Il rispettivo fornitore o gestore delle pagine è sempre ed esclusivamente responsabile dei contenuti delle pagine collegate.",
     },
+  },
+  storno: {
+    title:"Condizioni di recesso",
+    intro: "La prenotazione diventa vincolante dietro versamento di una caparra di conferma di 200 Euro e l’invio della conferma di prenotazione. Nel caso di un imprevisto, Vi chiediamo di informarci tempestivamente.",
+    subtitle:"Non è previsto un diritto di recesso ai sensi del Codice del Consumo italiano. Nonostante ció Le accordiamo le seguenti condizioni di recesso ai sensi dell’art. 1382 cc.:",
+    sub1:"In caso di recesso viene trattenuta la caparra confirmatoria.",
+    sub2:"Annullamento fino al piú tardi 30 giorni prima della data di arrivo: 50% del prezzo complessivo concordato.",
+    sub3:"Annullamento meno di 10 giorni prima della data di arrivo: 80% del prezzo complessivo convenuto.",
+    sub4:"Nel caso in cui gli ospiti non si presentino („no show“) oppure in caso di arrivo tardivo o partenza anticipata, é dovuto il corrispettivo totale pattuito per l’intero soggiorno.",
   },
   footer: {
     imprint: "Credits",
@@ -594,7 +632,7 @@ export const en = {
     intro:
       "This flat is for 2 to 6 persons, so ideal for families of various sizes. Of course as a couple or single you could just enjoy the additional space and light.",
     ammenities:
-      "The apartment is situated on the upper floor and can be accessed by an external staircase. It is composed of two bed rooms, a playroom, an open space living room with a pull-out couch. The kitchen is equipped with four ceramic hobs, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals.<br/>In the living room you can find a TV and in the bathroom not only a shower and a toilet, but also a bidet and a washing machine.",
+      "The apartment is situated on the upper floor and can be accessed by an external staircase. It is composed of two bed rooms, an open space living room with a pull-out couch. The kitchen is equipped with four ceramic hobs, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals.<br/>In the living room you can find a TV and in the bathroom not only a shower and a toilet, but also a bidet and a washing machine.",
     terrace:
       "From the living room you can access the terrace. 80m² that offer you an exceptional view of the whole Etsch valley stretching from Meran to Bozen.",
     ammenities2:
@@ -604,12 +642,21 @@ export const en = {
     extras2:
       "For our baby guests we gladly provide a baby crib, a high chair and a changing pad.",
     price: "Prices *",
-    pricing: "100 - 140 €",
+    pricing: "110 - 140 €",
     cta: "Send enquiry",
     pricingInfo:
-      "*The prices indicated are valid for two people for a stay of at least three nights. For every person more we kindly ask an additional rate of 10 €. Children up to the age of 10 years will not be counted. Do you need a holiday-cancellation cover? Click <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=EN&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-en&productCode=USS'>here!</a>",
+      "*The prices indicated are valid for two people for a stay of at least three nights. For every person more we kindly ask an additional rate of 10 €. Children up to the age of 10 years will not be counted.",
     localTax:
-      "Since 2014 we have a local rate, which is to be paid for every guest and every night and amounts to € 0,85 per night. This local rate is not included in our prices and has to be paid cash on the spot.",
+      "Since 2014 we have a local rate, which is to be paid for every guest and every night and amounts to € 1.50 per night. This local rate is not included in our prices and has to be paid cash on the spot.",
+      stornoLink: "You can read our cancellation policy ",
+      hereLink:"here.",
+      storno:"Do you need a holiday-cancellation cover? Click <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=EN&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-en&productCode=USS'>here!</a>",
+    garden: {
+      title:"Apartment Garden",
+      ammenities:"The apartment (about 60m²) is situated on the ground floor and is for up to 4 people. It is composed of a bedroom, a bright living room with a pull-out couch, a kitchen equipped with four ceramic hobs, a microwave oven, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals. In the bathroom you will find a shower, toilet, bidet and a washing machine.",
+      ammenities2:"From the living room you can directly access the terrace and the garden overlooking the vineyard. This is the perfect spot to enjoy the view of the whole Etsch valley.",
+      pricing: "90 - 110 €",
+    }
   },
   aboutUs: {
     title: "About us",
@@ -650,6 +697,7 @@ export const en = {
       4: "Zielstellungen geschäftlicher Art wie die Zusendung von Geschäftsinformationen und Werbematerial (per Post, Fax und E-Mail), Marketing und Marktuntersuchungen",
       5: "Schutz der Forderungen und Verwaltung der Verbindlichkeiten",
       6: "Zielstellungen hinsichtlich Versicherungen, insbesondere Kreditversicherungen",
+      outro:""
     },
     distribution: {
       title: "Bereich der Bekanntmachung und Verbreitung der Daten:",
@@ -690,6 +738,15 @@ export const en = {
       title: "Liability for the content of the website and hyperlinks",
       text: "Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Trotzdem kann keine Garantie dafür übernommen werden, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind. Dies gilt auch für alle Verbindungen („Links&quot;), auf die diese Website direkt oder indirekt verweist. Für die Inhalte der verlinkten Seiten haftet ausschließlich der Anbieter der jeweiligen Website.",
     },
+  },
+  storno: {
+    title:"Cancellation policy",
+    intro: "Cancellation…sounds unpleasant! For you and for us…it is a pity to have empty beds, while other guests would have liked to sleep in them. But for all of us sometimes unforeseen things come up! Please, just inform us as soon as possible.",
+    subtitle:"According to article n. 1382 of the Italian Civil code, we have these conditions regarding cancellations:",
+    sub1:"Your deposit will be withheld.",
+    sub2:"If you cancel your stay less than 30 days before your booked arrival, 50% of the booking price will be invoiced.",
+    sub3:"If you cancel your stay less than 10 days before your booked arrival, 80% of the booking price will be invoiced",
+    sub4:"If you check in late or not at all or if you leave earlier than booked the full booking price will be invoiced.",
   },
   footer: {
     imprint: "Imprint",

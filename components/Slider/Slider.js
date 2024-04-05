@@ -73,6 +73,44 @@ function Slider() {
               alt="Unsere Hauskatze"
             />
           )}
+        </SwiperSlide><SwiperSlide className="max-w-md">
+          {({ isActive }) => (
+            <Image
+              className={`max-w-full h-auto ${
+                isActive ? "opacity-100" : "opacity-30"
+              }`}
+              src="/slider/tinified/winter.png"
+              width="600"
+              height="800"
+              alt="Winter"
+            />
+          )}
+        </SwiperSlide>
+        <SwiperSlide className="max-w-4xl">
+          {({ isActive }) => (
+            <Image
+              className={`max-w-full h-auto ${
+                isActive ? "opacity-100" : "opacity-30"
+              }`}
+              src="/slider/tinified/image1.png"
+              width="1200"
+              height="800"
+              alt="Drohne"
+            />
+          )}
+        </SwiperSlide>
+        <SwiperSlide className="max-w-4xl">
+          {({ isActive }) => (
+            <Image
+              className={`max-w-full h-auto ${
+                isActive ? "opacity-100" : "opacity-30"
+              }`}
+              src="/slider/tinified/image2.png"
+              width="1200"
+              height="800"
+              alt="Drohne 2"
+            />
+          )}
         </SwiperSlide>
       </Swiper>
       <div className="flex w-full justify-end sm:justify-between text-white max-w-[960px] mx-auto absolute left-0 right-0 bottom-0 sm:top-1/2 sm:bottom-auto sm:-translate-y-1/2 z-10">

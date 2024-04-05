@@ -60,7 +60,9 @@ function Imprint({ intl }) {
           <br />
           &copy; Tourismusverein Nals
           <br />
-          &copy; Hannes Krichler
+          &copy; Hannes Kirchler
+          <br />
+          &copy; Andreas Becker
         </p>
         <h2 className="text-2xl font-serif text-secondary">
           {da.liability.title}

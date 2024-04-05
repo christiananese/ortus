@@ -16,18 +16,19 @@ function Privacy({ intl }) {
           {da.privacyKodex.text}
         </p>
 
-        <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
+        {da.goals.title && <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
           {da.goals.title}
-        </h2>
-        <p className="text-xl text-default max-w-prose py-6 md:pb-8 md:text-gray-600 mx-auto text-left">
-          <ul className="list-disc">
+        </h2>}
+        <p className="text-xl text-default max-w-prose py-6 md:pb-8 md:text-gray-600 mx-auto">
+          <ul className="list-disc text-left  my-4">
             <li>{da.goals["1"]}</li>
             <li>{da.goals["2"]}</li>
             <li>{da.goals["3"]}</li>
             <li>{da.goals["4"]}</li>
-            <li>{da.goals["5"]}</li>
-            <li>{da.goals["6"]}</li>
+            {da.goals["5"] && <li>{da.goals["5"]}</li>}
+            {da.goals["6"] && <li>{da.goals["6"]}</li>}
           </ul>
+          {da.goals.outro}
         </p>
 
         <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
@@ -44,19 +45,19 @@ function Privacy({ intl }) {
           {da.distribution.post}
         </p>
 
-        <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
+        {da.type.title && <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
           {da.type.title}
-        </h2>
+        </h2>}
         <p className="text-xl text-default max-w-prose py-6 md:pb-8 md:text-gray-600 mx-auto">
           {da.type.text}
         </p>
 
-        <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
+        {da.cookies.title && <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
           {da.cookies.title}
-        </h2>
-        <p className="text-xl text-default max-w-prose py-6 md:pb-8 md:text-gray-600 mx-auto">
+        </h2>}
+        {da.cookies.text && <p className="text-xl text-default max-w-prose py-6 md:pb-8 md:text-gray-600 mx-auto">
           {da.cookies.text}
-        </p>
+        </p>}
 
         <h2 className="text-2xl font-serif text-secondary text-center mt-4 md:mt-6">
           {da.rights.title}
