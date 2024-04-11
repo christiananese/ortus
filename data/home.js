@@ -152,7 +152,7 @@ export const de = {
   },
   aboutUs: {
     title: "Über uns",
-    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Schneeschuhwanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
+    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Wanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
     carFree:
       "Autofrei unterwegs? Hier für Sie die Fahrpläne für Bus und Bahn, aktuelle Meldungen sowie alle Infos zum öffentlichen Nahverkehr:<br/><br/><a href='https://suedtirolmobil.info/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
     route: {
