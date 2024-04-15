@@ -123,7 +123,7 @@ export const de = {
     intro:
       "Unsere Ferienwohnung mit einer Fläche von 75m² ist für 2 – 6 Personen eingerichtet, also ideal für Familien mit Kindern, aber auch Paare, welche gerne viel Raum und Licht  genießen möchten, können sich hier wohlfühlen.",
     ammenities:
-      "Die Wohnung liegt im Obergeschoss und ist über eine Außentreppe zu erreichen. Sie besteht aus 2 Schlafzimmern, einem offenen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit vier Keramikkochfeldern, Kühlschrank mit Gefrierfach, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, Flachbildfernseher mit Satellitenanschluss, einem Badezimmer mit Dusche, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
+      "Die Wohnung liegt im Obergeschoss und ist über eine Außentreppe zu erreichen. Sie besteht aus 2 Schlafzimmern, einem offenen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit vier Keramikkochfeldern, Kühlschrank mit Gefrierfach, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, Flachbildfernseher mit Satellitenanschluss, einem Badezimmer mit Dusche, WC, Bidet, Waschmaschine und Fön. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
     terrace:
       "Vom Wohnraum aus erreicht man die 80 m² große Terrasse, die zum Teil überdacht ist. Sie bietet einen unvergleichlichen Blick über das gesamte Etschtal von Meran bis nach Bozen und ein wunderbares Bergpanorama. Bei einem gemütlichen Frühstück können Sie die ersten Sonnenstrahlen begrüßen, den Abend beim Grillen und bei einem guten Glas ausklingen lassen.",
     ammenities2:
@@ -145,14 +145,14 @@ export const de = {
     storno:"Benötigen Sie einen kostenlosen Stornoschutz? Diesen finden Sie <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=DE&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn&productCode=USS'>hier.</a>",
     garden: {
       title:"Wohnung Garten",
-      ammenities:"Die Wohnung liegt im Erdgeschoss und ist barrierefrei. Sie ist 60 m² groß und kann 2 – 4 Personen beherbergen. Sie besteht aus einem Schlafzimmer, einem hellen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit 4 Induktionskochfeldern, Kühlschrank mit Gefrierfach, Einbaubackofen mit Mikrowelle, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, einer gemütlichen Sitzecke, einem Badezimmer mit Dusche, Badewanne, WC, Bidet und Waschmaschine. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
+      ammenities:"Die Wohnung liegt im Erdgeschoss und ist barrierefrei. Sie ist 60 m² groß und kann 2 – 4 Personen beherbergen. Sie besteht aus einem Schlafzimmer, einem hellen Wohnraum mit ausziehbarer Schlafcouch, einer Küchenzeile mit 4 Induktionskochfeldern, Kühlschrank mit Gefrierfach, Einbaubackofen mit Mikrowelle, Geschirrspülmaschine, Kaffeemaschine, Toaster, Wasserkocher, Geschirr, Besteck, Kochutensilien, einer gemütlichen Sitzecke, einem Badezimmer mit Dusche, Badewanne, WC, Bidet, Waschmaschine und Fön. Trocken- und Bügelmöglichkeit sind auch vorhanden.",
       ammenities2:"Vom Wohnraum gelangt man direkt auf eine überdachte Terrasse und in den Garten. Dort finden Sie einen Tisch mit Stühlen sowie Liegestühle. Lassen Sie den Blick über die Weingärten schweifen und genießen Sie das Panorama: Im Norden liegen Meran, Dorf Tirol und die Texelgruppe, im Süden sehen Sie das kleine Dorf Andrian und die Stadt Bozen bis zum Weiß- und Schwarzhorn.",
       pricing: "90 - 110 €",
     }
   },
   aboutUs: {
     title: "Über uns",
-    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Wanderungen, Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.",
+    text: "Unser Biohof liegt eingebettet in Weingärten im Dorf Nals, mitten im Etschtal, die Städte Meran und Bozen sind jeweils 15 km entfernt.  Wir bauen rote und weiße Trauben der Sorten Cabernet Franc und Merlot, Chardonnay und Souvignier gris an. Äpfel, verschiedene Obst- und Gemüsesorten gedeihen rund ums Haus und in unserem Gemüse- und Kräutergarten. Um unsere Südtiroler Welt besser kennenzulernen, laden wir Euch zu Weinbergbesichtigungen, Sommer- und Winterwendfesten, Törggelen, Wanderungen (Wanderrucksäcke und -stöcke sind vorhanden), Knödel- und Brotbackkursen, gemeinsamem Pizzabacken und - essen ein.<br/>Gerne können Sie während Ihres Aufenthaltes bei uns folgende Produkte erwerben: Apfelsaft, Wein und Apfelmus.<br/>Frisches Obst und Gemüse stehen Ihnen je nach Saison zur Verfügung.",
     carFree:
       "Autofrei unterwegs? Hier für Sie die Fahrpläne für Bus und Bahn, aktuelle Meldungen sowie alle Infos zum öffentlichen Nahverkehr:<br/><br/><a href='https://suedtirolmobil.info/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
     route: {
@@ -377,7 +377,7 @@ export const it = {
     intro:
       "Il nostro appartamento offre con una superficie di 75m² posto fino a 6 persone. É ideale per famiglie con bambini, ma anche per coppie che apprezzano ampio spazio e luce.",
     ammenities:
-      "L'appartamento è situato al primo piano ed è raggiungibile attraverso una scala esterna. È composto da due stanze da letto, un soggiorno open-space con divano-letto, TV a schermo piatto con collegamento satellitare, cucina completamente attrezzata con piano cottura in vetroceramica, forno, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, wc, bidet e lavatrice.",
+      "L'appartamento è situato al primo piano ed è raggiungibile attraverso una scala esterna. È composto da due stanze da letto, un soggiorno open-space con divano-letto, TV a schermo piatto con collegamento satellitare, cucina completamente attrezzata con piano cottura in vetroceramica, forno, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, wc, bidet, lavatrice e fon.",
     terrace:
       "L'ampia terrazza di 80 m² é in parte coperta. Si affaccia sulla val d'Adige ed offre un' indimenticabile vista sulle città di Merano e Bolzano e le montagne circostanti. Iniziate la giornata godendovi una colazione a tutto relax e chiudete la serata con un barbeque gustando un bicchiere di vino.",
     ammenities2:
@@ -397,14 +397,14 @@ export const it = {
     storno:"Ha bisogno di una copertura assicurativa per la cancellazione vacanze senza costi aggiuntivi? <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=IT&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-it&productCode=USS'>Eccoci!</a>",
     garden: {
       title:"Appartamento Giardino",
-      ammenities:"L'appartamento ha una superficie di 60 m² ed è accessibile dal piano terra. Puó ospitare fino a 4 persone. Avrete a disposizione una stanza da letto, un soggiorno ampio e luminoso con divano-letto, cucina completamente attrezzata con piano cottura in vetroceramica, forno a microonde, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, vasca da bagno, wc, bidet e lavatrice.",
+      ammenities:"L'appartamento ha una superficie di 60 m² ed è accessibile dal piano terra. Puó ospitare fino a 4 persone. Avrete a disposizione una stanza da letto, un soggiorno ampio e luminoso con divano-letto, cucina completamente attrezzata con piano cottura in vetroceramica, forno a microonde, frigorifero dotato di freezer, lavastoviglie, macchina per il caffè, tostapane, bollitore dell'acqua, stoviglie, posate, utensili da cucina, bagno con doccia, vasca da bagno, wc, bidet, lavatrice e fon.",
       ammenities2:"Dal soggiorno si accede direttamente alla terrazza coperta ed al giardino che si affaccia su vigneti. Godetevi il panorama: a Nord Merano, a sud  il vicino paese di Andriano, la cittá di Bolzano, infine all'orizzonte le cime del Corno bianco e del Corno Nero.",
       pricing: "90 - 110 €",
     }
   },
   aboutUs: {
     title: "Su di noi",
-    text: "Il nostro maso biologico si trova a Nalles. In mezzo ai vigneti si affaccia sulla val d&#39;Adige. Le cittá Merano e Bolzano sono ciascuna a 15 chilometri di distanza. Coltiviamo uva rosse e bianche delle varietá Cabernet Franc e Merlot, Chardonnay e Souvignier gris. Nei nostri frutteti e nell&#39;orto troverete mele, vari frutti,ortaggi ed erbe.<br/><br/>Per conoscere meglio il nostro mondo sudtirolese Vi invitiamo a visite guidate nei nostri vigneti, alle festività di solstizi sia d&#39;estate che d&#39;inverno, a castagnate, a fare ciaspolate, a fare insieme i canederli e pane della zona, a fare e mangiare insieme la pizza.",
+    text: "Il nostro maso biologico si trova a Nalles. In mezzo ai vigneti si affaccia sulla val d&#39;Adige. Le cittá Merano e Bolzano sono ciascuna a 15 chilometri di distanza. Coltiviamo uva rosse e bianche delle varietá Cabernet Franc e Merlot, Chardonnay e Souvignier gris. Nei nostri frutteti e nell&#39;orto troverete mele, vari frutti,ortaggi ed erbe.<br/><br/>Per conoscere meglio il nostro mondo sudtirolese Vi invitiamo a visite guidate nei nostri vigneti, alle festività di solstizi sia d&#39;estate che d&#39;inverno, a castagnate, a fare escursioni (zaini e bastoncini da trekking sono disponibili), a fare insieme i canederli e pane della zona, a fare e mangiare insieme la pizza.<br/>Durante il Vs. soggiorno avrete la possibilitá di acquistare i nostri prodotti: succo di mela, vino e mus di mela.<br/>Frutta e verdure stagionali sono a Vs. disposizione.",
     carFree:
       "Arrivate con il trasporto pubblico? Qui trovate tutti gli orari di autobus e treno in Alto Aldige nonché altre informazioni utili sui nostri mezzi pubblici.<br/><br/><a href='https://suedtirolmobil.info/it/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
     route: {
@@ -632,7 +632,7 @@ export const en = {
     intro:
       "This flat is for 2 to 6 persons, so ideal for families of various sizes. Of course as a couple or single you could just enjoy the additional space and light.",
     ammenities:
-      "The apartment is situated on the upper floor and can be accessed by an external staircase. It is composed of two bed rooms, an open space living room with a pull-out couch. The kitchen is equipped with four ceramic hobs, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals.<br/>In the living room you can find a TV and in the bathroom not only a shower and a toilet, but also a bidet and a washing machine.",
+      "The apartment is situated on the upper floor and can be accessed by an external staircase. It is composed of two bed rooms, an open space living room with a pull-out couch. The kitchen is equipped with four ceramic hobs, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals.<br/>In the living room you can find a TV and in the bathroom not only a shower and a toilet, but also a bidet, a washing machine and a hair dryer.",
     terrace:
       "From the living room you can access the terrace. 80m² that offer you an exceptional view of the whole Etsch valley stretching from Meran to Bozen.",
     ammenities2:
@@ -653,14 +653,14 @@ export const en = {
       storno:"Do you need a holiday-cancellation cover? Click <a class='underline' rel='noopener' target='_blank' href='https://secure2.europaeische.at/contract?languageCode=EN&agencyNumber=502282&subAgencyNumber=142554716&systemChannelCode=PLK&systemEntryPoint=roter-hahn-en&productCode=USS'>here!</a>",
     garden: {
       title:"Apartment Garden",
-      ammenities:"The apartment (about 60m²) is situated on the ground floor and is for up to 4 people. It is composed of a bedroom, a bright living room with a pull-out couch, a kitchen equipped with four ceramic hobs, a microwave oven, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals. In the bathroom you will find a shower, toilet, bidet and a washing machine.",
+      ammenities:"The apartment (about 60m²) is situated on the ground floor and is for up to 4 people. It is composed of a bedroom, a bright living room with a pull-out couch, a kitchen equipped with four ceramic hobs, a microwave oven, a fridge with cooling compartment, a dishwasher, a coffee maker, a toaster, a water boiler and everything else you need to prepare and enjoy your meals. In the bathroom you will find a shower, toilet, bidet, a washing machine and a hair dryer.",
       ammenities2:"From the living room you can directly access the terrace and the garden overlooking the vineyard. This is the perfect spot to enjoy the view of the whole Etsch valley.",
       pricing: "90 - 110 €",
     }
   },
   aboutUs: {
     title: "About us",
-    text: "Our organic farm is surrounded by vineyards and apple orchards in the middle of the Etsch valley distancing approximately 15 kilometres from the cities Meran and Bozen. We produce red and white grapes of the varieties Cabernet Franc, Merlot, Chardonnay and Souvignier gris. In addition you find us growing apples and many other, often also rare, types of fruits, vegetables and herbs.",
+    text: "Our organic farm is surrounded by vineyards and apple orchards in the middle of the Etsch valley distancing approximately 15 kilometres from the cities Merano and Bolzano. We produce red and white grapes of the varieties Cabernet Franc, Merlot, Chardonnay and Souvignier gris. In addition you find us growing apples and many other, often also rare, types of fruits, vegetables and herbs.<br/>During your stay we welcome you to try and buy our products, such as apple juice, applesauce, wine and seasonal produce.",
     carFree:
       "Coming without car? Here you can find timetables for train and bus as well as any other useful information regarding our public transport.<br/><br/><a href='https://suedtirolmobil.info/en/' class='underline hover:text-secondary'>www.suedtirolmobil.info</a>",
     route: {
