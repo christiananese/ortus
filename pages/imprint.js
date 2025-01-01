@@ -24,6 +24,8 @@ function Imprint({ intl }) {
           <br />
           MwSt. Nr. 01754860219
           <br />
+          CIN-Kodex: IT021055B5BYQAVN3W
+          <br />
           <a href="mailto:ranzi.johann@gmail.com">ranzi.johann@gmail.com</a>
           <br />
           <a
