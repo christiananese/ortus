@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://ortus.bz.it</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/about-us</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/imprint</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/privacy</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/request</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/rooms</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/storno</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/de/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/en/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/it/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/de</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/en</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
-<url><loc>https://ortus.bz.it/it</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2025-01-01T07:14:56.086Z</lastmod></url>
+<url><loc>https://ortus.bz.it</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/about-us</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/imprint</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/privacy</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/request</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/rooms</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/storno</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/en/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/it/surroundings</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/en</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
+<url><loc>https://ortus.bz.it/it</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2026-01-30T14:34:09.240Z</lastmod></url>
 </urlset>

@@ -2,17 +2,18 @@ import React from "react";
 import s from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
-const ROTER_HAHN = {
-  de: "https://www.roterhahn.it/de/urlaub-auf-dem-bauernhof-in-suedtirol/ferienwohnungen-und-zimmer/bauernhof-urlaub/ortus-nals+5850.html",
-  it: "https://www.gallorosso.it/it/agriturismo-in-alto-adige/appartamenti-e-camere-in-alto-adige/maso/ortus-nalles+5850.html",
-  en: "https://www.redrooster.it/en/farm-holidays-in-south-tyrol/holiday-flats-in-south-tyrol/detail/ortus-nals+5850.html",
+const ROTER_HAHN_SCRIPT = {
+  de: "https://www.roterhahn.it/de/get-farm-logo-code/?cnt=5850",
+  it: "https://www.gallorosso.it/it/get-farm-logo-code/?cnt=5850",
+  en: "https://www.redrooster.it/en/get-farm-logo-code/?cnt=5850",
 };
 
 function Footer({ intl, locale }) {
   const linkText = intl.links.aboutUs;
   const da = intl?.footer;
-  const hahn_link = ROTER_HAHN[locale] || ROTER_HAHN["de"];
+  const hahnScript = ROTER_HAHN_SCRIPT[locale] || ROTER_HAHN_SCRIPT["de"];
 
   return (
     <footer className={s.section}>
@@ -80,16 +81,8 @@ function Footer({ intl, locale }) {
           width="440"
           alt="Suedtirol Dachmarke logo"
         />
-        <Link href={hahn_link} rel="noopener">
-          <a target="_blank">
-            <Image
-              src="https://www.roterhahn.it/img/logo_roter_hahn.gif"
-              height="90"
-              width="90"
-              alt="Suedtirol Dachmarke logo"
-            />
-          </a>
-        </Link>
+        <div id="rhLogoCont"></div>
+        <Script src={hahnScript} />
       </div>
     </footer>
   );
